@@ -1,0 +1,74 @@
+Mono path[0] = 'A:/Python/aether-grounds/Build/Aether Grounds_Data/Managed'
+Mono config path = 'A:/Python/aether-grounds/Build/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path A:/Python/aether-grounds/Build/Aether Grounds_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 4060
+[D3D12 Device Filter] Driver Version: 32.0.15.9636
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 7957 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.9636
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.012 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.848400 ms
+AIRAH generated length=10375.95 elevation=105..490.1243 trees=12554 rocks=5746
+AIRAH TEST PASS New circuit loads with 20 racers
+AIRAH TEST PASS Huge route and elevation variation: 10376m, climb 385m
+AIRAH TEST PASS Dense instanced nature: 12554 trees, 5746 rocks
+AIRAH TEST PASS 18 physical civilian cars
+AIRAH TEST PASS Boosters, jumpers and ramps connected
+AIRAH TEST PASS Developer Easter egg sign
+AIRAH TEST PASS Road collision continuous outside bridge gap (missing=0)
+AIRAH TEST PASS Terrain does not cover road (buried=0)
+AIRAH TEST PASS Driveable maximum grade 0.15
+AIRAH TEST PASS Broken bridge has a real open gap
+AIRAH TEST PASS Visible forest instances submitted: 2531; GPU instancing True
+AIRAH PERF PC, 20 racers average=100.1 fps; 1% slow frame=51.7 fps; 1600x900
+AIRAH PERF Phone quality on desktop, 20 racers average=109.1 fps; 1% slow frame=74.0 fps; 1600x900
+AIRAH TEST PASS Physics-driven broken bridge jump reaches landing deck
+AIRAH RECOVERY before body=(-228.44, 102.25, -1153.15) transform=(-228.44, 102.25, -1153.15)
+AIRAH TEST PASS Missed jump returns to boosted approach (actual=27)
+AIRAH DRIVE point=2 progress=2 gate=0 speed=0 returns=2
+AIRAH DRIVE point=42 progress=42 gate=0 speed=176.9034 returns=2
+AIRAH DRIVE point=87 progress=87 gate=0 speed=166.8565 returns=2
+AIRAH DRIVE point=129 progress=129 gate=1 speed=161.3414 returns=2
+AIRAH DRIVE point=165 progress=165 gate=1 speed=115.2556 returns=2
+AIRAH DRIVE point=195 progress=195 gate=1 speed=174.8993 returns=2
+AIRAH DRIVE point=233 progress=233 gate=1 speed=112.503 returns=2
+AIRAH DRIVE point=272 progress=272 gate=2 speed=175.7958 returns=2
+AIRAH DRIVE point=317 progress=317 gate=2 speed=179.4155 returns=2
+AIRAH DRIVE point=358 progress=358 gate=2 speed=133.5363 returns=2
+AIRAH DRIVE point=395 progress=395 gate=3 speed=121.794 returns=2
+AIRAH DRIVE point=426 progress=426 gate=3 speed=181.4992 returns=2
+AIRAH DRIVE point=463 progress=463 gate=3 speed=151.6414 returns=2
+AIRAH TEST PASS Full physics-driven mountain lap completes all ordered checkpoints
+AIRAH COMPLETE failures=0
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

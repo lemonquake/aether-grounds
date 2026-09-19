@@ -1,0 +1,2 @@
+Succeeded | errors=0 | bytes=699322698
+Xcode export only. Native compilation, signing and physical iPhone testing still required.

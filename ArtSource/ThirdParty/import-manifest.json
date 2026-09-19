@@ -1,0 +1,1028 @@
+[
+  {
+    "model": "K_building-type-a",
+    "pack": "suburban",
+    "source": "ArtSource\\ThirdParty\\suburban\\Models\\OBJ format\\building-type-a.obj",
+    "sha256": "7027f546fbe1568c014c97d52d8ce49f41e34b5120fde12ddc4843a6be531c0d",
+    "triangles": 2348,
+    "bounds": [
+      [
+        -0.65,
+        0.0,
+        -0.5140689
+      ],
+      [
+        0.65,
+        0.833541,
+        0.5140689
+      ]
+    ]
+  },
+  {
+    "model": "K_building-type-c",
+    "pack": "suburban",
+    "source": "ArtSource\\ThirdParty\\suburban\\Models\\OBJ format\\building-type-c.obj",
+    "sha256": "46c78a022bb43f44e60e950c32f6267d87a26dbe616d00505e8e2615f7d599a0",
+    "triangles": 2392,
+    "bounds": [
+      [
+        -0.6431901,
+        0.0,
+        -0.5140689
+      ],
+      [
+        0.6431901,
+        1.033541,
+        0.5140689
+      ]
+    ]
+  },
+  {
+    "model": "K_fence",
+    "pack": "suburban",
+    "source": "ArtSource\\ThirdParty\\suburban\\Models\\OBJ format\\fence.obj",
+    "sha256": "290a57cbc1e602ffefd2d2e29e174d455852ed23bc837889dbb14d089e6e0640",
+    "triangles": 176,
+    "bounds": [
+      [
+        -0.2375,
+        0.0,
+        -0.0375
+      ],
+      [
+        0.2375,
+        0.27,
+        0.0375
+      ]
+    ]
+  },
+  {
+    "model": "K_fence-low",
+    "pack": "suburban",
+    "source": "ArtSource\\ThirdParty\\suburban\\Models\\OBJ format\\fence-low.obj",
+    "sha256": "81d07ea64d2d1ff835a37c04bb25da4eefd065b2af0a144a7ff3ce18a36fc7e5",
+    "triangles": 360,
+    "bounds": [
+      [
+        -0.6375,
+        0.0,
+        -0.4375
+      ],
+      [
+        0.6375,
+        0.17,
+        0.4
+      ]
+    ]
+  },
+  {
+    "model": "K_planter",
+    "pack": "suburban",
+    "source": "ArtSource\\ThirdParty\\suburban\\Models\\OBJ format\\planter.obj",
+    "sha256": "27b78bf3ede815fce1d755626ec4e2800f7a13fbec30cad4a07e6265a53febe0",
+    "triangles": 408,
+    "bounds": [
+      [
+        -0.2,
+        0.0,
+        -0.1505734
+      ],
+      [
+        0.2,
+        0.1771095,
+        0.1494266
+      ]
+    ]
+  },
+  {
+    "model": "K_tree-small",
+    "pack": "suburban",
+    "source": "ArtSource\\ThirdParty\\suburban\\Models\\OBJ format\\tree-small.obj",
+    "sha256": "ea84c9f4ea2d9cdbcf34a05068e8be00f364e6b6f4c78e6f6ac3742480589023",
+    "triangles": 84,
+    "bounds": [
+      [
+        -0.1052221,
+        0.0,
+        -0.1215
+      ],
+      [
+        0.1052221,
+        0.567,
+        0.1215
+      ]
+    ]
+  },
+  {
+    "model": "K_building-a",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-a.obj",
+    "sha256": "ec5b3bbf725be6ea792b0cc7b543d11ac8659811264500037d2cdc398632f2ce",
+    "triangles": 2504,
+    "bounds": [
+      [
+        -0.4417939,
+        0.0,
+        -0.47
+      ],
+      [
+        0.441794,
+        1.293,
+        0.47
+      ]
+    ]
+  },
+  {
+    "model": "K_building-b",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-b.obj",
+    "sha256": "d5f4344d5be797a6ed93641d4159a630de093e0517b4b8435d9789cea141bd62",
+    "triangles": 2552,
+    "bounds": [
+      [
+        -0.485,
+        0.0,
+        -0.47
+      ],
+      [
+        0.4850001,
+        1.293,
+        0.47
+      ]
+    ]
+  },
+  {
+    "model": "K_building-c",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-c.obj",
+    "sha256": "e7bc3677c9f7ee66a0459bc99fa6c69f60b7f9338165d91ccfd1f2ca1fcac9bd",
+    "triangles": 2390,
+    "bounds": [
+      [
+        -0.4417939,
+        0.0,
+        -0.545
+      ],
+      [
+        0.441794,
+        0.893,
+        0.5450001
+      ]
+    ]
+  },
+  {
+    "model": "K_building-d",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-d.obj",
+    "sha256": "9d0e71d3a3703a171961443ea1b6ec34f67a93d90731e261eb3394fe19a78147",
+    "triangles": 2200,
+    "bounds": [
+      [
+        -0.42,
+        0.0,
+        -0.45
+      ],
+      [
+        0.42,
+        1.293,
+        0.4499998
+      ]
+    ]
+  },
+  {
+    "model": "K_building-e",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-e.obj",
+    "sha256": "4cd4f36a1914d98e9f75825727f117f41a4c11fee284c88cc2fe0c3404a1df51",
+    "triangles": 3018,
+    "bounds": [
+      [
+        -0.82,
+        0.0,
+        -0.5039456
+      ],
+      [
+        0.8200001,
+        0.893,
+        0.5039459
+      ]
+    ]
+  },
+  {
+    "model": "K_building-f",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-f.obj",
+    "sha256": "c7398b3f2b9458f56c080fee9d977ae617ed283dc5f768dfcc61133b423fdccf",
+    "triangles": 3588,
+    "bounds": [
+      [
+        -0.42,
+        0.0,
+        -0.515
+      ],
+      [
+        0.42,
+        1.693,
+        0.5150002
+      ]
+    ]
+  },
+  {
+    "model": "K_building-g",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-g.obj",
+    "sha256": "d8e339b38199af55b840111c09352897398c0291e836817b66fa191cbef7ac2b",
+    "triangles": 4012,
+    "bounds": [
+      [
+        -0.485,
+        0.0,
+        -0.461
+      ],
+      [
+        0.485,
+        1.693,
+        0.4610002
+      ]
+    ]
+  },
+  {
+    "model": "K_building-h",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-h.obj",
+    "sha256": "c6d293a14bd24df16ec4bf88ed2cd1d51ce3d1e78c09b019a744e787ce7430ae",
+    "triangles": 3024,
+    "bounds": [
+      [
+        -0.4417939,
+        0.0,
+        -0.5039456
+      ],
+      [
+        0.4417939,
+        1.293,
+        0.5039455
+      ]
+    ]
+  },
+  {
+    "model": "K_building-i",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-i.obj",
+    "sha256": "3965aa1da613a5521990e9c12e10bbb515ce6ec337925c44a8d5c1a6a308d5cc",
+    "triangles": 5088,
+    "bounds": [
+      [
+        -0.62,
+        0.0,
+        -0.651
+      ],
+      [
+        0.6200001,
+        1.68,
+        0.651
+      ]
+    ]
+  },
+  {
+    "model": "K_building-j",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-j.obj",
+    "sha256": "2d7d47e3ac7258e67c4d30dbd8a2ef6cf970ceed2a252e4a8a2ffa31db24ddb8",
+    "triangles": 10492,
+    "bounds": [
+      [
+        -1.041794,
+        0.0,
+        -0.67
+      ],
+      [
+        1.041794,
+        1.693,
+        0.67
+      ]
+    ]
+  },
+  {
+    "model": "K_building-k",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-k.obj",
+    "sha256": "c81fdbabb4f293b809be194bf6e761ba0d87a73b11f1ae9a7bf2ee0df8e67aca",
+    "triangles": 5920,
+    "bounds": [
+      [
+        -1.041794,
+        0.0,
+        -0.471
+      ],
+      [
+        1.041794,
+        1.47,
+        0.4709998
+      ]
+    ]
+  },
+  {
+    "model": "K_building-l",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-l.obj",
+    "sha256": "496ac0dec43f8389467717fc1edf0c5427c7194c4e5df308bc5e7157aac81109",
+    "triangles": 7024,
+    "bounds": [
+      [
+        -0.685,
+        0.0,
+        -0.701
+      ],
+      [
+        0.685,
+        2.27,
+        0.701
+      ]
+    ]
+  },
+  {
+    "model": "K_building-m",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-m.obj",
+    "sha256": "25aa82d8e19327fe68e3220ce3ac33400a125c82b69c0034e738d16b22bcabcb",
+    "triangles": 7480,
+    "bounds": [
+      [
+        -0.6200001,
+        0.0,
+        -0.621
+      ],
+      [
+        0.6200001,
+        3.15,
+        0.6210002
+      ]
+    ]
+  },
+  {
+    "model": "K_building-n",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-n.obj",
+    "sha256": "d0390dcd3b0e62f6a8bcee8efa6109ab91d5f9bb49aad93a236b8a50489e9a18",
+    "triangles": 8700,
+    "bounds": [
+      [
+        -1.16,
+        0.0,
+        -0.91
+      ],
+      [
+        1.16,
+        2.48,
+        0.91
+      ]
+    ]
+  },
+  {
+    "model": "K_building-skyscraper-a",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-skyscraper-a.obj",
+    "sha256": "0a3704d13705c2f692166d2edb3a31105a7b42f9b4c90996ce19440e276e6c9f",
+    "triangles": 2584,
+    "bounds": [
+      [
+        -0.6800004,
+        0.0,
+        -0.6800001
+      ],
+      [
+        0.6799994,
+        2.88,
+        0.6800001
+      ]
+    ]
+  },
+  {
+    "model": "K_building-skyscraper-b",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-skyscraper-b.obj",
+    "sha256": "c66e25a4501564736579cd658113d62dfc54f0c1e3cc1d118ce4fb72e367e095",
+    "triangles": 3184,
+    "bounds": [
+      [
+        -0.6800006,
+        0.0,
+        -0.6799999
+      ],
+      [
+        0.6799992,
+        4.48,
+        0.68
+      ]
+    ]
+  },
+  {
+    "model": "K_building-skyscraper-c",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-skyscraper-c.obj",
+    "sha256": "c586b8beda8cdcc28f34e8c8d25af0fbfa49a5712c83da1228c1739ffd9ef8c1",
+    "triangles": 3408,
+    "bounds": [
+      [
+        -0.64,
+        0.0,
+        -0.6939456
+      ],
+      [
+        0.6399997,
+        4.08,
+        0.6939457
+      ]
+    ]
+  },
+  {
+    "model": "K_building-skyscraper-d",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-skyscraper-d.obj",
+    "sha256": "529b0f128cf0a120c5f21176788487bd3e47be6d311ed871798b23152594152d",
+    "triangles": 3784,
+    "bounds": [
+      [
+        -0.6400001,
+        0.0,
+        -0.6939456
+      ],
+      [
+        0.6399997,
+        5.469999,
+        0.6939457
+      ]
+    ]
+  },
+  {
+    "model": "K_building-skyscraper-e",
+    "pack": "commercial",
+    "source": "ArtSource\\ThirdParty\\commercial\\Models\\OBJ format\\building-skyscraper-e.obj",
+    "sha256": "544094b4c0d20876b64478b144b91ac0a66dce17aa3e9957ccfa02559fdfe2f9",
+    "triangles": 2312,
+    "bounds": [
+      [
+        -0.6474998,
+        0.0,
+        -0.6210001
+      ],
+      [
+        0.6475,
+        4.08,
+        0.6210002
+      ]
+    ]
+  },
+  {
+    "model": "K_tree_palmDetailedTall",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\nature\\Models\\OBJ format\\tree_palmDetailedTall.obj",
+    "sha256": "ad249552e6802278c61a1101b9331a8a10ef7ad26d083e9f7681d81ed312f7e5",
+    "triangles": 336,
+    "bounds": [
+      [
+        -0.5171645,
+        0.0,
+        -0.5197316
+      ],
+      [
+        0.5171645,
+        1.423467,
+        0.5145974
+      ]
+    ]
+  },
+  {
+    "model": "K_tree_palmDetailedShort",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\nature\\Models\\OBJ format\\tree_palmDetailedShort.obj",
+    "sha256": "993e93a6e7bffa168b47d89dfac3539531142db6ef1f342ac6d0def74ad3c40e",
+    "triangles": 336,
+    "bounds": [
+      [
+        -0.5171645,
+        0.0,
+        -0.5197316
+      ],
+      [
+        0.5171645,
+        1.12404,
+        0.5145974
+      ]
+    ]
+  },
+  {
+    "model": "K_tree_palmBend",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\nature\\Models\\OBJ format\\tree_palmBend.obj",
+    "sha256": "135ae233bd50c40f5b357f2d070d9375c47f77acbcdd271130bb27bb943be272",
+    "triangles": 200,
+    "bounds": [
+      [
+        -0.4677449,
+        0.0,
+        -0.5063818
+      ],
+      [
+        0.4677449,
+        1.379911,
+        0.5063818
+      ]
+    ]
+  },
+  {
+    "model": "K_tree_oak",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\nature\\Models\\OBJ format\\tree_oak.obj",
+    "sha256": "1a1dba69f49a454492db2413110e0867dc6dc3d5fe412d2499047625c93a3c06",
+    "triangles": 196,
+    "bounds": [
+      [
+        -0.3202769,
+        0.0,
+        -0.369824
+      ],
+      [
+        0.3202771,
+        1.22624,
+        0.369824
+      ]
+    ]
+  },
+  {
+    "model": "K_rock_largeA",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\nature\\Models\\OBJ format\\rock_largeA.obj",
+    "sha256": "60e4896f0bb0077ce820aa842e48a4f50d089a0d39e38d56cbf1bd7286882136",
+    "triangles": 80,
+    "bounds": [
+      [
+        -0.3924533,
+        0.0,
+        -0.5077307
+      ],
+      [
+        0.3924533,
+        0.259776,
+        0.5077307
+      ]
+    ]
+  },
+  {
+    "model": "K_rock_largeC",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\nature\\Models\\OBJ format\\rock_largeC.obj",
+    "sha256": "e96d6790800163ab57547538b0500821693ea9c5d99a9664ab45e56390366c70",
+    "triangles": 72,
+    "bounds": [
+      [
+        -0.5322049,
+        0.0,
+        -0.507831
+      ],
+      [
+        0.5322049,
+        0.321112,
+        0.507831
+      ]
+    ]
+  },
+  {
+    "model": "K_rock_smallA",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\nature\\Models\\OBJ format\\rock_smallA.obj",
+    "sha256": "d2f74c6f2b8f4c49c875644e3e7ee95d2dced6c75feef14ee6547e4ca0c8fbd9",
+    "triangles": 16,
+    "bounds": [
+      [
+        -0.1804,
+        0.0,
+        -0.1804
+      ],
+      [
+        0.1804,
+        0.191224,
+        0.1804
+      ]
+    ]
+  },
+  {
+    "model": "K_rock_smallC",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\nature\\Models\\OBJ format\\rock_smallC.obj",
+    "sha256": "a15f2f85565775e7ae8a1c396b8efd1adf7ef8e372c9ab8ca0bb6df8e2b86b9f",
+    "triangles": 16,
+    "bounds": [
+      [
+        -0.1804,
+        0.0,
+        -0.1804
+      ],
+      [
+        0.1804,
+        0.122672,
+        0.1804
+      ]
+    ]
+  },
+  {
+    "model": "K_apple",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\apple.obj",
+    "sha256": "cb8d02f0860a426bdefa373d748ab6f4a65cfbbd757db3275e68738cdd2fa5ad",
+    "triangles": 272,
+    "bounds": [
+      [
+        -0.09814728,
+        0.0,
+        -0.09814728
+      ],
+      [
+        0.09814728,
+        0.1907534,
+        0.09814728
+      ]
+    ]
+  },
+  {
+    "model": "K_banana",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\banana.obj",
+    "sha256": "b676ad8dfd2d3a5b8d4496c6da5b4e487a5fe0f3a24825bfdcff5ef60d3c6a54",
+    "triangles": 208,
+    "bounds": [
+      [
+        -0.06879999,
+        0.0,
+        -0.3149356
+      ],
+      [
+        0.06879999,
+        0.1958004,
+        0.3149356
+      ]
+    ]
+  },
+  {
+    "model": "K_orange",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\orange.obj",
+    "sha256": "b8e4f2019d980db840a63a374cf646a5a2216d2443ed0d9882cd6571b49e82f3",
+    "triangles": 240,
+    "bounds": [
+      [
+        -0.084846,
+        0.0,
+        -0.084846
+      ],
+      [
+        0.084846,
+        0.1672,
+        0.084846
+      ]
+    ]
+  },
+  {
+    "model": "K_watermelon",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\watermelon.obj",
+    "sha256": "a104af3a607723f2dd77afd5a173889cc7acf96679b1b358b423a8572c3798c3",
+    "triangles": 1376,
+    "bounds": [
+      [
+        -0.2277,
+        9.023893e-17,
+        -0.2277
+      ],
+      [
+        0.2277,
+        0.4761,
+        0.2277
+      ]
+    ]
+  },
+  {
+    "model": "K_pineapple",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\pineapple.obj",
+    "sha256": "2234edbf3a7d639c321ce37eb9ca09e26af97245e6e7851a0e805d0b3aeda546",
+    "triangles": 392,
+    "bounds": [
+      [
+        -0.1205823,
+        0.0,
+        -0.1223818
+      ],
+      [
+        0.1205823,
+        0.4715913,
+        0.1223818
+      ]
+    ]
+  },
+  {
+    "model": "K_coconut",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\coconut.obj",
+    "sha256": "d0742f438e08dfa17ab4f078397d03c399332a2c5d9f504ccf31e678f9a50b61",
+    "triangles": 152,
+    "bounds": [
+      [
+        -0.1242,
+        0.0,
+        -0.1242
+      ],
+      [
+        0.1242,
+        0.2484,
+        0.1242
+      ]
+    ]
+  },
+  {
+    "model": "K_corn",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\corn.obj",
+    "sha256": "3360674668d5f25d446b3a0d482d8fc60de85b29aa806a6b5c42d402d85df660",
+    "triangles": 256,
+    "bounds": [
+      [
+        -0.1781274,
+        0.0,
+        -0.15578
+      ],
+      [
+        0.1650916,
+        0.3161982,
+        0.144441
+      ]
+    ]
+  },
+  {
+    "model": "K_fish",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\fish.obj",
+    "sha256": "f18bdc1f9af0d3317843bd044e835b699c9c1fbe7c89d69fc141af4701c3ef77",
+    "triangles": 466,
+    "bounds": [
+      [
+        -0.09891591,
+        0.0,
+        -0.3103913
+      ],
+      [
+        0.09891591,
+        0.3222011,
+        0.3103913
+      ]
+    ]
+  },
+  {
+    "model": "K_skewer",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\skewer.obj",
+    "sha256": "3d80cc582972bec32accc802a163b8e08e5f36bd0efdb8dc3ae416384cad97e0",
+    "triangles": 136,
+    "bounds": [
+      [
+        -0.29835,
+        -3.101963e-17,
+        -0.05427241
+      ],
+      [
+        0.29835,
+        0.09400255,
+        0.05427241
+      ]
+    ]
+  },
+  {
+    "model": "K_pot",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\pot.obj",
+    "sha256": "e8825207f415d5e198be0cd50e1d872ff212f13a1dbcbb1090740ebced09c32c",
+    "triangles": 456,
+    "bounds": [
+      [
+        -0.3287247,
+        0.0,
+        -0.4110358
+      ],
+      [
+        0.3287247,
+        0.3608,
+        0.4110358
+      ]
+    ]
+  },
+  {
+    "model": "K_soda-bottle",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\soda-bottle.obj",
+    "sha256": "053066741c3408fcd90780660cce17057072a1ece5d4a03bfc1ee4b679dfc6f0",
+    "triangles": 200,
+    "bounds": [
+      [
+        -0.090246,
+        0.0,
+        -0.07815533
+      ],
+      [
+        0.090246,
+        0.580412,
+        0.07815533
+      ]
+    ]
+  },
+  {
+    "model": "K_barrel",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\barrel.obj",
+    "sha256": "1c85d64f5db857796f9f3d6e56923890d4e78418cb1e6cdb6e7efbe6e150292a",
+    "triangles": 616,
+    "bounds": [
+      [
+        -0.38,
+        0.0,
+        -0.3394531
+      ],
+      [
+        0.38,
+        0.6789062,
+        0.3394531
+      ]
+    ]
+  },
+  {
+    "model": "K_bag",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\bag.obj",
+    "sha256": "fc757130f37e8c6c63325de461894ee6b992f82ada0c7a32db1988f4cec62ae4",
+    "triangles": 92,
+    "bounds": [
+      [
+        -0.11005,
+        0.0,
+        -0.2059
+      ],
+      [
+        0.11005,
+        0.599759,
+        0.2059
+      ]
+    ]
+  },
+  {
+    "model": "K_plate",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\plate.obj",
+    "sha256": "b2f7b04e7cee5cf8328d3bb1cd04249cbbc157ae8f3941967ab1a21c6b10da38",
+    "triangles": 280,
+    "bounds": [
+      [
+        -0.445887,
+        0.0,
+        -0.445887
+      ],
+      [
+        0.445887,
+        0.09,
+        0.445887
+      ]
+    ]
+  },
+  {
+    "model": "K_bowl",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\bowl.obj",
+    "sha256": "6752a6ff7751436e0b97bc11a7e4b85f4b5ef937514590a9dde30af05c1b97ad",
+    "triangles": 168,
+    "bounds": [
+      [
+        -0.2510765,
+        0.0,
+        -0.2899182
+      ],
+      [
+        0.2510765,
+        0.2138248,
+        0.2899182
+      ]
+    ]
+  },
+  {
+    "model": "K_bread",
+    "pack": "food",
+    "source": "ArtSource\\ThirdParty\\food\\Models\\OBJ format\\bread.obj",
+    "sha256": "3d6e849f0b1dea61d2c19ebf90095dee12e99877ea47f517d2d5efa4d43351b6",
+    "triangles": 232,
+    "bounds": [
+      [
+        -0.2211603,
+        0.0,
+        -0.182952
+      ],
+      [
+        0.2211603,
+        0.03974401,
+        0.182952
+      ]
+    ]
+  },
+  {
+    "model": "K_sedan",
+    "pack": "cars",
+    "source": "ArtSource\\ThirdParty\\cars\\Models\\OBJ format\\sedan.obj",
+    "sha256": "6c2f029d7110ffa3a572bd11a87275ae6732f701a58b8e5801fa11c75826381b",
+    "triangles": 2032,
+    "bounds": [
+      [
+        -0.75,
+        0.0,
+        -1.3
+      ],
+      [
+        0.75,
+        1.3,
+        1.25
+      ]
+    ]
+  },
+  {
+    "model": "K_hatchback-sports",
+    "pack": "cars",
+    "source": "ArtSource\\ThirdParty\\cars\\Models\\OBJ format\\hatchback-sports.obj",
+    "sha256": "5fc6d0adc2193fe3eef12a6cce4a665deae322edc74f4ffef76cbc0a617cdfd9",
+    "triangles": 2088,
+    "bounds": [
+      [
+        -0.65,
+        0.0,
+        -1.45
+      ],
+      [
+        0.65,
+        1.1,
+        1.4
+      ]
+    ]
+  },
+  {
+    "model": "K_van",
+    "pack": "cars",
+    "source": "ArtSource\\ThirdParty\\cars\\Models\\OBJ format\\van.obj",
+    "sha256": "a61eecb17df24a1ae0dfc74f9a2890489af70a76b637ddc6b71906aee7ef6f0d",
+    "triangles": 2082,
+    "bounds": [
+      [
+        -0.75,
+        0.0,
+        -1.4
+      ],
+      [
+        0.75,
+        1.35,
+        1.35
+      ]
+    ]
+  },
+  {
+    "model": "K_truck",
+    "pack": "cars",
+    "source": "ArtSource\\ThirdParty\\cars\\Models\\OBJ format\\truck.obj",
+    "sha256": "f5b43576f25445d3c5efdcc4e2ea7b983c7238c720eb9c686da0fb5db1daa388",
+    "triangles": 2082,
+    "bounds": [
+      [
+        -0.75,
+        0.0,
+        -1.5
+      ],
+      [
+        0.75,
+        1.3,
+        1.45
+      ]
+    ]
+  },
+  {
+    "model": "K_taxi",
+    "pack": "cars",
+    "source": "ArtSource\\ThirdParty\\cars\\Models\\OBJ format\\taxi.obj",
+    "sha256": "097de886a4e0cf40180329fcaaf08994051177e0ada3882d4b573335b92a9514",
+    "triangles": 2072,
+    "bounds": [
+      [
+        -0.75,
+        0.0,
+        -1.4
+      ],
+      [
+        0.75,
+        1.5,
+        1.35
+      ]
+    ]
+  }
+]

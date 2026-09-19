@@ -1,0 +1,14 @@
+{
+  "build": "Succeeded | errors=0 | bytes=124763314",
+  "targetedChecksPassed": 117,
+  "targetedFailures": 0,
+  "targetedComplete": true,
+  "fullCircuitsPassed": 3,
+  "circuits": [
+    "Downtown Minda",
+    "Malasugue Town",
+    "Midnight Gardens"
+  ],
+  "targetedCourses": 7,
+  "notes": "Rendered screenshots verified separately from the headless full-race physics test."
+}

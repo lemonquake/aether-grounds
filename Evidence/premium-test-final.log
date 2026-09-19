@@ -1,0 +1,81 @@
+Mono path[0] = 'A:/Python/aether-grounds/Build/Aether Grounds_Data/Managed'
+Mono config path = 'A:/Python/aether-grounds/Build/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path A:/Python/aether-grounds/Build/Aether Grounds_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 4060
+[D3D12 Device Filter] Driver Version: 32.0.15.9636
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 7957 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.9636
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.015 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 1.065200 ms
+PREMIUM PASS Nine distinct pickable items
+PREMIUM PASS Invalid purchase code rejected
+PREMIUM PASS PayPal recipient, currency and product price encoded
+Detected one or more triangles where the distance between any 2 vertices is greater than 500 units. The resulting Triangle Mesh can impact simulation and query stability. It is recommended to tessellate meshes that have large triangles. Source mesh name: Sloping beach
+CITY GENERATED length=3231m buildings=259 props=720 importedModels=48
+PREMIUM PASS 60 circuit vehicles, 48 oncoming
+PREMIUM PASS 20 moving jeepneys
+PREMIUM PASS Most circuit traffic actively driving
+PREMIUM PASS Civilian rear lamps are behind the forward driving axis
+PREMIUM PASS Oncoming traffic drives nose-first against the race direction
+PREMIUM PASS Ice starts a 1.5-second hold
+PREMIUM PASS Animated ice encloses and immobilizes car
+PREMIUM PASS Pause freezes weapon timer
+PREMIUM PASS Ice shatters and releases after 1.5 seconds
+PREMIUM PASS EMP disables nearby boost
+PREMIUM PASS Shield blocks Ice Blast
+PREMIUM PASS Consumed Oil Slick
+PREMIUM PASS Consumed Gravity Mine
+PREMIUM PASS Consumed Shockwave
+PREMIUM PASS Oil and gravity hazards remain on the road
+PREMIUM PASS Oil slick reduces grip on contact
+PREMIUM PASS Gravity mine arms and detonates near opponent
+PREMIUM PASS Missile produces a strong blast impulse
+PREMIUM PASS Streetlamp waits ten seconds
+PREMIUM PASS Lamp respawn pauses with race
+PREMIUM PASS Streetlamp restored at ten seconds
+PREMIUM PASS Unrelated paved road lies outside race corridor
+PREMIUM TIMER elapsed=3.208153 returns=0 baseline=0 pos=(-230.00, 3.70, -190.00)
+PREMIUM PASS Off-route paved road starts five-second countdown
+PREMIUM PASS Rejoining circuit cancels countdown
+PREMIUM FAIL Off-route paved road returns car at five seconds
+MALASUGUE GENERATED route=1866.402 mappedFootprints=516 reconstructedInfill=317 tricycles=26
+PREMIUM PASS Malasugue has no sunlight
+PREMIUM PASS Player has two working headlights
+PREMIUM PASS Night village lined with respawning streetlights
+PREMIUM PASS Town keeps its 26 tricycles
+PREMIUM NIGHT FPS 117.7
+PREMIUM PASS Garden lighting restored after night village
+PREMIUM COMPLETE failures=1
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

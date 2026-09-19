@@ -1,0 +1,2 @@
+PASS: Editor scripts compiled; ProMotion plist hook replaces false, is idempotent and preserves unrelated entries.
+This is not a native iOS build or a device performance test.

@@ -1,0 +1,9 @@
+from pathlib import Path
+root=Path(__file__).resolve().parents[1]
+def change(file,old,new):
+ p=root/file;s=p.read_text(encoding='utf-8');assert old in s,(file,old[:70]);p.write_text(s.replace(old,new),encoding='utf-8')
+change('Assets/Scripts/StorePage.cs','if(car.starTrail){for(int j=0;j<18;j++)CarParts.Part(model.transform,"Starlight preview",PrimitiveType.Sphere,new Vector3(Mathf.Sin(j*2)*.7f,.4f+j*.035f,-2-j*.17f),Vector3.one*(.08f+j*.005f),ModelLibrary.Material("Starlight preview",new Color(.75f,.35f,1),1.4f));}','if(car.starTrail){var stars=RaceEffects.Emitter(model.transform,"Starlight preview",new Color(.7f,.4f,1),1.4f,.18f,3,70);stars.transform.localPosition=Vector3.back*2;stars.transform.localRotation=Quaternion.Euler(0,180,0);var emission=stars.emission;emission.rateOverTime=32;}')
+change('Assets/Scripts/StorePage.cs','if(!r.name.Contains("Tire")&&!r.name.Contains("recess"))r.sharedMaterial=GlassMaterial();','if(r.name.Contains("recess"))r.enabled=false;else if(!r.name.Contains("Tire"))r.sharedMaterial=GlassMaterial();')
+change('README.md','- Support offers four special editions of existing car bodies, priced from $0.99 to $9.99 USD, plus two cosmetic kits.','- Store offers six special editions, priced from $0.99 to $9.99 USD, plus four equipment and effect kits. All include previews and performance bonuses.')
+change('README.md','Visible engines and cosmetic parts change appearance. Performance comes from the Upgrades category, with the resulting statistics shown next to the car.','Visible garage engines and standard cosmetic parts change appearance. Performance comes from upgrades, equipped inventory gear and owned Store products. The Garage shows upgrades and Store bonuses next to the car.')
+change('Assets/Editor/BuildGame.cs','PlayerSettings.bundleVersion="1.3.0";PlayerSettings.Android.bundleVersionCode=4;','PlayerSettings.bundleVersion="1.4.0";PlayerSettings.Android.bundleVersionCode=5;')

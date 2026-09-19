@@ -1,0 +1,86 @@
+Mono path[0] = 'A:/Python/aether-grounds/Build/Aether Grounds_Data/Managed'
+Mono config path = 'A:/Python/aether-grounds/Build/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path A:/Python/aether-grounds/Build/Aether Grounds_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 4060
+[D3D12 Device Filter] Driver Version: 32.0.15.9636
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 7957 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.9636
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.009 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 5.265100 ms
+OVERHAUL PASS Ten base cars
+OVERHAUL PASS Paint, wheel and engine catalogs
+OVERHAUL PASS Eight independent garage slots and add limit
+OVERHAUL PASS Garage round-trip preserves per-car parts and upgrades
+OVERHAUL PASS Vanta has four wheel hubs
+OVERHAUL PASS Comet has four wheel hubs
+OVERHAUL PASS Miso has four wheel hubs
+OVERHAUL PASS Nomad has four wheel hubs
+OVERHAUL PASS Spectre has four wheel hubs
+OVERHAUL PASS Atlas has four wheel hubs
+OVERHAUL PASS Pip has four wheel hubs
+OVERHAUL PASS Cinder has four wheel hubs
+OVERHAUL PASS Relay has four wheel hubs
+OVERHAUL PASS Manta has four wheel hubs
+OVERHAUL PASS 20-car race grid
+OVERHAUL PASS Track tiles and lap coins generated
+OVERHAUL PASS Coin cannot be farmed within a lap
+OVERHAUL PASS Coin regenerates next lap
+OVERHAUL PASS Booster tile activates on contact
+OVERHAUL PASS Jump tile launches car
+OVERHAUL PASS Ramp lip launches car
+OVERHAUL PASS Flooded broken road slows car
+OVERHAUL PASS Dry bypass avoids water drag
+OVERHAUL PASS Automatic upright recovery within 0.65 seconds
+OVERHAUL PASS Heavy hit causes physical roll
+OVERHAUL PASS Shield absorbs heavy impact
+OVERHAUL PASS Crate gives item and breaks into fragments item=Boost fragments=35
+OVERHAUL PASS Modeled missile spawns
+OVERHAUL PASS Missile impact produces explosion or hits target
+OVERHAUL PASS AI uses held Boost on a clear straight
+OVERHAUL PASS Off-track countdown runs before teleport
+OVERHAUL PASS Off-track player returns to valid road after two seconds
+OVERHAUL PASS Driving back cancels the return countdown
+OVERHAUL PASS AI also returns after two seconds outside the track
+OVERHAUL PASS AI completes Prism Coast progress=500
+OVERHAUL PASS All 20 cars remain finite on map 0
+OVERHAUL PERFORMANCE map=0 fps=118.9 finishers=4 positions=500,455,439,386,445,497,429,385,474,526,458,388,467,379,463,419,451,385,494,400
+OVERHAUL PASS AI completes Ember Canyon progress=499
+OVERHAUL PASS All 20 cars remain finite on map 1
+OVERHAUL PERFORMANCE map=1 fps=118.8 finishers=16 positions=499,549,475,507,485,590,495,484,564,579,614,497,570,503,444,547,496,411,495,427
+OVERHAUL PASS AI completes Midnight Gardens progress=500
+OVERHAUL PASS All 20 cars remain finite on map 2
+OVERHAUL PERFORMANCE map=2 fps=118.9 finishers=2 positions=500,467,372,396,479,465,438,417,390,408,391,437,365,357,364,478,436,488,430,408
+OVERHAUL COMPLETE failures=0
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

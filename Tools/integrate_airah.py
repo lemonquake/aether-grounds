@@ -1,0 +1,42 @@
+from pathlib import Path
+root=Path(__file__).resolve().parents[1]
+def edit(file,old,new):
+ p=root/file;s=p.read_text(encoding='utf-8-sig')
+ if old not in s:
+  if new in s:return
+  raise RuntimeError('Missing anchor '+file+' '+old[:80])
+ p.write_text(s.replace(old,new),encoding='utf-8')
+edit('Assets/Scripts/TrackWorld.cs','"Midnight Gardens"};','"Midnight Gardens","Airah Mountains"};')
+edit('Assets/Scripts/TrackWorld.cs','"Purple forest, luminous gardens and sweeping night turns."};','"Purple forest, luminous gardens and sweeping night turns.","A vast sunny mountain circuit with forested slopes, trestle bridges, summit overlooks and civilian traffic."};')
+edit('Assets/Scripts/TrackWorld.cs','public void Generate(int index){','public void Generate(int index){\n   if(index==AirahMap){GenerateAirah();return;}')
+edit('Assets/Scripts/TrackWorld.cs','public float Height(float x,float z){','public float Height(float x,float z){if(IsAirah)return AirahHeight(x,z);')
+edit('Assets/Scripts/TrackFeatures.cs','public int[] WaterStarts=>map==1?','public int[] WaterStarts=>IsAirah?new int[0]:map==1?')
+edit('Assets/Scripts/TrackFeatures.cs','public bool Broken(int i)=>isRush||isStunts?','public bool Broken(int i)=>isRush||isStunts||IsAirah?')
+edit('Assets/Scripts/TrackFeatures.cs','if(map==1){AddTile(36,TileKind.Booster);','if(IsAirah){foreach(int n in new[]{24,94,180,279,360,435})AddTile(n,TileKind.Booster);foreach(int n in new[]{54,210,389})AddTile(n,TileKind.Jump);AddRamp(112);AddRamp(302);}\n   else if(map==1){AddTile(36,TileKind.Booster);')
+edit('Assets/Scripts/MapDetails.cs','public void BuildMapDetails(){','public void BuildMapDetails(){\n   if(IsAirah)return;')
+edit('Assets/Scripts/AirahMountains.cs','if(mf.GetComponent<Collider>())continue;','if(mf.GetComponent<Collider>()&&mf.GetComponent<Collider>().enabled)continue;')
+# Add a real independent collider to the deck, avoiding the primitive collider scheduled for destruction.
+edit('Assets/Scripts/AirahMountains.cs','deck.AddComponent<BoxCollider>();','var collision=new GameObject("Overlook collision");collision.transform.SetParent(root,false);collision.transform.localPosition=new Vector3(0,-.5f,0);collision.AddComponent<BoxCollider>().size=new Vector3(23,1,28);')
+edit('Assets/Scripts/Game.cs','cam.farClipPlane=stuntMode?10000:3000;','cam.farClipPlane=stuntMode?10000:track.IsAirah?6200:3000;')
+edit('Assets/Scripts/Game.cs','for(int i=0;i<3;i++){if(Button(TrackWorld.Names[i],65,318+i*62,535,50,mapIndex==i))mapIndex=i;}','for(int i=0;i<TrackWorld.Names.Length;i++){if(Button(TrackWorld.Names[i],65,312+i*55,535,47,mapIndex==i))mapIndex=i;}')
+edit('Assets/Scripts/Game.cs','Label(TrackWorld.Descriptions[mapIndex],65,516,520,78,20,muted);','Label(TrackWorld.Descriptions[mapIndex],65,539,520,65,19,muted);')
+edit('Assets/Scripts/Game.cs','Vector2 P(Vector3 p)=>new Vector2(r.x+122+p.x*.25f,r.y+137-p.z*.25f);','float mapScale=track.IsAirah?.079f:.25f;Vector2 P(Vector3 p)=>new Vector2(r.x+122+p.x*mapScale,r.y+137-p.z*mapScale);')
+edit('Assets/Scripts/GarageUI.cs','Texture2D[] mapThumbs=new Texture2D[3];','Texture2D[] mapThumbs=new Texture2D[4];')
+edit('Assets/Scripts/GarageUI.cs','10 cars. Three unique circuits.','10 cars. Four unique circuits.')
+edit('Assets/Scripts/GarageUI.cs','new Color(.7f,.48f,1)}[index]','new Color(.7f,.48f,1),new Color(.68f,.84f,.32f)}[index]')
+edit('Assets/Scripts/GarageUI.cs',':TrackWorld.Shapes[index];',':index==3?TrackWorld.AirahShape:TrackWorld.Shapes[index];')
+edit('Assets/Scripts/GarageUI.cs','pos.x*.21f','pos.x*(index==3?.06f:.21f)')
+edit('Assets/Scripts/GarageUI.cs','pos.z*.21f','pos.z*(index==3?.06f:.21f)')
+# Shared four-card layout at readable desktop sizes.
+p=root/'Assets/Scripts/GarageUI.cs';s=p.read_text(encoding='utf-8');start=s.index('   for(int i=0;i<3;i++){float x=32+i*519;');end=s.index('\n',start);s=s[:start]+'   CircuitCards(674,191);'+s[end:];p.write_text(s,encoding='utf-8')
+p=root/'Assets/Scripts/RushUI.cs';s=p.read_text(encoding='utf-8');start=s.index('for(int i=0;i<3;i++){float x=34+i*520;',s.index('void CircuitHomeGUI'));end=s.index('Footer();}',start);s=s[:start]+'CircuitCards(604,240);'+s[end:];p.write_text(s,encoding='utf-8')
+edit('Assets/Scripts/PremiumWorld.cs','"Moderate · flowing garden circuit\\nNo civilian traffic\\nMoonlight · winding stone roads\\nLanterns · jumps · water crossings"','"Moderate · flowing garden circuit\\nNo civilian traffic\\nMoonlight · winding stone roads\\nLanterns · jumps · water crossings","Challenging · long mountain circuit\\n18 civilian cars · mixed directions\\nSunny afternoon · climbing roads\\nForest · bridges · boosts · jumps"')
+edit('Assets/Scripts/Vehicle.cs','int ahead=Mathf.RoundToInt(5+speed/25);','int ahead=track.IsAirah?Mathf.Clamp(Mathf.RoundToInt((18+speed*.18f)/(track.length/TrackWorld.Count)),1,4):Mathf.RoundToInt(5+speed/25);')
+edit('Assets/Scripts/Vehicle.cs','if(track.map==1)desired=Mathf.Min(desired,','if(track.IsAirah){float farBend=Vector3.Angle(track.Forward(near),track.Forward((near+7)%TrackWorld.Count));desired=Mathf.Min(desired,Mathf.Lerp(185,66,Mathf.Clamp01(farBend/65)));}\n   if(track.map==1)desired=Mathf.Min(desired,')
+edit('Assets/Scripts/TricycleTraffic.cs','int aim=(near+travelSign*3+TrackWorld.Count)','int aim=(near+travelSign*(track.IsAirah?1:3)+TrackWorld.Count)')
+edit('Assets/Scripts/TricycleTraffic.cs','track.map==0?13:7','track.IsAirah?14:track.map==0?13:7')
+edit('Assets/Scripts/TricycleTraffic.cs','(track.map==0?17:8)','(track.map==1?8:17)')
+edit('Assets/Scripts/TricycleTraffic.cs','body.AddForce(Vector3.ClampMagnitude((forward*desired-velocity)*3,12),ForceMode.Acceleration);','body.AddForce(Vector3.ClampMagnitude((forward*desired-velocity)*3,12),ForceMode.Acceleration);if(track.IsAirah){var tangent=track.Forward(near)*travelSign;body.AddForce(Vector3.up*(tangent.y*desired-body.linearVelocity.y)*3,ForceMode.Acceleration);}')
+edit('Assets/Scripts/TownTrafficSystem.cs','(track.map==0?17:8)','(track.map==1?8:17)')
+edit('Assets/Editor/BuildGame.cs','var shaders=new[]{','var shaders=new[]{Shader.Find("Aether/AirahTerrain"),Shader.Find("Aether/AirahSky"),')
+print('Airah integration complete')

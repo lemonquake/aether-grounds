@@ -1,0 +1,128 @@
+Mono path[0] = 'A:/Python/aether-grounds/Build/Aether Grounds_Data/Managed'
+Mono config path = 'A:/Python/aether-grounds/Build/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path A:/Python/aether-grounds/Build/Aether Grounds_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 4060
+[D3D12 Device Filter] Driver Version: 32.0.15.9636
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 7957 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.9636
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.009 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 1.302100 ms
+DETAIL PASS Generated texture Carbon
+DETAIL PASS Paint/color serialization 1
+DETAIL PASS Generated texture Glitter
+DETAIL PASS Paint/color serialization 2
+DETAIL PASS Generated texture Jelly
+DETAIL PASS Paint/color serialization 3
+DETAIL PASS Generated texture Forged Carbon
+DETAIL PASS Paint/color serialization 4
+DETAIL PASS Generated texture Pearl
+DETAIL PASS Paint/color serialization 5
+DETAIL PASS Generated texture Brushed Metal
+DETAIL PASS Paint/color serialization 6
+DETAIL PASS Generated texture Marble
+DETAIL PASS Paint/color serialization 7
+DETAIL PASS Generated texture Lava
+DETAIL PASS Paint/color serialization 8
+DETAIL PASS Generated texture Honeycomb
+DETAIL PASS Paint/color serialization 9
+DETAIL PASS Generated texture Liquid Chrome
+DETAIL PASS Paint/color serialization 10
+DETAIL PASS Texture wraps car Vanta
+DETAIL PASS Texture wraps car Comet
+DETAIL PASS Texture wraps car Miso
+DETAIL PASS Texture wraps car Nomad
+DETAIL PASS Texture wraps car Spectre
+DETAIL PASS Texture wraps car Atlas
+DETAIL PASS Texture wraps car Pip
+DETAIL PASS Texture wraps car Cinder
+DETAIL PASS Texture wraps car Relay
+DETAIL PASS Texture wraps car Manta
+MAP DETAILS Heartstopper props=968 types=56
+DETAIL PASS Stunts spawns player plus nine AI
+DETAIL PASS Heartstopper has populated downloaded scenery (968 instances, 56 types)
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+DETAIL PASS Downhill roof and forward road in view at 520
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+DETAIL PASS Downhill roof and forward road in view at 850
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+DETAIL PASS Downhill roof and forward road in view at 1190
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+DETAIL FAIL Downhill roof and forward road in view at 1370
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+DETAIL PASS Downhill roof and forward road in view at 2700
+MAP DETAILS Heartstopper props=968 types=56
+DETAIL AI You: z=0 cp=0 returns=0 | Sir Skids-a-Lot: z=0 cp=0 returns=0 | Brake Expectations: z=-6 cp=0 returns=0 | Wheelie Nelson: z=-6 cp=0 returns=0 | Clutch Potato: z=-13 cp=0 returns=0 | Tofu Fast: z=-13 cp=0 returns=0 | Bumper Dumpling: z=-20 cp=0 returns=0 | Oops All Boost: z=-20 cp=0 returns=0 | Driftwood Mac: z=-27 cp=0 returns=0 | Lord of the Rims: z=-27 cp=0 returns=0
+DETAIL AI You: z=685 cp=1 returns=0 | Sir Skids-a-Lot: z=580 cp=1 returns=0 | Brake Expectations: z=589 cp=1 returns=0 | Wheelie Nelson: z=478 cp=1 returns=0 | Clutch Potato: z=542 cp=1 returns=0 | Tofu Fast: z=455 cp=1 returns=0 | Bumper Dumpling: z=539 cp=1 returns=0 | Oops All Boost: z=543 cp=1 returns=0 | Driftwood Mac: z=541 cp=1 returns=0 | Lord of the Rims: z=517 cp=1 returns=0
+DETAIL AI You: z=1394 cp=2 returns=0 | Sir Skids-a-Lot: z=1219 cp=1 returns=0 | Brake Expectations: z=1062 cp=1 returns=0 | Wheelie Nelson: z=260 cp=1 returns=0 | Clutch Potato: z=162 cp=1 returns=1 | Tofu Fast: z=1083 cp=1 returns=0 | Bumper Dumpling: z=1121 cp=1 returns=0 | Oops All Boost: z=130 cp=1 returns=1 | Driftwood Mac: z=1248 cp=1 returns=0 | Lord of the Rims: z=65 cp=1 returns=0
+DETAIL AI You: z=1938 cp=2 returns=0 | Sir Skids-a-Lot: z=1816 cp=2 returns=0 | Brake Expectations: z=232 cp=1 returns=0 | Wheelie Nelson: z=260 cp=1 returns=0 | Clutch Potato: z=163 cp=1 returns=1 | Tofu Fast: z=1777 cp=2 returns=0 | Bumper Dumpling: z=1783 cp=2 returns=0 | Oops All Boost: z=135 cp=1 returns=1 | Driftwood Mac: z=1769 cp=2 returns=0 | Lord of the Rims: z=64 cp=1 returns=0
+DETAIL AI You: z=2592 cp=3 returns=0 | Sir Skids-a-Lot: z=2187 cp=2 returns=0 | Brake Expectations: z=229 cp=1 returns=0 | Wheelie Nelson: z=260 cp=1 returns=0 | Clutch Potato: z=163 cp=1 returns=1 | Tofu Fast: z=2254 cp=2 returns=0 | Bumper Dumpling: z=2159 cp=2 returns=0 | Oops All Boost: z=135 cp=1 returns=1 | Driftwood Mac: z=2079 cp=2 returns=0 | Lord of the Rims: z=64 cp=1 returns=0
+DETAIL AI You: z=3368 cp=3 returns=0 | Sir Skids-a-Lot: z=1410 cp=2 returns=1 | Brake Expectations: z=227 cp=1 returns=0 | Wheelie Nelson: z=260 cp=1 returns=0 | Clutch Potato: z=162 cp=1 returns=1 | Tofu Fast: z=2951 cp=3 returns=0 | Bumper Dumpling: z=1397 cp=2 returns=1 | Oops All Boost: z=135 cp=1 returns=1 | Driftwood Mac: z=1403 cp=2 returns=1 | Lord of the Rims: z=64 cp=1 returns=0
+DETAIL AI You: z=3868 cp=4 returns=0 | Sir Skids-a-Lot: z=1410 cp=2 returns=1 | Brake Expectations: z=227 cp=1 returns=0 | Wheelie Nelson: z=260 cp=1 returns=0 | Clutch Potato: z=163 cp=1 returns=1 | Tofu Fast: z=3653 cp=4 returns=0 | Bumper Dumpling: z=1397 cp=2 returns=1 | Oops All Boost: z=135 cp=1 returns=1 | Driftwood Mac: z=1403 cp=2 returns=1 | Lord of the Rims: z=64 cp=1 returns=0
+DETAIL AI You: z=4441 cp=5 returns=0 | Sir Skids-a-Lot: z=1410 cp=2 returns=1 | Brake Expectations: z=225 cp=1 returns=0 | Wheelie Nelson: z=259 cp=1 returns=0 | Clutch Potato: z=162 cp=1 returns=1 | Tofu Fast: z=4080 cp=4 returns=0 | Bumper Dumpling: z=1397 cp=2 returns=1 | Oops All Boost: z=134 cp=1 returns=1 | Driftwood Mac: z=1402 cp=2 returns=1 | Lord of the Rims: z=64 cp=1 returns=0
+DETAIL PASS Continuous Stunts race with nine AI reaches finish
+DETAIL FAIL Every opponent completes the first descent
+DETAIL FAIL At least five AI clear the first island jump
+DETAIL PERFORMANCE Stunts frames=9113 seconds=76.89033 averageFPS=118.5195
+DETAIL PASS stunts Main Menu cleans up race and restores time
+MAP DETAILS Rush 0 props=2050 types=56
+DETAIL PASS Coastal Rush has populated downloaded scenery (2050 instances, 56 types)
+DETAIL PASS Acceleration creates wheelspin smoke
+DETAIL PASS High speed braking creates smoke
+DETAIL PASS Drifting creates tire smoke
+DETAIL PASS Boost emits aura ribbons and multiple car afterimages
+DETAIL PASS Afterimages fade out after boost
+DETAIL PASS rush Main Menu cleans up race and restores time
+MAP DETAILS Rush 1 props=1939 types=46
+DETAIL PASS Rush 1 has populated downloaded scenery (1939 instances, 46 types)
+MAP DETAILS Rush 2 props=767 types=17
+DETAIL PASS Rush 2 has populated downloaded scenery (767 instances, 17 types)
+Detected one or more triangles where the distance between any 2 vertices is greater than 500 units. The resulting Triangle Mesh can impact simulation and query stability. It is recommended to tessellate meshes that have large triangles. Source mesh name: Sloping beach
+CITY GENERATED length=3231m buildings=259 props=720 importedModels=48
+MAP DETAILS Downtown Minda props=206 types=18
+DETAIL PASS Downtown Minda has populated downloaded scenery (206 instances, 18 types)
+MALASUGUE GENERATED route=1866.402 mappedFootprints=516 reconstructedInfill=317 tricycles=26
+MAP DETAILS Malasugue Town props=171 types=4
+DETAIL PASS Malasugue Town has populated downloaded scenery (171 instances, 4 types)
+MAP DETAILS Midnight Gardens props=1073 types=43
+DETAIL PASS Midnight Gardens has populated downloaded scenery (1073 instances, 43 types)
+DETAIL PASS circuit Main Menu cleans up race and restores time
+DETAIL PASS All 58 downloaded prop types actually placed across seven maps: 58
+DETAIL COMPLETE failures=3
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

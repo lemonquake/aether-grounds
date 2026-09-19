@@ -1,0 +1,1104 @@
+[
+  {
+    "model": "D_racing_bannerTowerGreen",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\bannerTowerGreen.obj",
+    "sha256": "88b8059797870854e964ad762927d9e0f00c38f1ca14a481bd1ffdca992e2ae9",
+    "triangles": 852,
+    "bounds": [
+      [
+        -0.3852,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.245655,
+        0.3852
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_bannerTowerRed",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\bannerTowerRed.obj",
+    "sha256": "753995c46ffcdb587db3cf2998f6574e062900fca86632cf9d432f776e35662f",
+    "triangles": 852,
+    "bounds": [
+      [
+        -0.3852,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.245655,
+        0.3852
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_barrierRed",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\barrierRed.obj",
+    "sha256": "de568811a49aef002335460608736eea3392c79a472b923233789f13337e20f0",
+    "triangles": 56,
+    "bounds": [
+      [
+        -0.25,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.1312,
+        0.123
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_barrierWhite",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\barrierWhite.obj",
+    "sha256": "e2c321524f79331ed10f3ac7518d7b2fc7901613546947e5b0464e067345b6db",
+    "triangles": 56,
+    "bounds": [
+      [
+        -0.25,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.1312,
+        0.123
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_billboard",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\billboard.obj",
+    "sha256": "a628cd92d7681f8314e47e07df0a558c592f41f48e3b6717220a300931c84008",
+    "triangles": 272,
+    "bounds": [
+      [
+        -0.9362,
+        0.0,
+        -0.04000002
+      ],
+      [
+        0.06380001,
+        1.0,
+        0.4362
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_billboardLow",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\billboardLow.obj",
+    "sha256": "c28efa639781496d07d276f99d8ee3122c6f7457ee5574a0d6b650a73562be8a",
+    "triangles": 272,
+    "bounds": [
+      [
+        -0.9362,
+        0.0,
+        -0.04000002
+      ],
+      [
+        0.06380001,
+        0.69,
+        0.4362
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_fenceStraight",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\fenceStraight.obj",
+    "sha256": "b01af9edb7774c4670fced5106911040f614e91f92215048179d7af90bc5f889",
+    "triangles": 72,
+    "bounds": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.5,
+        0.0345
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_flagCheckers",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\flagCheckers.obj",
+    "sha256": "dfe86542a71c3e7f3d3acb3f47fafd86c05b95ecbbc3663d9219ef46038514a5",
+    "triangles": 280,
+    "bounds": [
+      [
+        -0.197205,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.25,
+        0.0352
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_flagGreen",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\flagGreen.obj",
+    "sha256": "64e79eafa8ed5905d8fe4496f4afef775ef6bb02495ea98897ebbd70f9ceaad6",
+    "triangles": 280,
+    "bounds": [
+      [
+        -0.197205,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.25,
+        0.0352
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_flagRed",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\flagRed.obj",
+    "sha256": "e61b3852da6852cbc2000c3abcc836e6c18eb61962156bc6aaa32a71db9a5996",
+    "triangles": 280,
+    "bounds": [
+      [
+        -0.197205,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.25,
+        0.0352
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_grandStand",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\grandStand.obj",
+    "sha256": "f837282c2f6d5e10d420c66a8157cb90cbd6d3960ce1a90c6194984de39114a7",
+    "triangles": 256,
+    "bounds": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.8962626,
+        1.0
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_grandStandAwning",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\grandStandAwning.obj",
+    "sha256": "bb85a081773e7e39d1664c69d023bd9bc0e048cdcc3cbd0e3dfcc4ca4d8824a4",
+    "triangles": 560,
+    "bounds": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.385111,
+        1.0
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_grandStandCovered",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\grandStandCovered.obj",
+    "sha256": "b1d698102572778b694c4005bc3af53e6598285cc39f9f33d732fa69e0871988",
+    "triangles": 336,
+    "bounds": [
+      [
+        -1.0,
+        0.0,
+        -0.01999998
+      ],
+      [
+        0.0,
+        1.186392,
+        1.0
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_lightPostLarge",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\lightPostLarge.obj",
+    "sha256": "7739f1f926af03cf53b6da9a867d822929522d645fc0d6bd1b88f47989eefc88",
+    "triangles": 680,
+    "bounds": [
+      [
+        -0.19,
+        0.0,
+        -0.07946295
+      ],
+      [
+        0.19,
+        0.7956552,
+        0.0176
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_lightPostModern",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\lightPostModern.obj",
+    "sha256": "7c1c49e1759cf988b604e8d59c2611b67ecfb2ca4c8ca8ae4e6635e4f2a7eb58",
+    "triangles": 396,
+    "bounds": [
+      [
+        -0.02455214,
+        0.0,
+        -0.16
+      ],
+      [
+        0.02455214,
+        0.7812935,
+        0.0176
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_pitsGarage",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\pitsGarage.obj",
+    "sha256": "0baafcd095cacbf27a1a40aef2e40cf06ef9bb4a2802d01f3e16652bbee62448",
+    "triangles": 192,
+    "bounds": [
+      [
+        -1.0,
+        0.0,
+        -0.08999997
+      ],
+      [
+        0.0,
+        0.7,
+        1.0
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_pitsOffice",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\pitsOffice.obj",
+    "sha256": "64f64872f7ceb52e3d3361e5b18de6df18b257dec2a3a8b8de19014ab01af023",
+    "triangles": 176,
+    "bounds": [
+      [
+        -1.0,
+        0.0,
+        -0.04000002
+      ],
+      [
+        0.0,
+        0.51,
+        1.0
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_pylon",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\pylon.obj",
+    "sha256": "a0e735a28b1a5cb035565a06a5e17184987eec1a7b0c86283953b735bffcf3d5",
+    "triangles": 216,
+    "bounds": [
+      [
+        -0.06,
+        0.0,
+        -0.06
+      ],
+      [
+        0.06,
+        0.132,
+        0.06
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_radarEquipment",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\radarEquipment.obj",
+    "sha256": "7cbc86247f999b12393ecc78cf8f8c8709567f36bd4af3cbc1ee71ad70b32ce1",
+    "triangles": 584,
+    "bounds": [
+      [
+        -0.75,
+        0.0,
+        0.2068852
+      ],
+      [
+        -0.1610668,
+        0.5431148,
+        0.62
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_railDouble",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\railDouble.obj",
+    "sha256": "5d5d6f9949bf4e7eb57ed4c5c9a4268ae3f0ab207165febf6f07193997a599e1",
+    "triangles": 224,
+    "bounds": [
+      [
+        -1.0,
+        0.0,
+        -0.05000013
+      ],
+      [
+        0.0,
+        0.28,
+        0.0
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_tent",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\tent.obj",
+    "sha256": "c257d6cd0af9b96e2a25d0070c06f13a8600271802f467e385c04d60a549a4ae",
+    "triangles": 172,
+    "bounds": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7,
+        1.0
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_tentClosed",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\tentClosed.obj",
+    "sha256": "5688ecd7f586b5e53e253a44812aeab9e03357ae52c7c3460a6be9db9cf3289d",
+    "triangles": 220,
+    "bounds": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7,
+        1.0
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_tentRoofDouble",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\tentRoofDouble.obj",
+    "sha256": "54c3c7a1538844b18423b16be8c6c230cdee679f786dabcaf715e204dda998d1",
+    "triangles": 472,
+    "bounds": [
+      [
+        -1.12,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.63,
+        0.99
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_treeLarge",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\treeLarge.obj",
+    "sha256": "52f7b678ce8313bf9bc466001d241576b2dfb89443fe3977ccd8e497f7b759f5",
+    "triangles": 144,
+    "bounds": [
+      [
+        -0.178374,
+        0.0,
+        -0.2059685
+      ],
+      [
+        0.178374,
+        1.506795,
+        0.2059685
+      ]
+    ]
+  },
+  {
+    "model": "D_racing_treeSmall",
+    "pack": "racing",
+    "source": "ArtSource\\ThirdParty\\detail-update\\racing\\Models\\OBJ format\\treeSmall.obj",
+    "sha256": "f84f60c2da49cbbc36ea60f945a698d4e91e88e8887c53b642ea0a63a80f5d43",
+    "triangles": 144,
+    "bounds": [
+      [
+        -0.1266455,
+        0.0,
+        -0.1462377
+      ],
+      [
+        0.1266455,
+        1.069825,
+        0.1462377
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_building-a",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\building-a.obj",
+    "sha256": "68416536c00c523126ef94f6dec3ce194d1154f95b82f8b1a5f68b89214e4cad",
+    "triangles": 4092,
+    "bounds": [
+      [
+        -1.041067,
+        0.0,
+        -0.621
+      ],
+      [
+        1.042522,
+        1.47,
+        0.6210001
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_building-c",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\building-c.obj",
+    "sha256": "9f5d1490becbfb66c420376a893422745be669be1b5102872d0d02cc8882b745",
+    "triangles": 3856,
+    "bounds": [
+      [
+        -0.841794,
+        -2.275713e-15,
+        -0.911
+      ],
+      [
+        1.034141,
+        1.25,
+        1.197021
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_building-f",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\building-f.obj",
+    "sha256": "773187d9fcaaa7c9f4db3e6d9a644e6a7ef3c237cfc6ea654fa0a9f866fa623d",
+    "triangles": 3104,
+    "bounds": [
+      [
+        -1.348206,
+        -3.609557e-16,
+        -0.386
+      ],
+      [
+        0.4417939,
+        1.925,
+        0.8940001
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_chimney-large",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\chimney-large.obj",
+    "sha256": "5ab252c50ee4e5d8a4a849bcd3ca7c2b501f415b81d0ab1ab3612c78968f1d3b",
+    "triangles": 436,
+    "bounds": [
+      [
+        -0.54,
+        0.0,
+        -0.54
+      ],
+      [
+        0.54,
+        1.7,
+        0.54
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_detail-tank-large",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\detail-tank-large.obj",
+    "sha256": "5dba8b10e4a0c81879820429b902e03e3aab257af86774af522465d603a9b05f",
+    "triangles": 1132,
+    "bounds": [
+      [
+        -0.754208,
+        -5.414336e-16,
+        -0.894208
+      ],
+      [
+        0.754208,
+        0.961606,
+        0.754208
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_detail-tank",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\detail-tank.obj",
+    "sha256": "ac1b6ca7121c18e6aed4c3788cc85026cc3ae13e2b56726b0fc8b0c4ba795d06",
+    "triangles": 620,
+    "bounds": [
+      [
+        -0.4240002,
+        -2.819966e-18,
+        -0.2576476
+      ],
+      [
+        0.4240002,
+        0.4152957,
+        0.2576481
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_shipping-container-a",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\shipping-container-a.obj",
+    "sha256": "fe32a721945859cbaf4719075c70d42de4190b55e28513b4b4ded14a33bff8b5",
+    "triangles": 804,
+    "bounds": [
+      [
+        -0.1863002,
+        6.857304e-10,
+        -0.4113
+      ],
+      [
+        0.1862999,
+        0.34808,
+        0.4113
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_shipping-container-b",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\shipping-container-b.obj",
+    "sha256": "45f64ff4ee4b80c002aac8e748fcdc95eff21ac1e6853c0a92acfb8447f9a15f",
+    "triangles": 804,
+    "bounds": [
+      [
+        -0.1863002,
+        6.857304e-10,
+        -0.4113
+      ],
+      [
+        0.1863,
+        0.34808,
+        0.4113
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_shipping-container-c",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\shipping-container-c.obj",
+    "sha256": "78195c17bf383b25b2bd414c546663c554543620d369191d01cdd226cfa53737",
+    "triangles": 804,
+    "bounds": [
+      [
+        -0.1863002,
+        6.857304e-10,
+        -0.4113
+      ],
+      [
+        0.1863,
+        0.34808,
+        0.4113
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_solar-panel-landscape-group",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\solar-panel-landscape-group.obj",
+    "sha256": "009b212f624d98949a71f3c0c725f2710259d987ca7e92a5e6ac644014b1e2f2",
+    "triangles": 1952,
+    "bounds": [
+      [
+        -0.7567002,
+        -1.460059e-07,
+        -0.4475253
+      ],
+      [
+        0.7567006,
+        0.2623607,
+        0.4475248
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_solar-panel-portrait-group",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\solar-panel-portrait-group.obj",
+    "sha256": "101759486bca8516e9316beaf8cd39dff60a27e4fac427ec48cf64a0ae9ded52",
+    "triangles": 1952,
+    "bounds": [
+      [
+        -0.4591002,
+        -1.788139e-07,
+        -0.6242864
+      ],
+      [
+        0.4591002,
+        0.4099604,
+        0.6242857
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_water-tower",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\water-tower.obj",
+    "sha256": "1c76796b7c2c49cd4d4c0391b0ad60b7201f17bff22d74ed3b7ed8d19f9135d5",
+    "triangles": 1936,
+    "bounds": [
+      [
+        -0.4261074,
+        -6.48319e-24,
+        -0.4158998
+      ],
+      [
+        0.4261084,
+        2.141665,
+        0.4158998
+      ]
+    ]
+  },
+  {
+    "model": "D_industrial_windmill",
+    "pack": "industrial",
+    "source": "ArtSource\\ThirdParty\\detail-update\\industrial\\Models\\OBJ format\\windmill.obj",
+    "sha256": "8231b85ae82cb5233b9aecbee7295ceea907708b801e6ebb862b0fd5b8afbd24",
+    "triangles": 672,
+    "bounds": [
+      [
+        -0.3153567,
+        0.0,
+        -0.566668
+      ],
+      [
+        0.289331,
+        2.313853,
+        0.5601968
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_cactus_short",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\cactus_short.obj",
+    "sha256": "0f4a63e933432a8e3a09e67be333461cc0397c849bb312704c39a87242d68d4e",
+    "triangles": 116,
+    "bounds": [
+      [
+        -0.1733265,
+        0.0,
+        -0.1798394
+      ],
+      [
+        0.1683351,
+        0.533,
+        0.1173502
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_cactus_tall",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\cactus_tall.obj",
+    "sha256": "ba4ac8ba42d829689154f55bf5eff01308357d5d97c67582d6b566a981372273",
+    "triangles": 122,
+    "bounds": [
+      [
+        -0.1967887,
+        0.0,
+        -0.2066025
+      ],
+      [
+        0.1994613,
+        0.75,
+        0.1324795
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_flower_purpleA",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\flower_purpleA.obj",
+    "sha256": "039c21db5a505edeb9d889077436b5f18055ae28b58ad89795b016ee29981479",
+    "triangles": 76,
+    "bounds": [
+      [
+        -0.05456302,
+        0.0,
+        -0.09052953
+      ],
+      [
+        0.1045345,
+        0.2425,
+        0.09052953
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_flower_redA",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\flower_redA.obj",
+    "sha256": "50bcfeb7b6f8c361bc7e61ce55dfd0cc61ad95073351026476207b0db93c3121",
+    "triangles": 76,
+    "bounds": [
+      [
+        -0.05456302,
+        0.0,
+        -0.09052953
+      ],
+      [
+        0.1045345,
+        0.2925,
+        0.09052953
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_flower_yellowA",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\flower_yellowA.obj",
+    "sha256": "09a81fe229ab3d60e7c3a080b39d9cbbe379af44ce4b646139c2081550692cb2",
+    "triangles": 76,
+    "bounds": [
+      [
+        -0.05456302,
+        0.0,
+        -0.09052953
+      ],
+      [
+        0.1045345,
+        0.1925,
+        0.09052953
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_grass_large",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\grass_large.obj",
+    "sha256": "8a7cd258fa054bb6d3db5ecd05b746c002a51c8d0542757f3b6e1079df34567f",
+    "triangles": 224,
+    "bounds": [
+      [
+        -0.2098561,
+        0.0,
+        -0.1957935
+      ],
+      [
+        0.1991418,
+        0.254,
+        0.2120955
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_grass_leafs",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\grass_leafs.obj",
+    "sha256": "43d88cee97274d39d9992d1a1ce5f396150037f91cac19e0bc2eb03831366b8c",
+    "triangles": 36,
+    "bounds": [
+      [
+        -0.111446,
+        0.0,
+        -0.1238818
+      ],
+      [
+        0.12304,
+        0.1425,
+        0.1334264
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_grass_leafsLarge",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\grass_leafsLarge.obj",
+    "sha256": "4cb95c585bc98d47aa661de7bb9b14ab6e2912880fb9dca74efce8abbd818f49",
+    "triangles": 144,
+    "bounds": [
+      [
+        -0.2342869,
+        0.0,
+        -0.244246
+      ],
+      [
+        0.2416103,
+        0.1425,
+        0.2430622
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_log_stack",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\log_stack.obj",
+    "sha256": "a40f51c42a8c1c00917f6a9e5ca4f39e5cbde7883d8b9f6958838f5a6a1413a2",
+    "triangles": 184,
+    "bounds": [
+      [
+        -0.2,
+        -8.195639e-08,
+        -0.355
+      ],
+      [
+        0.2247171,
+        0.3464101,
+        0.355
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_mushroom_redGroup",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\mushroom_redGroup.obj",
+    "sha256": "926c3ec642195e4599ed09832c19624cabf5a9cc187e077667cad305de8ac50f",
+    "triangles": 144,
+    "bounds": [
+      [
+        -0.1333016,
+        0.0,
+        -0.142183
+      ],
+      [
+        0.1363294,
+        0.250488,
+        0.1120136
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_mushroom_tanGroup",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\mushroom_tanGroup.obj",
+    "sha256": "4d4bc40e8e7255da37181fb572f86597452a94543b659822a10932edf9ae64cb",
+    "triangles": 144,
+    "bounds": [
+      [
+        -0.1333016,
+        0.0,
+        -0.142183
+      ],
+      [
+        0.1363294,
+        0.250488,
+        0.1120136
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_plant_bushDetailed",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\plant_bushDetailed.obj",
+    "sha256": "f657029e99a52f6933389c8d445699d352102990af574cfe190f4ec746de0b7d",
+    "triangles": 104,
+    "bounds": [
+      [
+        -0.3012719,
+        0.0,
+        -0.3012719
+      ],
+      [
+        0.3012719,
+        0.3604109,
+        0.3012719
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_plant_bushLarge",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\plant_bushLarge.obj",
+    "sha256": "2e2d31669c312c86cdd2eac7b625a30ccd8e7cd0a9161e48769279e55ee7c3a8",
+    "triangles": 60,
+    "bounds": [
+      [
+        -0.187155,
+        0.0,
+        -0.1678439
+      ],
+      [
+        0.187155,
+        0.242933,
+        0.1678439
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_plant_bushSmall",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\plant_bushSmall.obj",
+    "sha256": "f07e606f1937469330e9cf9fecccccf6c619f632b91e2f3076dd52d15366de39",
+    "triangles": 16,
+    "bounds": [
+      [
+        -0.1914886,
+        0.0,
+        -0.1681711
+      ],
+      [
+        0.1914886,
+        0.2072925,
+        0.1681711
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_stone_largeA",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\stone_largeA.obj",
+    "sha256": "673e4f80ad203191299940850b0cc72a9da909efac744e4e59e85abbaea6f6c3",
+    "triangles": 80,
+    "bounds": [
+      [
+        -0.3924533,
+        0.0,
+        -0.5077307
+      ],
+      [
+        0.3924533,
+        0.259776,
+        0.5077307
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_stone_largeC",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\stone_largeC.obj",
+    "sha256": "c68f74d2302173ef84e9861e61f549495f991790eff6a0cb1a42350c5187de8b",
+    "triangles": 72,
+    "bounds": [
+      [
+        -0.5322049,
+        0.0,
+        -0.507831
+      ],
+      [
+        0.5322049,
+        0.321112,
+        0.507831
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_stone_smallA",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\stone_smallA.obj",
+    "sha256": "05985a920350181a5b88df38938edf78502d284191d8edef710b23cd8b84cdaa",
+    "triangles": 16,
+    "bounds": [
+      [
+        -0.1804,
+        0.0,
+        -0.1804
+      ],
+      [
+        0.1804,
+        0.191224,
+        0.1804
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_stone_smallC",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\stone_smallC.obj",
+    "sha256": "20ef454fdc5fb191654b57c9b9a2fb72e71376f7ee1ed4a4b645c67fef860aa4",
+    "triangles": 16,
+    "bounds": [
+      [
+        -0.1804,
+        0.0,
+        -0.1804
+      ],
+      [
+        0.1804,
+        0.122672,
+        0.1804
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_stone_tallA",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\stone_tallA.obj",
+    "sha256": "8b4cf6177aaa774f37090194b5709c3f6a272b7827addecb77f8acd761087236",
+    "triangles": 136,
+    "bounds": [
+      [
+        -0.4915344,
+        0.0,
+        -0.3416054
+      ],
+      [
+        0.4915344,
+        0.9959259,
+        0.3416054
+      ]
+    ]
+  },
+  {
+    "model": "D_nature_stone_tallC",
+    "pack": "nature",
+    "source": "ArtSource\\ThirdParty\\detail-update\\nature\\Models\\OBJ format\\stone_tallC.obj",
+    "sha256": "aafbe5a99378025988cea247446142a6bb9e48864cf400d224709c85daf911d0",
+    "triangles": 37,
+    "bounds": [
+      [
+        -0.2280972,
+        0.0,
+        -0.2182538
+      ],
+      [
+        0.2280972,
+        0.782936,
+        0.2182538
+      ]
+    ]
+  }
+]

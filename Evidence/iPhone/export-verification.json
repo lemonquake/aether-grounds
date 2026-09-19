@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "checks": [
+    "iPhone high refresh",
+    "landscape only",
+    "ARM64 and Metal",
+    "iOS 15 minimum",
+    "automatic signing configuration",
+    "Release default",
+    "both Mac host build tools",
+    "Airah map, rollover and touch input native source",
+    "compressed player data and IL2CPP metadata included"
+  ],
+  "still_required": [
+    "Xcode native compilation on macOS",
+    "Apple signing",
+    "iPhone installation and play test",
+    "physical iPhone FPS measurement"
+  ]
+}

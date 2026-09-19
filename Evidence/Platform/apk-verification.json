@@ -1,0 +1,12 @@
+{
+  "file": "Build\\Android\\Aether-Grounds.apk",
+  "bytes": 21335151,
+  "sha256": "557eed4f89c767e7a9cc6258b43374e30f94fdcf58b7cd1b6234fc7ca6a98475",
+  "package": "com.aljayleodones.aethergrounds",
+  "version": "1.1.0",
+  "minApi": 26,
+  "targetApi": 36,
+  "abi": "arm64-v8a",
+  "signature": "Verified APK Signature Scheme v2",
+  "installedOn": "Android 16 API 36 emulator using ARM64 translation and host graphics"
+}

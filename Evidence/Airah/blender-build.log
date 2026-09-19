@@ -1,0 +1,24 @@
+A:\Python\aether-grounds\Tools\build_airah_assets.py:10: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name); m.diffuse_color=(*color,1); m.use_nodes=True
+00:04.078  reports          | WARNING Path 'C:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' cannot be made relative for Material 'Dots Stroke'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:04.078  reports          | WARNING Path 'C:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' cannot be made relative for Material 'Material'
+00:15.453  render           | Saved: 'A:\Python\aether-grounds\Evidence\Airah\blender-assets.png'
+AIRAH ASSET AirahPine0 triangles 216
+AIRAH ASSET AirahPine1 triangles 216
+AIRAH ASSET AirahPine2 triangles 216
+AIRAH ASSET AirahBroadleaf triangles 308
+AIRAH ASSET AirahPineFar triangles 40
+AIRAH ASSET AirahBroadleafFar triangles 36
+AIRAH ASSET AirahRock0 triangles 80
+AIRAH ASSET AirahRock1 triangles 80
+AIRAH ASSET AirahRock2 triangles 80
+AIRAH ASSET AirahRock3 triangles 80
+AIRAH ASSET AirahFern triangles 324
+AIRAH ASSET AirahLog triangles 80
+AIRAH ASSET AirahShelter triangles 156
+AIRAH ASSET AirahCivilian0 triangles 440
+AIRAH ASSET AirahCivilian1 triangles 464
+Info: Saved as "AirahMountains.blend"
+
+Blender quit

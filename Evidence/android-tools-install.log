@@ -1,0 +1,943 @@
+
+Adding module android-ndk-r27c as dependency of android-sdk-ndk-tools.
+
+Adding module cmake-3.22.1 as dependency of android-sdk-ndk-tools.
+
+Adding module android-sdk-build-tools-36.0.0 as dependency of android-sdk-ndk-tools.
+
+Adding module android-sdk-platform-tools-36.0.0 as dependency of android-sdk-ndk-tools.
+
+Adding module android-sdk-platforms-34 as dependency of android-sdk-ndk-tools.
+
+Adding module android-sdk-platforms-36 as dependency of android-sdk-ndk-tools.
+
+Adding module android-sdk-platforms-37.0 as dependency of android-sdk-ndk-tools.
+
+Adding module android-sdk-command-line-tools-16.0 as dependency of android-sdk-ndk-tools.
+
+[install-state] file-claims-store: swept claims of dead pid=28488
+Progress:
+[Android Build Support] in progress...
+[OpenJDK] in progress...
+[Android NDK] queued for download.
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 0.85%
+[OpenJDK] downloading 14.38%
+[Android NDK] queued for download.
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 1.91%
+[OpenJDK] downloading 33.61%
+[Android NDK] queued for download.
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 2.65%
+[OpenJDK] downloading 100.00%
+[Android NDK] queued for download.
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 3.99%
+[OpenJDK] queued for install.
+[Android NDK] queued for download.
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 3.99%
+[OpenJDK] queued for install.
+[Android NDK] in progress...
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 8.43%
+[OpenJDK] queued for install.
+[Android NDK] downloading 3.17%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 11.54%
+[OpenJDK] queued for install.
+[Android NDK] downloading 6.90%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 13.45%
+[OpenJDK] queued for install.
+[Android NDK] downloading 10.07%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 16.25%
+[OpenJDK] queued for install.
+[Android NDK] downloading 12.98%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 19.71%
+[OpenJDK] queued for install.
+[Android NDK] downloading 16.11%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 23.33%
+[OpenJDK] queued for install.
+[Android NDK] downloading 18.93%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 27.43%
+[OpenJDK] queued for install.
+[Android NDK] downloading 22.05%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 30.65%
+[OpenJDK] queued for install.
+[Android NDK] downloading 24.87%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 33.90%
+[OpenJDK] queued for install.
+[Android NDK] downloading 27.27%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 36.49%
+[OpenJDK] queued for install.
+[Android NDK] downloading 29.81%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 39.97%
+[OpenJDK] queued for install.
+[Android NDK] downloading 32.71%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 41.95%
+[OpenJDK] queued for install.
+[Android NDK] downloading 35.29%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 43.58%
+[OpenJDK] queued for install.
+[Android NDK] downloading 37.93%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 47.64%
+[OpenJDK] queued for install.
+[Android NDK] downloading 40.44%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 51.95%
+[OpenJDK] queued for install.
+[Android NDK] downloading 43.19%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 54.85%
+[OpenJDK] queued for install.
+[Android NDK] downloading 45.69%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 57.08%
+[OpenJDK] queued for install.
+[Android NDK] downloading 47.85%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 61.28%
+[OpenJDK] queued for install.
+[Android NDK] downloading 49.99%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 64.98%
+[OpenJDK] queued for install.
+[Android NDK] downloading 51.81%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 69.83%
+[OpenJDK] queued for install.
+[Android NDK] downloading 53.55%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 74.50%
+[OpenJDK] queued for install.
+[Android NDK] downloading 55.26%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 79.56%
+[OpenJDK] queued for install.
+[Android NDK] downloading 57.02%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 84.09%
+[OpenJDK] queued for install.
+[Android NDK] downloading 58.73%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 87.63%
+[OpenJDK] queued for install.
+[Android NDK] downloading 60.45%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 92.62%
+[OpenJDK] queued for install.
+[Android NDK] downloading 61.91%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] downloading 63.61%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] downloading 65.38%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] downloading 74.45%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] downloading 84.15%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] downloading 100.00%
+[CMake] queued for download.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] finished downloading.
+[CMake] validating download...
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] validating download...
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] in progress...
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for download.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] in progress...
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] downloading 18.84%
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] downloading 59.00%
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for download.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] downloading 100.00%
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] in progress...
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] queued for install.
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for download.
+[Android SDK Platforms 36] queued for download.
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] queued for install.
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] in progress...
+[Android SDK Platforms 36] in progress...
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] queued for install.
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] downloading 49.34%
+[Android SDK Platforms 37] queued for download.
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] queued for install.
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] downloading 49.34%
+[Android SDK Platforms 37] in progress...
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] queued for install.
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] downloading 55.81%
+[Android SDK Command Line Tools] queued for download.
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] queued for install.
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] downloading 55.81%
+[Android SDK Command Line Tools] in progress...
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] validating installation...
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] downloading 100.00%
+[Android SDK Command Line Tools] downloading 24.65%
+[Android SDK & NDK Tools] queued for download.
+[12A[0JProgress:
+[Android Build Support] validating installation...
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] downloading 82.43%
+[Android SDK & NDK Tools] queued for install.
+[12A[0JProgress:
+[Android Build Support] validating installation...
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] finished downloading.
+[Android SDK & NDK Tools] queued for install.
+[12A[0JProgress:
+[Android Build Support] validating installation...
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] queued for install.
+[12A[0JProgress:
+[Android Build Support] installing...
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] queued for install.
+[12A[0JProgress:
+[Android Build Support] is in an unknown state: install_temp_cleanup.
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] queued for install.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] queued for install.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] queued for install.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installing...
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] queued for install.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] queued for install.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] queued for install.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] validating installation...
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installing...
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] queued for install.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installing...
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] queued for install.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] installing...
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] installed successfully.
+[Android SDK Platform Tools] queued for install.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] installed successfully.
+[Android SDK Platform Tools] installed successfully.
+[Android SDK Platforms 34] queued for install.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] installed successfully.
+[Android SDK Platform Tools] installed successfully.
+[Android SDK Platforms 34] installing...
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] installed successfully.
+[Android SDK Platform Tools] installed successfully.
+[Android SDK Platforms 34] installed successfully.
+[Android SDK Platforms 36] queued for install.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] installed successfully.
+[Android SDK Platform Tools] installed successfully.
+[Android SDK Platforms 34] installed successfully.
+[Android SDK Platforms 36] installing...
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] installed successfully.
+[Android SDK Platform Tools] installed successfully.
+[Android SDK Platforms 34] installed successfully.
+[Android SDK Platforms 36] installed successfully.
+[Android SDK Platforms 37] queued for install.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] installed successfully.
+[Android SDK Platform Tools] installed successfully.
+[Android SDK Platforms 34] installed successfully.
+[Android SDK Platforms 36] installed successfully.
+[Android SDK Platforms 37] installing...
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] installed successfully.
+[Android SDK Platform Tools] installed successfully.
+[Android SDK Platforms 34] installed successfully.
+[Android SDK Platforms 36] installed successfully.
+[Android SDK Platforms 37] installed successfully.
+[Android SDK Command Line Tools] queued for install.
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] installed successfully.
+[Android SDK Platform Tools] installed successfully.
+[Android SDK Platforms 34] installed successfully.
+[Android SDK Platforms 36] installed successfully.
+[Android SDK Platforms 37] installed successfully.
+[Android SDK Command Line Tools] installing...
+[Android SDK & NDK Tools] installed successfully.
+[12A[0JProgress:
+[Android Build Support] installed successfully.
+[OpenJDK] installed successfully.
+[Android NDK] installed successfully.
+[CMake] installed successfully.
+[Android SDK Build Tools] installed successfully.
+[Android SDK Platform Tools] installed successfully.
+[Android SDK Platforms 34] installed successfully.
+[Android SDK Platforms 36] installed successfully.
+[Android SDK Platforms 37] installed successfully.
+[Android SDK Command Line Tools] installed successfully.
+[Android SDK & NDK Tools] installed successfully.
+All Tasks Completed Successfully.

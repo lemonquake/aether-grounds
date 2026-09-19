@@ -1,0 +1,46 @@
+Mono path[0] = 'A:/Python/aether-grounds/Build/Aether Grounds_Data/Managed'
+Mono config path = 'A:/Python/aether-grounds/Build/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path A:/Python/aether-grounds/Build/Aether Grounds_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.012 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.552000 ms
+Detected one or more triangles where the distance between any 2 vertices is greater than 500 units. The resulting Triangle Mesh can impact simulation and query stability. It is recommended to tessellate meshes that have large triangles. Source mesh name: Sloping beach
+CITY GENERATED length=3231m buildings=259 props=720 importedModels=48
+MAP DETAILS Downtown Minda props=206 types=18
+AETHER_TEST Race started. cars=12 trackMeters=3231.173
+AETHER_TEST after18s speed=137.2054 progress=84 grounded=4 position=(332.66, 12.42, -315.22)
+AETHER_TEST map=0 state=Results fps=102.3478 You progress=480.0 gate=0 finished=True speed=13.5; Sir Skids-a-Lot progress=480.0 gate=0 finished=True speed=0.2; Brake Expectations progress=443.0 gate=3 finished=False speed=137.5; Wheelie Nelson progress=445.0 gate=3 finished=False speed=111.2; Clutch Potato progress=402.0 gate=3 finished=False speed=163.0; Tofu Fast progress=480.0 gate=0 finished=True speed=0.0; Bumper Dumpling progress=397.0 gate=3 finished=False speed=148.1; Oops All Boost progress=427.0 gate=3 finished=False speed=146.1; Driftwood Mac progress=448.0 gate=3 finished=False speed=110.5; Lord of the Rims progress=480.0 gate=0 finished=True speed=23.7; Pasta La Vista progress=447.0 gate=3 finished=False speed=120.3; No Turn Intended progress=480.0 gate=0 finished=True speed=3.1
+MALASUGUE GENERATED route=1866.402 mappedFootprints=516 reconstructedInfill=317 tricycles=26
+MAP DETAILS Malasugue Town props=169 types=4
+AETHER_TEST Race started. cars=12 trackMeters=1866.402
+AETHER_TEST after18s speed=61.88395 progress=46 grounded=4 position=(-2.79, 3.10, 179.26)
+AETHER_TEST map=1 state=Results fps=117.3127 You progress=480.0 gate=0 finished=True speed=0.0; Sir Skids-a-Lot progress=511.0 gate=3 finished=False speed=43.3; Brake Expectations progress=461.0 gate=3 finished=False speed=25.5; Wheelie Nelson progress=469.0 gate=3 finished=False speed=32.0; Clutch Potato progress=438.0 gate=3 finished=False speed=7.0; Tofu Fast progress=531.0 gate=3 finished=False speed=32.4; Bumper Dumpling progress=445.0 gate=3 finished=False speed=0.1; Oops All Boost progress=488.0 gate=3 finished=False speed=90.0; Driftwood Mac progress=459.0 gate=3 finished=False speed=90.1; Lord of the Rims progress=484.0 gate=3 finished=False speed=90.4; Pasta La Vista progress=479.0 gate=3 finished=False speed=90.1; No Turn Intended progress=459.0 gate=3 finished=False speed=8.2
+MAP DETAILS Midnight Gardens props=1073 types=43
+AETHER_TEST Race started. cars=12 trackMeters=1956.278
+AETHER_TEST after18s speed=65.43253 progress=92 grounded=4 position=(319.90, 4.65, -65.01)
+AETHER_TEST map=2 state=Results fps=118.7945 You progress=480.0 gate=0 finished=True speed=48.6; Sir Skids-a-Lot progress=480.0 gate=0 finished=True speed=0.1; Brake Expectations progress=480.0 gate=0 finished=True speed=0.1; Wheelie Nelson progress=480.0 gate=0 finished=True speed=31.7; Clutch Potato progress=480.0 gate=0 finished=True speed=0.0; Tofu Fast progress=480.0 gate=0 finished=True speed=7.0; Bumper Dumpling progress=480.0 gate=0 finished=True speed=0.1; Oops All Boost progress=480.0 gate=0 finished=True speed=0.0; Driftwood Mac progress=480.0 gate=0 finished=True speed=0.1; Lord of the Rims progress=480.0 gate=0 finished=True speed=28.4; Pasta La Vista progress=480.0 gate=0 finished=True speed=0.1; No Turn Intended progress=448.0 gate=3 finished=False speed=123.1
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

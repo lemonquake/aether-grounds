@@ -1,0 +1,65 @@
+Mono path[0] = 'A:/Python/aether-grounds/Build/Aether Grounds_Data/Managed'
+Mono config path = 'A:/Python/aether-grounds/Build/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path A:/Python/aether-grounds/Build/Aether Grounds_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.9636
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.011 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 0.836500 ms
+AETHER_DIAG state=Countdown manual=False throttle=0 speed=0.1431434 position=(-175.13, 4.70, -244.03) up=(-0.02, 1.00, 0.01) velocity=(-0.03, -0.02, 0.02)
+AETHER_DIAG state=Countdown manual=False throttle=0 speed=0.125475 position=(-175.16, 4.69, -244.01) up=(-0.02, 1.00, 0.01) velocity=(-0.03, 0.00, 0.02)
+AETHER_DIAG state=Countdown manual=False throttle=0 speed=0.1254707 position=(-175.19, 4.69, -244.00) up=(-0.02, 1.00, 0.01) velocity=(-0.03, 0.00, 0.02)
+AETHER_DIAG state=Race manual=True throttle=0 speed=6.329769 position=(1600.00, 0.44, 0.00) up=(0.00, 1.00, 0.00) velocity=(0.00, -1.76, 0.00)
+AETHER_DIAG state=Race manual=True throttle=0 speed=0.09184656 position=(1600.00, -0.11, 0.00) up=(0.00, 1.00, 0.00) velocity=(0.00, -0.03, 0.00)
+AETHER_DIAG state=Race manual=True throttle=1 speed=9.192577 position=(1600.00, -0.11, 0.24) up=(0.00, 1.00, -0.01) velocity=(0.00, 0.01, 2.55)
+AETHER_DIAG state=Race manual=True throttle=1 speed=56.30005 position=(1600.00, -0.09, 9.38) up=(0.00, 1.00, -0.01) velocity=(0.00, 0.02, 15.64)
+AETHER_DIAG state=Race manual=True throttle=1 speed=101.3531 position=(1600.00, -0.07, 31.43) up=(0.00, 1.00, -0.01) velocity=(0.00, 0.02, 28.15)
+AETHER_DIAG state=Race manual=True throttle=1 speed=144.4606 position=(1600.00, -0.06, 65.70) up=(0.00, 1.00, -0.02) velocity=(0.00, 0.02, 40.13)
+AETHER_PHYSICS PASS Acceleration after4s=178.4 km/h
+AETHER_PHYSICS PASS Suspension contact=4
+AETHER_DIAG state=Race manual=True throttle=-1 speed=158.6867 position=(1600.00, -0.09, 111.28) up=(0.00, 1.00, 0.02) velocity=(0.00, -0.71, 44.07)
+AETHER_DIAG state=Race manual=True throttle=-1 speed=56.32979 position=(1600.00, -0.16, 141.21) up=(0.00, 1.00, 0.02) velocity=(0.00, 0.06, 15.65)
+AETHER_PHYSICS PASS Brake speed=55.3 km/h
+AETHER_DIAG state=Race manual=True throttle=-1 speed=8.976441 position=(1600.00, -0.11, 145.38) up=(0.00, 1.00, 0.01) velocity=(0.00, 0.00, -2.49)
+AETHER_DIAG state=Race manual=True throttle=-1 speed=34.71317 position=(1600.00, -0.11, 139.30) up=(0.00, 1.00, 0.01) velocity=(0.00, 0.00, -9.64)
+AETHER_PHYSICS PASS Reverse speed=-11.0 m/s
+AETHER_DIAG state=Race manual=True throttle=1 speed=37.69784 position=(1600.66, -0.10, 4.15) up=(-0.01, 1.00, -0.01) velocity=(2.46, 0.03, 10.18)
+AETHER_DIAG state=Race manual=True throttle=1 speed=77.72897 position=(1609.50, -0.08, 17.47) up=(-0.03, 1.00, 0.01) velocity=(17.01, 0.01, 13.30)
+AETHER_DIAG state=Race manual=True throttle=1 speed=112.4757 position=(1634.22, -0.07, 25.89) up=(-0.01, 1.00, 0.03) velocity=(31.17, 0.01, 2.06)
+AETHER_DIAG state=Race manual=True throttle=1 speed=137.2234 position=(1669.33, -0.40, 20.26) up=(0.05, 1.00, 0.03) velocity=(36.62, -2.49, -10.27)
+AETHER_PHYSICS PASS Drift remains stable speed=136.6
+AETHER_PHYSICS PASS Shield activates
+AETHER_PHYSICS PASS Shield absorbs hit
+AETHER_PHYSICS PASS Boost activates
+AETHER_PHYSICS PASS Rocket spawns
+AETHER_PHYSICS PASS Pulse pushes opponent
+AETHER_PHYSICS PASS Recovery restores upright orientation
+AETHER_DIAG state=Race manual=True throttle=0 speed=0.810479 position=(316.31, 1.35, 11.59) up=(0.00, 1.00, 0.01) velocity=(0.00, 0.23, 0.00)
+AETHER_PHYSICS PASS Wall collision reduces velocity to=0.2
+AETHER_DIAG state=Race manual=True throttle=0 speed=0.01149206 position=(316.30, 1.37, 11.60) up=(0.00, 1.00, 0.01) velocity=(0.00, 0.00, 0.00)
+AETHER_PHYSICS COMPLETE failures=0
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

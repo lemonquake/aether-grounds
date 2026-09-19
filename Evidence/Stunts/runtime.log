@@ -1,0 +1,158 @@
+Mono path[0] = 'A:/Python/aether-grounds/Build/Aether Grounds_Data/Managed'
+Mono config path = 'A:/Python/aether-grounds/Build/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path A:/Python/aether-grounds/Build/Aether Grounds_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 4060
+[D3D12 Device Filter] Driver Version: 32.0.15.9636
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 7957 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.9636
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.009 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.713600 ms
+STUNT PASS Ten unique products
+STUNT PASS Product bonus pip-city
+STUNT PASS Unowned bonus rejected pip-city
+STUNT PASS Product bonus comet-chrome
+STUNT PASS Unowned bonus rejected comet-chrome
+STUNT PASS Product bonus nomad-night
+STUNT PASS Unowned bonus rejected nomad-night
+STUNT PASS Product bonus manta-gold
+STUNT PASS Unowned bonus rejected manta-gold
+STUNT PASS Product bonus neon-wheels
+STUNT PASS Unowned bonus rejected neon-wheels
+STUNT PASS Product bonus star-trail
+STUNT PASS Unowned bonus rejected star-trail
+STUNT PASS Product bonus vanta-gold
+STUNT PASS Unowned bonus rejected vanta-gold
+STUNT PASS Product bonus vanta-chrome
+STUNT PASS Unowned bonus rejected vanta-chrome
+STUNT PASS Product bonus glass-wheels
+STUNT PASS Unowned bonus rejected glass-wheels
+STUNT PASS Product bonus glass-chassis
+STUNT PASS Unowned bonus rejected glass-chassis
+STUNT PASS Glass and edition serialization
+STUNT PASS Shield doubles actual rigidbody mass
+STUNT PASS Mass restores after shield
+STUNT PASS Pulse applies 1.5-second rollover lock and stun
+STUNT PASS Close Pulse produces strong launch
+STUNT PASS Pulse weakens with distance
+STUNT PASS Pause preserves stun timer
+STUNT PASS Rollover resumes after lock
+STUNT PASS Rush traffic light and rotation unlocked
+STUNT PASS Physical car collision throws traffic and suspends driving
+STUNT PASS Vehicle physically strikes pedestrian
+STUNT PASS Untriggered mine survives past old 12-second expiry
+STUNT PASS Mine removed after proximity detonation
+STUNT PASS STUNTS is separate solo mode
+STUNT PASS First descent drops one kilometre
+STUNT PASS First jump has a real road gap
+STUNT PASS Five functional tile types
+STUNT DRIVE p=(0.00, 1599.97, 0.00) vel=(0.00, 0.00, 0.00) up=(0.00, 1.00, 0.00) ground=4 checkpoint=0 returns=0
+STUNT DRIVE p=(0.00, 1599.86, 37.03) vel=(0.00, -0.01, 36.33) up=(0.00, 1.00, 0.00) ground=4 checkpoint=0 returns=0
+STUNT DRIVE p=(0.00, 1594.83, 143.83) vel=(0.00, -15.79, 68.63) up=(0.00, 0.98, 0.22) ground=4 checkpoint=1 returns=0
+STUNT DRIVE p=(0.00, 1486.84, 319.66) vel=(0.00, -77.11, 81.51) up=(0.00, 0.73, 0.68) ground=4 checkpoint=1 returns=0
+STUNT DRIVE p=(0.00, 1309.72, 473.82) vel=(0.00, -99.41, 75.82) up=(0.00, 0.61, 0.79) ground=4 checkpoint=1 returns=0
+STUNT DRIVE p=(0.00, 1106.42, 620.28) vel=(0.00, -102.43, 71.69) up=(0.00, 0.57, 0.82) ground=4 checkpoint=1 returns=0
+STUNT DRIVE p=(0.00, 902.40, 766.51) vel=(0.00, -99.79, 75.32) up=(0.00, 0.60, 0.80) ground=4 checkpoint=1 returns=0
+STUNT DRIVE p=(0.00, 712.77, 930.19) vel=(0.00, -85.98, 90.75) up=(0.00, 0.72, 0.69) ground=4 checkpoint=1 returns=0
+STUNT DRIVE p=(0.00, 612.66, 1079.81) vel=(0.00, -3.08, 8.87) up=(0.00, 0.94, 0.34) ground=4 checkpoint=1 returns=0
+STUNT DRIVE p=(0.00, 600.18, 1138.62) vel=(0.00, -3.00, 49.28) up=(0.00, 1.00, 0.07) ground=4 checkpoint=1 returns=0
+STUNT DRIVE p=(0.00, 620.04, 1266.23) vel=(0.00, 25.96, 74.38) up=(0.00, 0.94, -0.33) ground=4 checkpoint=1 returns=0
+STUNT DRIVE p=(0.00, 715.10, 1427.30) vel=(0.00, 55.80, 67.06) up=(0.00, 0.77, -0.64) ground=4 checkpoint=2 returns=0
+STUNT DRIVE p=(0.00, 814.06, 1553.77) vel=(0.00, 38.13, 60.41) up=(0.00, 1.00, 0.09) ground=0 checkpoint=2 returns=0
+STUNT DRIVE p=(0.00, 867.93, 1669.59) vel=(0.00, 15.98, 55.18) up=(0.00, 1.00, 0.04) ground=0 checkpoint=2 returns=0
+STUNT DRIVE p=(0.00, 879.46, 1775.24) vel=(0.00, -4.15, 50.43) up=(0.00, 1.00, -0.02) ground=0 checkpoint=2 returns=0
+STUNT DRIVE p=(0.00, 852.41, 1871.78) vel=(0.00, -22.55, 46.09) up=(0.00, 1.00, 0.00) ground=0 checkpoint=2 returns=0
+STUNT DRIVE p=(0.00, 790.06, 1960.06) vel=(0.00, -39.45, 42.10) up=(0.00, 1.00, 0.00) ground=0 checkpoint=2 returns=0
+STUNT DRIVE p=(0.00, 695.37, 2040.78) vel=(0.00, -54.81, 38.48) up=(0.00, 1.00, 0.00) ground=0 checkpoint=2 returns=0
+STUNT DRIVE p=(0.00, 649.85, 2128.09) vel=(0.00, -0.01, 57.54) up=(0.00, 1.00, 0.00) ground=4 checkpoint=2 returns=0
+STUNT DRIVE p=(0.00, 649.83, 2275.37) vel=(0.00, -0.01, 88.88) up=(0.00, 1.00, 0.00) ground=4 checkpoint=2 returns=0
+STUNT DRIVE p=(0.00, 649.83, 2453.83) vel=(0.00, 0.00, 88.87) up=(0.00, 1.00, 0.00) ground=4 checkpoint=3 returns=0
+STUNT DRIVE p=(0.00, 611.77, 2624.69) vel=(0.00, -44.45, 77.16) up=(0.00, 0.87, 0.49) ground=4 checkpoint=3 returns=0
+STUNT DRIVE p=(0.00, 498.82, 2766.66) vel=(0.00, -64.72, 66.87) up=(0.00, 0.72, 0.70) ground=4 checkpoint=3 returns=0
+STUNT DRIVE p=(0.00, 360.28, 2899.14) vel=(0.00, -72.44, 66.93) up=(0.00, 0.68, 0.73) ground=4 checkpoint=3 returns=0
+STUNT DRIVE p=(0.00, 214.64, 3040.23) vel=(0.00, -70.84, 75.58) up=(0.00, 0.73, 0.69) ground=4 checkpoint=3 returns=0
+STUNT DRIVE p=(0.00, 95.38, 3211.65) vel=(0.00, -37.62, 98.01) up=(0.00, 0.93, 0.36) ground=4 checkpoint=3 returns=0
+STUNT DRIVE p=(0.00, 103.34, 3401.75) vel=(0.00, 35.13, 83.14) up=(0.00, 0.92, -0.39) ground=4 checkpoint=3 returns=0
+STUNT DRIVE p=(0.00, 186.41, 3527.86) vel=(0.00, 43.97, 52.88) up=(0.00, 0.81, -0.58) ground=0 checkpoint=4 returns=0
+STUNT DRIVE p=(0.00, 251.56, 3628.98) vel=(0.00, 21.43, 48.32) up=(0.00, 0.99, 0.16) ground=0 checkpoint=4 returns=0
+STUNT DRIVE p=(0.00, 273.46, 3721.65) vel=(0.00, 0.72, 44.14) up=(0.00, 1.00, 0.00) ground=0 checkpoint=4 returns=0
+STUNT DRIVE p=(0.00, 255.80, 3806.27) vel=(0.00, -18.10, 40.34) up=(0.00, 1.00, -0.01) ground=0 checkpoint=4 returns=0
+STUNT DRIVE p=(0.00, 201.98, 3883.59) vel=(0.00, -35.38, 36.85) up=(0.00, 1.00, 0.01) ground=0 checkpoint=4 returns=0
+STUNT DRIVE p=(0.02, 119.78, 3954.04) vel=(0.67, 1.53, 35.35) up=(0.00, 1.00, 0.00) ground=4 checkpoint=4 returns=0
+STUNT DRIVE p=(10.81, 119.85, 4058.35) vel=(7.15, -0.01, 68.36) up=(0.00, 1.00, 0.00) ground=4 checkpoint=4 returns=0
+STUNT DRIVE p=(22.11, 119.83, 4223.00) vel=(1.72, 0.00, 88.83) up=(0.00, 1.00, 0.00) ground=4 checkpoint=4 returns=0
+STUNT DRIVE p=(13.99, 118.39, 4400.52) vel=(-7.15, -5.30, 86.43) up=(-0.01, 0.98, 0.19) ground=0 checkpoint=5 returns=0
+STUNT DRIVE p=(0.27, 89.12, 4566.23) vel=(-6.54, -23.61, 78.99) up=(0.01, 1.00, 0.03) ground=0 checkpoint=5 returns=0
+STUNT DRIVE p=(-12.27, 24.65, 4717.73) vel=(-5.97, -40.41, 72.15) up=(0.02, 1.00, -0.03) ground=0 checkpoint=5 returns=0
+STUNT DRIVE p=(18.23, 119.86, 4303.61) vel=(-2.02, 0.00, 23.88) up=(0.00, 1.00, 0.00) ground=4 checkpoint=5 returns=1
+STUNT DRIVE p=(13.68, 120.16, 4350.44) vel=(0.31, -1.61, 0.06) up=(0.17, 0.98, -0.02) ground=3 checkpoint=5 returns=1
+STUNT DRIVE p=(13.41, 120.04, 4350.50) vel=(-0.22, 0.00, 0.04) up=(-0.01, 1.00, -0.07) ground=4 checkpoint=5 returns=1
+STUNT DRIVE p=(12.99, 120.04, 4350.63) vel=(-0.20, 0.00, 0.10) up=(-0.02, 1.00, -0.06) ground=4 checkpoint=5 returns=1
+STUNT DRIVE p=(12.60, 120.04, 4350.85) vel=(-0.15, 0.00, 0.19) up=(-0.03, 1.00, -0.06) ground=4 checkpoint=5 returns=1
+STUNT DRIVE p=(12.26, 120.04, 4351.14) vel=(-0.15, 0.00, 0.16) up=(-0.04, 1.00, -0.05) ground=4 checkpoint=5 returns=1
+STUNT DRIVE p=(11.99, 120.04, 4351.49) vel=(-0.12, 0.00, 0.19) up=(-0.05, 1.00, -0.04) ground=4 checkpoint=5 returns=1
+STUNT DRIVE p=(11.81, 120.04, 4351.88) vel=(-0.07, 0.00, 0.21) up=(-0.06, 1.00, -0.03) ground=4 checkpoint=5 returns=1
+STUNT DRIVE p=(19.64, 119.87, 4290.38) vel=(-1.49, -0.01, 9.45) up=(0.00, 1.00, 0.00) ground=4 checkpoint=5 returns=2
+STUNT DRIVE p=(14.40, 119.86, 4345.51) vel=(-4.53, -0.04, 44.84) up=(0.00, 1.00, 0.00) ground=4 checkpoint=5 returns=2
+STUNT DRIVE p=(13.58, 120.04, 4350.48) vel=(-0.21, 0.00, 0.02) up=(0.00, 1.00, -0.07) ground=4 checkpoint=5 returns=2
+STUNT DRIVE p=(13.15, 120.04, 4350.57) vel=(-0.21, 0.00, 0.11) up=(-0.01, 1.00, -0.06) ground=4 checkpoint=5 returns=2
+STUNT DRIVE p=(12.75, 120.04, 4350.75) vel=(-0.19, 0.00, 0.11) up=(-0.03, 1.00, -0.06) ground=4 checkpoint=5 returns=2
+STUNT DRIVE p=(12.39, 120.04, 4351.01) vel=(-0.16, 0.00, 0.15) up=(-0.04, 1.00, -0.05) ground=4 checkpoint=5 returns=2
+STUNT DRIVE p=(18.77, 119.87, 4297.53) vel=(-1.81, -0.01, 18.65) up=(0.00, 1.00, 0.00) ground=4 checkpoint=5 returns=3
+STUNT DRIVE p=(13.55, 120.53, 4350.41) vel=(-0.17, -0.85, 0.17) up=(0.52, 0.85, 0.08) ground=2 checkpoint=5 returns=3
+STUNT DRIVE p=(13.42, 120.05, 4350.50) vel=(-0.23, 0.00, 0.05) up=(-0.01, 1.00, -0.08) ground=4 checkpoint=5 returns=3
+STUNT DRIVE p=(12.96, 120.05, 4350.64) vel=(-0.22, 0.00, 0.10) up=(-0.02, 1.00, -0.07) ground=4 checkpoint=5 returns=3
+STUNT DRIVE p=(12.54, 120.05, 4350.88) vel=(-0.20, 0.00, 0.14) up=(-0.04, 1.00, -0.07) ground=4 checkpoint=5 returns=3
+STUNT DRIVE p=(12.19, 120.05, 4351.21) vel=(-0.16, 0.00, 0.19) up=(-0.05, 1.00, -0.06) ground=4 checkpoint=5 returns=3
+STUNT DRIVE p=(11.92, 120.05, 4351.61) vel=(-0.09, 0.00, 0.23) up=(-0.06, 1.00, -0.04) ground=4 checkpoint=5 returns=3
+STUNT DRIVE p=(11.74, 120.05, 4352.07) vel=(-0.05, 0.00, 0.24) up=(-0.07, 1.00, -0.03) ground=4 checkpoint=5 returns=3
+STUNT DRIVE p=(11.68, 120.05, 4352.49) vel=(0.00, 0.00, 0.00) up=(-0.07, 1.00, -0.02) ground=4 checkpoint=5 returns=3
+STUNT DRIVE p=(11.68, 120.05, 4352.48) vel=(0.00, 0.00, 0.00) up=(-0.07, 1.00, -0.03) ground=4 checkpoint=5 returns=3
+STUNT DRIVE p=(11.68, 120.05, 4352.47) vel=(0.01, 0.00, 0.00) up=(-0.07, 1.00, -0.03) ground=4 checkpoint=5 returns=3
+STUNT DRIVE p=(17.65, 119.86, 4310.49) vel=(-2.41, 0.00, 28.50) up=(0.00, 1.00, 0.00) ground=4 checkpoint=5 returns=4
+STUNT DRIVE p=(13.77, 120.03, 4350.46) vel=(-0.14, 0.08, 0.04) up=(0.00, 1.00, -0.06) ground=4 checkpoint=5 returns=4
+STUNT DRIVE p=(13.35, 120.03, 4350.51) vel=(-0.22, 0.00, 0.07) up=(-0.01, 1.00, -0.06) ground=4 checkpoint=5 returns=4
+STUNT DRIVE p=(12.92, 120.04, 4350.66) vel=(-0.21, 0.00, 0.10) up=(-0.02, 1.00, -0.06) ground=4 checkpoint=5 returns=4
+STUNT DRIVE p=(12.53, 120.04, 4350.90) vel=(-0.18, 0.00, 0.14) up=(-0.03, 1.00, -0.05) ground=4 checkpoint=5 returns=4
+STUNT DRIVE p=(12.20, 120.04, 4351.21) vel=(-0.15, 0.00, 0.17) up=(-0.04, 1.00, -0.05) ground=4 checkpoint=5 returns=4
+STUNT DRIVE p=(11.94, 120.04, 4351.58) vel=(-0.09, 0.00, 0.21) up=(-0.05, 1.00, -0.04) ground=4 checkpoint=5 returns=4
+STUNT DRIVE p=(11.78, 120.04, 4351.97) vel=(-0.06, 0.00, 0.21) up=(-0.06, 1.00, -0.03) ground=4 checkpoint=5 returns=4
+STUNT DRIVE p=(17.62, 119.86, 4310.85) vel=(-2.42, 0.00, 28.67) up=(0.00, 1.00, 0.00) ground=4 checkpoint=5 returns=5
+STUNT DRIVE p=(13.76, 120.03, 4350.47) vel=(-0.15, 0.06, 0.00) up=(0.00, 1.00, -0.07) ground=4 checkpoint=5 returns=5
+STUNT DRIVE p=(13.35, 120.04, 4350.52) vel=(-0.22, 0.00, 0.05) up=(-0.01, 1.00, -0.06) ground=4 checkpoint=5 returns=5
+STUNT DRIVE p=(12.92, 120.04, 4350.66) vel=(-0.20, 0.00, 0.10) up=(-0.02, 1.00, -0.06) ground=4 checkpoint=5 returns=5
+STUNT FAIL Continuous physics-driven Heartstopper run reaches finish
+STUNT FAIL Recovery uses earned checkpoint without skipping progress
+STUNT COMPLETE failures=2
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

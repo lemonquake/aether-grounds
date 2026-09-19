@@ -1,0 +1,21 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.utmp/
+.vs/
+.idea/
+Build/*_BackUpThisFolder_ButDontShipItWithYourGame/
+# The complete generated Xcode export is stored in the tracked split archive.
+Build/iPhone/Aether-Grounds-Xcode/
+Build/iPhone/Aether-Grounds-Xcode.zip
+*.csproj
+*.sln
+*.slnx
+*.blend1
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,16 @@
+PASS New circuit loads with 20 racers
+PASS Huge route and elevation variation: 10376m, climb 385m
+PASS Dense instanced nature: 12554 trees, 5746 rocks
+PASS 18 physical civilian cars
+PASS Boosters, jumpers and ramps connected
+PASS Developer Easter egg sign
+PASS Road collision continuous outside bridge gap (missing=0)
+PASS Terrain does not cover road (buried=0)
+PASS Driveable maximum grade 0.15
+PASS Broken bridge has a real open gap
+PASS Visible forest instances submitted: 2531; GPU instancing True
+PC, 20 racers average=100.1 fps; 1% slow frame=51.7 fps; 1600x900
+Phone quality on desktop, 20 racers average=109.1 fps; 1% slow frame=74.0 fps; 1600x900
+PASS Physics-driven broken bridge jump reaches landing deck
+PASS Missed jump returns to boosted approach (actual=27)
+PASS Full physics-driven mountain lap completes all ordered checkpoints

@@ -1,0 +1,9 @@
+from pathlib import Path
+root=Path(__file__).resolve().parents[1]
+p=root/'Assets/Scripts/TrackWorld.cs';s=p.read_text(encoding='utf-8');start=s.index('Vector3[][] shapes=');end=s.index(';var cp=shapes[index];',start)
+shape=s[start:end].replace('Vector3[][] shapes=','public static readonly Vector3[][] Shapes=')+';\n  '
+s=s[:start]+'var cp=Shapes[index];'+s[end+len(';var cp=shapes[index];'):];s=s.replace('public const int Count=',shape+'public const int Count=');p.write_text(s,encoding='utf-8')
+p=root/'Assets/Scripts/GarageUI.cs';s=p.read_text(encoding='utf-8');start=s.index('float a=j*Mathf.PI*2/1200;float r=');end=s.index('for(int dx=-2;',start)
+s=s[:start]+'''var cp=TrackWorld.Shapes[index];float t=j/(float)1200*cp.Length;int n=(int)t;float f=t-n;Vector3 a=cp[(n+cp.Length-1)%cp.Length],b=cp[n],c=cp[(n+1)%cp.Length],d=cp[(n+2)%cp.Length];Vector3 pos=.5f*((2*b)+(-a+c)*f+(2*a-5*b+4*c-d)*f*f+(-a+3*b-3*c+d)*f*f*f);int x=Mathf.Clamp(Mathf.RoundToInt(90+pos.x*.21f),3,176),y=Mathf.Clamp(Mathf.RoundToInt(90+pos.z*.21f),3,176);'''+s[end:];p.write_text(s,encoding='utf-8')
+p=root/'Assets/Scripts/Vehicle.cs';s=p.read_text(encoding='utf-8');s=s.replace('public Vehicle owner;public Game game;public Vector3 direction;','public static int ImpactCount;public Vehicle owner;public Game game;public Vector3 direction;').replace('exploded=true;RaceEffects.Explosion','exploded=true;ImpactCount++;RaceEffects.Explosion');p.write_text(s,encoding='utf-8')
+p=root/'Assets/Scripts/OverhaulTest.cs';s=p.read_text(encoding='utf-8');s=s.replace('car.item="Rocket";car.UseItem();Check','int impacts=Rocket.ImpactCount;car.item="Rocket";car.UseItem();Check').replace('yield return new WaitForSeconds(.8f);Check(FindObjectsByType<ImpactRing>().Length>0||target.stun>0,','yield return new WaitForSeconds(1.4f);Check(Rocket.ImpactCount>impacts,');p.write_text(s,encoding='utf-8')

@@ -1,0 +1,12 @@
+from pathlib import Path
+p=Path('Assets/Scripts/Vehicle.cs')
+s=p.read_text().replace('Mathf.Abs(delta)<20&&track.OnRoad(transform.position)','Mathf.Abs(delta)<20&&track.InRaceCorridor(transform.position)')
+s=s.replace('else if(used=="Pulse"){game.Burst','else if(used=="Pulse"){CityPhysics.Blast(transform.position,22,20);game.Burst')
+s=s.replace('if(impact>17&&Mathf.Abs(normal.y)<.5f&&rollGrace<=0)', 'if(impact>17&&Mathf.Abs(normal.y)<.5f&&rollGrace<=0&&(c.rigidbody==null||c.rigidbody.mass>150))')
+p.write_text(s)
+p=Path('Assets/Scripts/TrackRecovery.cs');s=p.read_text().replace('public bool OnRoad(Vector3 position){','public bool OnRoad(Vector3 position)=>InRaceCorridor(position)||CityStreet(position);\n  public bool InRaceCorridor(Vector3 position){')
+s=s.replace('return best<=(Width*.5f+.65f)*(Width*.5f+.65f)&&position.y>roadHeight-3;', 'float margin=map==0?21.7f:Width*.5f+.65f;return best<=margin*margin&&position.y>roadHeight-3;')
+s=s.replace('if(occupied)continue;float d=', 'if(occupied||Physics.CheckBox(candidate+Vector3.up*.75f,new Vector3(1.15f,.6f,2.5f),Quaternion.LookRotation(Forward(n)),1<<10,QueryTriggerInteraction.Ignore))continue;float d=')
+p.write_text(s)
+p=Path('Assets/Scripts/Game.cs');s=p.read_text().replace('Physics.IgnoreLayerCollision(9,9);','Physics.IgnoreLayerCollision(9,9);Physics.IgnoreLayerCollision(9,10);')
+p.write_text(s)
