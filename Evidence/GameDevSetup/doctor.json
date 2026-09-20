@@ -1,0 +1,117 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "doctor",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.doctor.v1",
+    "version": "1.0.2",
+    "healthy": true,
+    "checks": [
+      {
+        "id": "platform",
+        "status": "warning",
+        "detail": "win32 x64"
+      },
+      {
+        "id": "node-runtime",
+        "status": "pass",
+        "detail": "v26.3.0",
+        "evidence": {
+          "executable": "C:\\Program Files\\nodejs\\node.exe",
+          "minimum": "22.5.0 (node:sqlite catalog)"
+        }
+      },
+      {
+        "id": "workspace",
+        "status": "pass",
+        "detail": "A:\\Python\\aether-grounds\\Evidence\\GameDevSetup\\workspace",
+        "evidence": {
+          "jobsDir": "A:\\Python\\aether-grounds\\Evidence\\GameDevSetup\\workspace\\.jobs",
+          "durableJobsDir": "A:\\Python\\aether-grounds\\Evidence\\GameDevSetup\\workspace\\.game-dev\\jobs",
+          "packagesDir": "A:\\Python\\aether-grounds\\Evidence\\GameDevSetup\\workspace\\.game-dev\\packages",
+          "catalogPath": "A:\\Python\\aether-grounds\\Evidence\\GameDevSetup\\workspace\\.game-dev\\catalog.sqlite3",
+          "runsDir": "A:\\Python\\aether-grounds\\Evidence\\GameDevSetup\\workspace\\.game-dev\\runs"
+        }
+      },
+      {
+        "id": "tripo-credential",
+        "status": "unavailable",
+        "detail": "not configured"
+      },
+      {
+        "id": "leonardo-credential",
+        "status": "unavailable",
+        "detail": "not configured"
+      },
+      {
+        "id": "blender",
+        "status": "pass",
+        "detail": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe"
+      },
+      {
+        "id": "blender-normalizer",
+        "status": "pass",
+        "detail": "C:\\Users\\Lemon PC\\AppData\\Local\\game-development-studio\\scripts\\blender_normalize.py"
+      },
+      {
+        "id": "blender-usd-exporter",
+        "status": "pass",
+        "detail": "C:\\Users\\Lemon PC\\AppData\\Local\\game-development-studio\\scripts\\blender_usd_export.py"
+      },
+      {
+        "id": "usdzip",
+        "status": "unavailable",
+        "detail": "not present on this platform"
+      },
+      {
+        "id": "sqlite-catalog-runtime",
+        "status": "pass",
+        "detail": "node:sqlite is available"
+      },
+      {
+        "id": "codex-skills",
+        "status": "warning",
+        "detail": ".codex\\skills",
+        "evidence": {
+          "skills": [
+            {
+              "name": "game-development-studio",
+              "installed": false
+            },
+            {
+              "name": "game-asset-authoring",
+              "installed": false
+            },
+            {
+              "name": "game-asset-vendoring",
+              "installed": false
+            },
+            {
+              "name": "game-visual-debug",
+              "installed": false
+            },
+            {
+              "name": "game-performance-optimize",
+              "installed": false
+            }
+          ]
+        }
+      },
+      {
+        "id": "helper-version",
+        "status": "pass",
+        "detail": "1.0.2",
+        "evidence": {
+          "executable": "C:\\Users\\Lemon PC\\AppData\\Roaming\\npm\\node_modules\\@theisegoria\\game-development-studio\\dist\\cli.js",
+          "appVersion": "not supplied"
+        }
+      },
+      {
+        "id": "metal-evidence",
+        "status": "unavailable",
+        "detail": "Metal capture requires macOS"
+      }
+    ],
+    "evidenceCeiling": "Doctor proves local configuration and file/tool discovery only. It does not prove provider authentication, paid generation, Blender output, GPU capture, pixels, signing, notarization, or human review."
+  }
+}

@@ -1,0 +1,98 @@
+Mono path[0] = 'A:/Python/aether-grounds/.cache/VehicleCandidate2/Aether Grounds_Data/Managed'
+Mono config path = 'A:/Python/aether-grounds/.cache/VehicleCandidate2/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path A:/Python/aether-grounds/.cache/VehicleCandidate2/Aether Grounds_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 4060
+[D3D12 Device Filter] Driver Version: 32.0.15.9636
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 7957 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.9636
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.014 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 1.312600 ms
+Detected one or more triangles where the distance between any 2 vertices is greater than 500 units. The resulting Triangle Mesh can impact simulation and query stability. It is recommended to tessellate meshes that have large triangles. Source mesh name: Sloping beach
+CITY GENERATED length=3231m buildings=259 props=720 importedModels=48
+MAP DETAILS Downtown Minda props=206 types=18
+LAUNCH PASS Downtown Minda You Manta peak=87.6 km/h moved=63.0 m
+LAUNCH PASS Downtown Minda Sir Skids-a-Lot Vanta peak=85.8 km/h moved=62.1 m
+LAUNCH PASS Downtown Minda Brake Expectations Comet peak=83.2 km/h moved=53.9 m
+LAUNCH PASS Downtown Minda Wheelie Nelson Miso peak=114.7 km/h moved=69.2 m
+LAUNCH PASS Downtown Minda Clutch Potato Nomad peak=96.9 km/h moved=59.1 m
+LAUNCH PASS Downtown Minda Tofu Fast Spectre peak=97.9 km/h moved=63.8 m
+LAUNCH PASS Downtown Minda Bumper Dumpling Atlas peak=101.0 km/h moved=58.1 m
+LAUNCH PASS Downtown Minda Oops All Boost Pip peak=107.6 km/h moved=66.1 m
+LAUNCH PASS Downtown Minda Driftwood Mac Cinder peak=108.6 km/h moved=66.2 m
+LAUNCH PASS Downtown Minda Lord of the Rims Relay peak=104.5 km/h moved=61.3 m
+LAUNCH PASS Downtown Minda Pasta La Vista Manta peak=112.5 km/h moved=64.8 m
+LAUNCH PASS Service brakes release after resume on Downtown Minda
+MALASUGUE GENERATED route=1866.402 mappedFootprints=516 reconstructedInfill=317 tricycles=26
+MAP DETAILS Malasugue Town props=169 types=4
+LAUNCH PASS Malasugue Town You Manta peak=38.8 km/h moved=13.4 m
+LAUNCH PASS Malasugue Town Sir Skids-a-Lot Vanta peak=32.6 km/h moved=14.2 m
+LAUNCH PASS Malasugue Town Brake Expectations Comet peak=56.9 km/h moved=32.4 m
+LAUNCH PASS Malasugue Town Wheelie Nelson Miso peak=73.2 km/h moved=37.6 m
+LAUNCH PASS Malasugue Town Clutch Potato Nomad peak=59.3 km/h moved=30.3 m
+LAUNCH PASS Malasugue Town Tofu Fast Spectre peak=35.3 km/h moved=20.5 m
+LAUNCH PASS Malasugue Town Bumper Dumpling Atlas peak=34.3 km/h moved=24.6 m
+LAUNCH PASS Malasugue Town Oops All Boost Pip peak=33.1 km/h moved=24.1 m
+LAUNCH PASS Malasugue Town Driftwood Mac Cinder peak=33.3 km/h moved=28.1 m
+LAUNCH PASS Malasugue Town Lord of the Rims Relay peak=32.8 km/h moved=27.7 m
+LAUNCH PASS Malasugue Town Pasta La Vista Manta peak=32.8 km/h moved=31.0 m
+LAUNCH PASS Service brakes release after resume on Malasugue Town
+MAP DETAILS Midnight Gardens props=1073 types=43
+LAUNCH PASS Midnight Gardens You Manta peak=92.1 km/h moved=63.7 m
+LAUNCH PASS Midnight Gardens Sir Skids-a-Lot Vanta peak=91.0 km/h moved=60.3 m
+LAUNCH PASS Midnight Gardens Brake Expectations Comet peak=83.5 km/h moved=52.5 m
+LAUNCH PASS Midnight Gardens Wheelie Nelson Miso peak=118.5 km/h moved=67.7 m
+LAUNCH PASS Midnight Gardens Clutch Potato Nomad peak=85.3 km/h moved=53.6 m
+LAUNCH PASS Midnight Gardens Tofu Fast Spectre peak=82.2 km/h moved=55.8 m
+LAUNCH PASS Midnight Gardens Bumper Dumpling Atlas peak=97.5 km/h moved=55.9 m
+LAUNCH PASS Midnight Gardens Oops All Boost Pip peak=103.4 km/h moved=67.1 m
+LAUNCH PASS Midnight Gardens Driftwood Mac Cinder peak=103.0 km/h moved=60.9 m
+LAUNCH PASS Midnight Gardens Lord of the Rims Relay peak=88.6 km/h moved=55.1 m
+LAUNCH PASS Midnight Gardens Pasta La Vista Manta peak=89.1 km/h moved=56.5 m
+LAUNCH PASS Service brakes release after resume on Midnight Gardens
+AIRAH generated length=10375.95 elevation=105..490.1243 trees=12554 rocks=5746
+LAUNCH PASS Airah Mountains You Manta peak=120.0 km/h moved=73.0 m
+LAUNCH PASS Airah Mountains Sir Skids-a-Lot Vanta peak=102.9 km/h moved=64.1 m
+LAUNCH PASS Airah Mountains Brake Expectations Comet peak=103.9 km/h moved=61.0 m
+LAUNCH PASS Airah Mountains Wheelie Nelson Miso peak=133.9 km/h moved=87.0 m
+LAUNCH PASS Airah Mountains Clutch Potato Nomad peak=96.2 km/h moved=64.0 m
+LAUNCH PASS Airah Mountains Tofu Fast Spectre peak=120.3 km/h moved=68.6 m
+LAUNCH PASS Airah Mountains Bumper Dumpling Atlas peak=101.7 km/h moved=59.8 m
+LAUNCH PASS Airah Mountains Oops All Boost Pip peak=133.7 km/h moved=81.6 m
+LAUNCH PASS Airah Mountains Driftwood Mac Cinder peak=142.5 km/h moved=81.8 m
+LAUNCH PASS Airah Mountains Lord of the Rims Relay peak=115.4 km/h moved=68.1 m
+LAUNCH PASS Airah Mountains Pasta La Vista Manta peak=122.5 km/h moved=70.1 m
+LAUNCH PASS Service brakes release after resume on Airah Mountains
+LAUNCH COMPLETE failures=0
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

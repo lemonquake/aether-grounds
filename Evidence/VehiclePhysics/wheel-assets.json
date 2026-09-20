@@ -1,0 +1,118 @@
+{
+  "license": "Original project-authored geometry",
+  "units": "metres",
+  "wheel_radius": 0.5,
+  "designs": [
+    "Five spoke",
+    "Split spoke",
+    "Turbofan",
+    "Wire mesh",
+    "Rally disc",
+    "Beadlock",
+    "Six spoke",
+    "Deep dish",
+    "Aero blade",
+    "Honeycomb"
+  ],
+  "assets": [
+    {
+      "name": "WheelStyle0",
+      "triangles": 4896,
+      "parts": 107,
+      "sha256": "f486c2a254855cd472d420577a68803ca6b8c879987f484a6fee826f4fcd61f5"
+    },
+    {
+      "name": "WheelStyle1",
+      "triangles": 5216,
+      "parts": 117,
+      "sha256": "6d06c58655bc51c1a58b1fd9c3ab491a0855b4bfa9abfbcf614b32252092b005"
+    },
+    {
+      "name": "WheelStyle2",
+      "triangles": 5344,
+      "parts": 121,
+      "sha256": "9b375d69c6f5110322a1216e5d8c8c92c04e0d8f8d7b4aba560caac86ccb71ba"
+    },
+    {
+      "name": "WheelStyle3",
+      "triangles": 5856,
+      "parts": 137,
+      "sha256": "95ce6d7a12b6d46efe89111a17e49567981348049cef92a6260c472c745edb93"
+    },
+    {
+      "name": "WheelStyle4",
+      "triangles": 5728,
+      "parts": 115,
+      "sha256": "bc00c11f88ee602534b4c4d480a5db2e83551dd73923d353e22333a7d72d9ef4"
+    },
+    {
+      "name": "WheelStyle5",
+      "triangles": 6112,
+      "parts": 129,
+      "sha256": "9f6f67fa22ddcb9aac4fe07eeeadc1e324b2708de87a69f2de337c64b4d1077d"
+    },
+    {
+      "name": "WheelStyle6",
+      "triangles": 4960,
+      "parts": 109,
+      "sha256": "4e9e9945e8bc18cc78dfc87a1ba86201bff1a03b7b035da55cf6afb9dacf7804"
+    },
+    {
+      "name": "WheelStyle7",
+      "triangles": 4896,
+      "parts": 107,
+      "sha256": "ac4fbd94c72e323990f5dc4736b2ac57808b08bea1ec0283a4043d31cfd0a069"
+    },
+    {
+      "name": "WheelStyle8",
+      "triangles": 5024,
+      "parts": 111,
+      "sha256": "c0bf222508be5d224ffc6de056262c4094d1cd58740860051842e4f02c978ea7"
+    },
+    {
+      "name": "WheelStyle9",
+      "triangles": 7072,
+      "parts": 133,
+      "sha256": "29a81cfafee52339d4a904421f9d53cf07302ed3a8ca33cc550a152cc80263db"
+    },
+    {
+      "name": "SuspensionSpring",
+      "triangles": 1544,
+      "parts": 1,
+      "sha256": "af4d8b17aa40a8ad71261a6ec3cdff701526085946533ef3b5c44781fe927c46"
+    },
+    {
+      "name": "SuspensionArm",
+      "triangles": 28,
+      "parts": 1,
+      "sha256": "6868eee16be4820cc01194b3c3d5ef04aba96a2144f7c95d14f57b039a67c29f"
+    },
+    {
+      "name": "SuspensionDamper",
+      "triangles": 44,
+      "parts": 1,
+      "sha256": "5b8abad05388180a3355fdfa31df2901d20649e37379971491a4ecb91d5806b3"
+    },
+    {
+      "name": "BrakeCaliper",
+      "triangles": 108,
+      "parts": 1,
+      "sha256": "f00cd33967da8be5d92d4faf8b1b5968d4fb834c5eecd671836816340928e335"
+    },
+    {
+      "name": "WheelUpright",
+      "triangles": 108,
+      "parts": 1,
+      "sha256": "746ee5616dfed8ce2152add6e248016aff06c64e75c888164489ce67994e16cd"
+    }
+  ],
+  "blender_version": "5.2.1 LTS",
+  "animation_frames": [
+    1,
+    121
+  ],
+  "fps": 60,
+  "source": "ArtSource/Wheels/AetherWheels.blend",
+  "interchange": "ArtSource/Wheels/AetherWheels.glb",
+  "runtime_animation": "Independent wheel contact, steering, spin, caliper, damper and spring motion driven by WheelCollider telemetry"
+}

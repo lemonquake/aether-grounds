@@ -1,0 +1,232 @@
+[
+  {
+    "model": "sedan",
+    "source": "ArtSource\\ThirdParty\\cars\\Models\\OBJ format\\sedan.obj",
+    "source_sha256": "6c2f029d7110ffa3a572bd11a87275ae6732f701a58b8e5801fa11c75826381b",
+    "output_sha256": "d2754fed67730dd086c67b3d36d58c37109f37d2977b76d3a48bbb443daa085b",
+    "front": "+Z",
+    "wheels": [
+      {
+        "name": "WheelFR",
+        "position": [
+          0.42500005,
+          0.3,
+          0.6599999999999999
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelRL",
+        "position": [
+          -0.42500005,
+          0.3,
+          -0.6599999999999999
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelRR",
+        "position": [
+          0.42500005,
+          0.3,
+          -0.6599999999999999
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelFL",
+        "position": [
+          -0.42500005,
+          0.3,
+          0.6599999999999999
+        ],
+        "radius": 0.3
+      }
+    ],
+    "license": "CC0-1.0 (Kenney body); original Blender wheel replacement"
+  },
+  {
+    "model": "taxi",
+    "source": "ArtSource\\ThirdParty\\cars\\Models\\OBJ format\\taxi.obj",
+    "source_sha256": "097de886a4e0cf40180329fcaaf08994051177e0ada3882d4b573335b92a9514",
+    "output_sha256": "c3f34398e31b66dbe46e011aa911f28f5f62f1eb3278e306509ca1480d64f4e9",
+    "front": "+Z",
+    "wheels": [
+      {
+        "name": "WheelFR",
+        "position": [
+          0.4500001,
+          0.3,
+          0.76
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelFL",
+        "position": [
+          -0.4500001,
+          0.3,
+          0.76
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelRL",
+        "position": [
+          -0.4500001,
+          0.3,
+          -0.76
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelRR",
+        "position": [
+          0.4500001,
+          0.3,
+          -0.76
+        ],
+        "radius": 0.3
+      }
+    ],
+    "license": "CC0-1.0 (Kenney body); original Blender wheel replacement"
+  },
+  {
+    "model": "hatchback-sports",
+    "source": "ArtSource\\ThirdParty\\cars\\Models\\OBJ format\\hatchback-sports.obj",
+    "source_sha256": "5fc6d0adc2193fe3eef12a6cce4a665deae322edc74f4ffef76cbc0a617cdfd9",
+    "output_sha256": "07213a3a42d1a198d4feedc84201cde6f349492e538601bb28111394f3049373",
+    "front": "+Z",
+    "wheels": [
+      {
+        "name": "WheelFR",
+        "position": [
+          0.4250001,
+          0.3,
+          0.80999995
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelFL",
+        "position": [
+          -0.4250001,
+          0.3,
+          0.80999995
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelRR",
+        "position": [
+          0.4250001,
+          0.3,
+          -0.80999995
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelRL",
+        "position": [
+          -0.4250001,
+          0.3,
+          -0.80999995
+        ],
+        "radius": 0.3
+      }
+    ],
+    "license": "CC0-1.0 (Kenney body); original Blender wheel replacement"
+  },
+  {
+    "model": "van",
+    "source": "ArtSource\\ThirdParty\\cars\\Models\\OBJ format\\van.obj",
+    "source_sha256": "a61eecb17df24a1ae0dfc74f9a2890489af70a76b637ddc6b71906aee7ef6f0d",
+    "output_sha256": "1d1623613fcd1c3fd0f6431e79dfd455e57d1bcdfee99f09ebd88a86016fecfb",
+    "front": "+Z",
+    "wheels": [
+      {
+        "name": "WheelFR",
+        "position": [
+          0.4250001,
+          0.3,
+          0.76
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelFL",
+        "position": [
+          -0.4250001,
+          0.3,
+          0.76
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelRR",
+        "position": [
+          0.4250001,
+          0.3,
+          -0.76
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelRL",
+        "position": [
+          -0.4250001,
+          0.3,
+          -0.76
+        ],
+        "radius": 0.3
+      }
+    ],
+    "license": "CC0-1.0 (Kenney body); original Blender wheel replacement"
+  },
+  {
+    "model": "truck",
+    "source": "ArtSource\\ThirdParty\\cars\\Models\\OBJ format\\truck.obj",
+    "source_sha256": "f5b43576f25445d3c5efdcc4e2ea7b983c7238c720eb9c686da0fb5db1daa388",
+    "output_sha256": "d670a8ee3717d9db0c5b69f7f771a650f9313d3267b6c8741da068ed4b767a8b",
+    "front": "+Z",
+    "wheels": [
+      {
+        "name": "WheelFR",
+        "position": [
+          0.4250001,
+          0.3,
+          0.86
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelFL",
+        "position": [
+          -0.4250001,
+          0.3,
+          0.86
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelRR",
+        "position": [
+          0.4250001,
+          0.3,
+          -0.76
+        ],
+        "radius": 0.3
+      },
+      {
+        "name": "WheelRL",
+        "position": [
+          -0.4250001,
+          0.3,
+          -0.76
+        ],
+        "radius": 0.3
+      }
+    ],
+    "license": "CC0-1.0 (Kenney body); original Blender wheel replacement"
+  }
+]

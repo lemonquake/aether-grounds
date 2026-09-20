@@ -1,0 +1,84 @@
+Mono path[0] = 'A:/Python/aether-grounds/Build/Aether Grounds_Data/Managed'
+Mono config path = 'A:/Python/aether-grounds/Build/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path A:/Python/aether-grounds/Build/Aether Grounds_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 4060
+[D3D12 Device Filter] Driver Version: 32.0.15.9636
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 7957 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.9636
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.009 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 1.014700 ms
+GAMEPLAY_AUDIT PASS Chain waits four active seconds before banking
+GAMEPLAY_AUDIT PASS Zero elapsed time preserves chain and clean progress
+GAMEPLAY_AUDIT PASS Timeout banks once and records best chain
+GAMEPLAY_AUDIT PASS Idle timeout cannot duplicate banked points
+GAMEPLAY_AUDIT PASS Multiplier ramps to three and stays capped
+GAMEPLAY_AUDIT PASS Crash loses pending chain but preserves banked score
+GAMEPLAY_AUDIT PASS Chain score cap prevents runaway multipliers
+GAMEPLAY_AUDIT PASS Each mode has achievable three-goal completion
+GAMEPLAY_AUDIT PASS Driving reward capped at 600 credits
+GAMEPLAY_AUDIT PASS Completed goals survive later mistakes
+MAP DETAILS Midnight Gardens props=1073 types=43
+GAMEPLAY_AUDIT PASS EMP blocks propulsion without wasting remaining energy
+GAMEPLAY_AUDIT PASS EMP retains unusable Boost item
+GAMEPLAY_AUDIT PASS Freeze does not drain held boost
+GAMEPLAY_AUDIT PASS Retained item works after disable ends
+GAMEPLAY_AUDIT PASS Normal held boost still drains expected energy
+GAMEPLAY_AUDIT PASS Storm Coil retains 20 percent energy savings
+GAMEPLAY_AUDIT PASS Solo pickup pool contains useful Boost and Shield only
+GAMEPLAY_AUDIT PASS Rival present retains circuit offensive items
+GAMEPLAY_AUDIT PASS Finished rivals do not force offensive solo items
+GAMEPLAY_AUDIT PASS Rush keeps its 80 percent offensive pool with rivals
+GAMEPLAY_AUDIT PASS Coin available on first lap
+GAMEPLAY_AUDIT PASS Crossing progress boundary without validated lap cannot refill coins
+GAMEPLAY_AUDIT PASS A validated lap refills its coins
+GAMEPLAY_AUDIT PASS Holding drift on a straight is not a controlled slide
+GAMEPLAY_AUDIT PASS Forward lateral slide with steering qualifies
+GAMEPLAY_AUDIT PASS Reverse donut does not qualify
+GAMEPLAY_AUDIT PASS Recovery clears chain and propulsion, counting every reset
+GAMEPLAY_AUDIT FAIL Physics driving sample feeds controlled-drift chain; drifts=0 grounded=0
+GAMEPLAY_AUDIT PASS Pause freezes actual vehicle chain timers
+GAMEPLAY_AUDIT FAIL Clean forward pass detected through physics sampling
+GAMEPLAY_AUDIT FAIL Same rival cannot be farmed twice on one lap
+GAMEPLAY_AUDIT FAIL Forward jump earns one landing after stable road contact; landings=0
+GAMEPLAY_AUDIT PASS Recovery from flight cannot manufacture a landing
+GAMEPLAY_AUDIT PASS Successful finish settles capped skill bonus
+GAMEPLAY_AUDIT PASS Repeated finish cannot duplicate driving rewards
+MAP DETAILS Rush 0 props=2050 types=56
+GAMEPLAY_AUDIT PASS Restart creates fresh goals, chain and bonus
+GAMEPLAY_AUDIT PASS Rush timeout grants no driving credits
+MAP DETAILS Heartstopper props=968 types=56
+GAMEPLAY_AUDIT PASS Stunts penalizes manual resets using the same 50-credit rate
+GAMEPLAY_AUDIT COMPLETE checks=38 failures=4
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

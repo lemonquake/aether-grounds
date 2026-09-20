@@ -1,0 +1,25 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_5f66abc4-818b-4d7d-8d49-9e0ab12aa774",
+  "operation": "asset.normalize",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "asset",
+      "normalize",
+      "ArtSource\\Wheels\\AetherWheels.glb"
+    ],
+    "flags": {
+      "output": "Evidence\\GameDevSetup\\AetherWheels-connection-test.glb",
+      "output-dir": "Evidence\\GameDevSetup\\workspace"
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [],
+  "createdAt": "2026-09-20T18:53:12.080Z",
+  "updatedAt": "2026-09-20T18:54:16.649Z",
+  "startedAt": "2026-09-20T18:53:12.085Z",
+  "completedAt": "2026-09-20T18:54:16.649Z",
+  "receiptPath": "A:\\Python\\aether-grounds\\Evidence\\GameDevSetup\\workspace\\.game-dev\\jobs\\job_5f66abc4-818b-4d7d-8d49-9e0ab12aa774\\receipt.json"
+}

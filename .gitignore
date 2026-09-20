@@ -19,3 +19,9 @@ Build/iPhone/Aether-Grounds-Xcode.zip
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Isolated executable and old test captures for the gameplay audit.
+/Evidence/GameplayAudit/Runtime/
+
+# Candidate players are verified before replacing the playable build.
+/.cache/

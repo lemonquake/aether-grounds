@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Aether {
  [Serializable] public class SavedCar {
-  public string supportEdition="";public bool neonWheels,starTrail,glassWheels,glassChassis;public string name="My Vanta"; public int paintStyle; public int body,paint=1,accent=3,wheel,wheelColor=4,glass,engine,spoiler,exhaust,livery,engineLevel,tireLevel,brakeLevel;
-  public void Validate(){paintStyle=Mathf.Clamp(paintStyle,0,PaintStyles.Names.Length-1);body=Mathf.Clamp(body,0,9);paint=Mathf.Clamp(paint,0,31);accent=Mathf.Clamp(accent,0,31);wheelColor=Mathf.Clamp(wheelColor,0,31);wheel=Mathf.Clamp(wheel,0,9);glass=Mathf.Clamp(glass,0,12);engine=Mathf.Clamp(engine,0,10);spoiler=Mathf.Clamp(spoiler,0,10);exhaust=Mathf.Clamp(exhaust,0,10);livery=Mathf.Clamp(livery,0,10);engineLevel=Mathf.Clamp(engineLevel,0,20);tireLevel=Mathf.Clamp(tireLevel,0,20);brakeLevel=Mathf.Clamp(brakeLevel,0,20);}
+  public string supportEdition="";public bool neonWheels,starTrail,glassWheels,glassChassis;public string name="My Vanta"; public int paintStyle;public int chassis,suspensionLevel,springTune,damperTune; public int body,paint=1,accent=3,wheel,wheelColor=4,glass,engine,spoiler,exhaust,livery,engineLevel,tireLevel,brakeLevel;
+  public void Validate(){chassis=Mathf.Clamp(chassis,0,3);suspensionLevel=Mathf.Clamp(suspensionLevel,0,20);springTune=Mathf.Clamp(springTune,0,2);damperTune=Mathf.Clamp(damperTune,0,2);paintStyle=Mathf.Clamp(paintStyle,0,PaintStyles.Names.Length-1);body=Mathf.Clamp(body,0,9);paint=Mathf.Clamp(paint,0,31);accent=Mathf.Clamp(accent,0,31);wheelColor=Mathf.Clamp(wheelColor,0,31);wheel=Mathf.Clamp(wheel,0,9);glass=Mathf.Clamp(glass,0,12);engine=Mathf.Clamp(engine,0,10);spoiler=Mathf.Clamp(spoiler,0,10);exhaust=Mathf.Clamp(exhaust,0,10);livery=Mathf.Clamp(livery,0,10);engineLevel=Mathf.Clamp(engineLevel,0,20);tireLevel=Mathf.Clamp(tireLevel,0,20);brakeLevel=Mathf.Clamp(brakeLevel,0,20);}
  }
  [Serializable] public class GarageSave {public int version=2,selected;public List<SavedCar> cars=new List<SavedCar>();}
  public static class CarParts {
@@ -26,9 +26,10 @@ namespace Aether {
   }
   public static void Combine(Transform root){var groups=new Dictionary<Material,List<CombineInstance>>();var old=new List<GameObject>();foreach(var mf in root.GetComponentsInChildren<MeshFilter>()){var m=mf.GetComponent<Renderer>().sharedMaterial;if(!groups.ContainsKey(m))groups[m]=new List<CombineInstance>();groups[m].Add(new CombineInstance{mesh=mf.sharedMesh,transform=root.worldToLocalMatrix*mf.transform.localToWorldMatrix});old.Add(mf.gameObject);mf.GetComponent<Renderer>().enabled=false;}foreach(var g in groups){var m=new Mesh(){indexFormat=UnityEngine.Rendering.IndexFormat.UInt32};m.CombineMeshes(g.Value.ToArray());var o=new GameObject(g.Key.name);o.transform.SetParent(root,false);o.AddComponent<MeshFilter>().sharedMesh=m;o.AddComponent<MeshRenderer>().sharedMaterial=g.Key;o.AddComponent<OwnedMesh>();}foreach(var o in old)UnityEngine.Object.Destroy(o);}
   public static void Apply(GameObject model,SavedCar c){
-   c.Validate();foreach(string part in new[]{"StockWing","StockExhaust","StockScoop"}){var old=model.transform.Find(part);if(old)old.gameObject.SetActive(part=="StockWing"?c.spoiler==0:part=="StockExhaust"?c.exhaust==0:c.engine==0);}
+   c.Validate();foreach(Transform existing in model.transform)if(existing.name=="Selected accessories"){existing.gameObject.SetActive(false);UnityEngine.Object.Destroy(existing.gameObject);}
+   foreach(string part in new[]{"StockWing","StockExhaust","StockScoop"}){var old=model.transform.Find(part);if(old)old.gameObject.SetActive(part=="StockWing"?c.spoiler==0:part=="StockExhaust"?c.exhaust==0:c.engine==0);}
    ModelLibrary.Customize(model,Game.Paints[c.paint],Game.Paints[c.accent],c.wheelColor,c.glass);
-   foreach(string name in new[]{"WheelFL","WheelFR","WheelRL","WheelRR"}){var hub=model.transform.Find(name);if(!hub)continue;foreach(Transform child in hub){child.gameObject.SetActive(false);UnityEngine.Object.Destroy(child.gameObject);}BuildWheel(hub,c.wheel,Game.Paints[c.wheelColor],hub.localPosition.y);}
+   foreach(string name in new[]{"WheelFL","WheelFR","WheelRL","WheelRR"}){var hub=model.transform.Find(name);if(!hub)continue;foreach(Transform child in hub){child.gameObject.SetActive(false);UnityEngine.Object.Destroy(child.gameObject);}BuildWheel(hub,c.wheel,Game.Paints[c.wheelColor],VehicleBuild.BodyRadius[c.body]*VehicleBuild.WheelRadiusScale[c.wheel]);}
    var root=new GameObject("Selected accessories").transform;root.SetParent(model.transform,false);
    if(c.engine>0)BuildEngine(root,c.engine,c.body,Game.Paints[c.accent]);
    var accent=ModelLibrary.Material("Accessory paint "+c.accent,Game.Paints[c.accent]);var metal=ModelLibrary.Material("Metal",new Color(.5f,.56f,.62f));var dark=ModelLibrary.Material("Carbon",new Color(.025f,.033f,.044f));
@@ -54,20 +55,9 @@ namespace Aether {
     }
    }
    Combine(root);
-  SupportStore.Apply(model,c);PaintStyles.Apply(model,c);
+  SupportStore.Apply(model,c);PaintStyles.Apply(model,c);var vehicle=model.GetComponentInParent<Vehicle>();if(vehicle&&vehicle.body)vehicle.ConfigureBuild(c);
   }
-  static void BuildWheel(Transform root,int kind,Color color,float radius){
-   float r=Mathf.Clamp(radius,.4f,.6f);var rubber=ModelLibrary.Material("Tire",new Color(.025f,.03f,.035f));var rim=ModelLibrary.Material("Rim "+color, color);rim.SetFloat("_Metallic",.75f);rim.SetFloat("_Smoothness",.7f);var dark=ModelLibrary.Material("Carbon",new Color(.02f,.026f,.034f));var metal=ModelLibrary.Material("Metal",new Color(.6f,.64f,.69f));
-   RingMesh(root,"Tire sidewall",r*.68f,r,.34f,rubber);RingMesh(root,"Alloy outer lip",r*.70f,r*.80f,.38f,rim);
-   for(int side=-1;side<=1;side+=2){float x=side*(kind==7?.105f:.175f);Cylinder(root,"Alloy barrel",new Vector3(x,0,0),new Vector3(r*1.60f,.015f,r*1.60f),rim,new Vector3(0,0,90));Cylinder(root,"Rim recess",new Vector3(x+side*.02f,0,0),new Vector3(r*1.34f,.009f,r*1.34f),dark,new Vector3(0,0,90));
-    int spokes=new[]{5,10,12,20,8,8,6,5,7,12}[kind];
-    for(int j=0;j<spokes;j++){float a=j*360f/spokes;float rad=a*Mathf.Deg2Rad;float mid=r*.40f;float width=kind==2||kind==8?.115f:kind==3?.025f:.052f;if(kind!=9)Box(root,"Wheel spoke",new Vector3(x+side*.038f,Mathf.Cos(rad)*mid,Mathf.Sin(rad)*mid),new Vector3(.045f,r*.65f,width),rim,new Vector3(a+(kind==8?24:kind==1?10:kind==3?(j%2==0?22:-22):0),0,0));if(kind==5||kind==9)Cylinder(root,"Rim bolt",new Vector3(x+side*.045f,Mathf.Cos(rad)*r*.69f,Mathf.Sin(rad)*r*.69f),new Vector3(.045f,.02f,.045f),metal,new Vector3(0,0,90));}
-    if(kind==9)for(int cell=0;cell<6;cell++){float ca=cell*Mathf.PI/3;Vector3 center=new Vector3(x+side*.038f,Mathf.Cos(ca)*r*.43f,Mathf.Sin(ca)*r*.43f);for(int edge=0;edge<6;edge++){float a=edge*Mathf.PI/3;Box(root,"Hexagonal wheel cell",center+new Vector3(0,Mathf.Cos(a)*r*.17f,Mathf.Sin(a)*r*.17f),new Vector3(.04f,r*.2f,.025f),rim,new Vector3(edge*60+90,0,0));}}
-    if(kind==4)Cylinder(root,"Rally cover",new Vector3(x+side*.045f,0,0),new Vector3(r*1.17f,.013f,r*1.17f),rim,new Vector3(0,0,90));
-    Cylinder(root,"Hub",new Vector3(x+side*.06f,0,0),new Vector3(r*.32f,.025f,r*.32f),metal,new Vector3(0,0,90));
-   }
-   for(int j=0;j<28;j++){float a=j*Mathf.PI*2/28;Box(root,"Tread",new Vector3(0,Mathf.Cos(a)*r,Mathf.Sin(a)*r),new Vector3(.30f,.015f,kind==5?.075f:.032f),dark,new Vector3(j*360f/28,0,0));}Combine(root);
-  }
+  static void BuildWheel(Transform root,int kind,Color color,float radius){WheelVisual.Build(root,kind,color,radius);}
   static void BuildEngine(Transform parent,int kind,int body,Color color){
    var root=new GameObject(Engines[kind]).transform;root.SetParent(parent,false);root.localPosition=new[]{new Vector3(0,.95f,1.32f),new Vector3(0,1.05f,1.35f),new Vector3(0,.95f,1.26f),new Vector3(0,1.15f,1.28f),new Vector3(0,.96f,-1.42f),new Vector3(0,1.1f,2.02f),new Vector3(0,.9f,1.38f),new Vector3(0,1.07f,1.25f),new Vector3(0,1.87f,-.9f),new Vector3(0,.8f,-1.55f)}[body];root.localScale=Vector3.one*.75f;
    var metal=ModelLibrary.Material("Engine metal",new Color(.4f,.47f,.54f));metal.SetFloat("_Metallic",.85f);var red=ModelLibrary.Material("Engine covers "+color,color);var dark=ModelLibrary.Material("Carbon",new Color(.03f,.04f,.05f));var copper=ModelLibrary.Material("Engine copper",new Color(.75f,.34f,.13f));

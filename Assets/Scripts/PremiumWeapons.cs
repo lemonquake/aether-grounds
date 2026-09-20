@@ -7,7 +7,7 @@ namespace Aether {
  public partial class Vehicle {
   public float frozenFor,empFor,oilFor;GameObject ice;float iceAge;
   public void Freeze(){
-   if(BlockStatus())return;frozenFor=1.5f;iceAge=0;body.linearVelocity*=.15f;
+   if(BlockStatus())return;InterruptDrivingSkills();frozenFor=1.5f;iceAge=0;body.linearVelocity*=.15f;
    if(!ice){ice=new GameObject("Ice enclosure");ice.transform.SetParent(transform,false);ice.transform.localPosition=Vector3.up*.8f;
     var mat=new Material(Shader.Find("Aether/Ice"));
     for(int i=0;i<8;i++){float a=i*Mathf.PI/4;CarParts.Part(ice.transform,"Growing ice crystal",PrimitiveType.Cube,new Vector3(Mathf.Sin(a)*1.05f,0,Mathf.Cos(a)*1.8f),new Vector3(.75f,1.9f,1.15f),mat,new Vector3(i%2*8,45*i,12));}

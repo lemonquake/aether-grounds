@@ -1,0 +1,65 @@
+{
+  "model": "typesafe/jev-1.13",
+  "rows": 12,
+  "answered": 12,
+  "errors": 0,
+  "wall_time_s": 2.922,
+  "workers": 4,
+  "reported_cost_usd": 0.00031941,
+  "unpriced_successes": 0,
+  "median_latency_s": 0.632,
+  "review_rows": [
+    {
+      "row_id": "drift-mastery",
+      "questions": [
+        "action"
+      ]
+    },
+    {
+      "row_id": "landing-feedback",
+      "questions": [
+        "priority",
+        "action"
+      ]
+    },
+    {
+      "row_id": "solo-items",
+      "questions": [
+        "priority",
+        "action"
+      ]
+    },
+    {
+      "row_id": "reset-economy",
+      "questions": [
+        "priority",
+        "action"
+      ]
+    },
+    {
+      "row_id": "ai-variety",
+      "questions": [
+        "action"
+      ]
+    },
+    {
+      "row_id": "onboarding",
+      "questions": [
+        "priority"
+      ]
+    },
+    {
+      "row_id": "stun-chains",
+      "questions": [
+        "priority"
+      ]
+    },
+    {
+      "row_id": "save-resilience",
+      "questions": [
+        "priority"
+      ]
+    }
+  ],
+  "results_file": "A:\\Python\\jev\\output\\kit-runs\\aether-gameplay-20260920\\results.jsonl"
+}

@@ -27,7 +27,7 @@ namespace Aether {
    if(edition||glass)foreach(var r in model.GetComponentsInChildren<MeshRenderer>())if(r.name=="Paint"||r.name=="Accent"){
     if(glass)r.sharedMaterial=GlassMaterial();else {var m=ModelLibrary.Material("Store Metal "+car.supportEdition,car.supportEdition=="vanta-gold"?new Color(1,.64f,.16f):new Color(.78f,.88f,.98f));m.SetFloat("_Metallic",1);m.SetFloat("_Smoothness",.98f);r.sharedMaterial=m;}
    }
-   if(car.glassWheels&&(preview||Owned("glass-wheels")))foreach(string n in new[]{"WheelFL","WheelFR","WheelRL","WheelRR"}){var hub=model.transform.Find(n);if(hub)foreach(var r in hub.GetComponentsInChildren<MeshRenderer>())if(r.name.Contains("recess"))r.enabled=false;else if(!r.name.Contains("Tire"))r.sharedMaterial=GlassMaterial();}
+   if(car.glassWheels&&(preview||Owned("glass-wheels")))foreach(string n in new[]{"WheelFL","WheelFR","WheelRL","WheelRR"}){var hub=model.transform.Find(n);if(hub)foreach(var r in hub.GetComponentsInChildren<MeshRenderer>())if(r.name.Contains("recess"))r.enabled=false;else if(r.name=="Wheel")r.sharedMaterial=GlassMaterial();}
    if(glass){var frame=ModelLibrary.Material("Glass chassis frame",new Color(.08f,.15f,.19f));for(int s=-1;s<=1;s+=2)CarParts.Part(model.transform,"Visible chassis rail",PrimitiveType.Cube,new Vector3(s*.65f,.5f,0),new Vector3(.1f,.12f,3.4f),frame);CarParts.Part(model.transform,"Visible battery",PrimitiveType.Cube,new Vector3(0,.45f,0),new Vector3(1.1f,.24f,1.8f),ModelLibrary.Material("Glass battery",new Color(.1f,.7f,.72f),.25f));}
   }
  }

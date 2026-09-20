@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Aether {
  public class PhysicsSmokeTest:MonoBehaviour {
   int failures;float diagnosticTimer;
-  void Update(){diagnosticTimer+=Time.deltaTime;if(diagnosticTimer>1){diagnosticTimer=0;var g=FindAnyObjectByType<Game>();if(g&&g.player)Debug.Log("AETHER_DIAG state="+g.state+" manual="+g.player.manualTest+" throttle="+g.player.throttle+" speed="+g.player.speed+" position="+g.player.transform.position+" up="+g.player.transform.up+" velocity="+g.player.body.linearVelocity);}}
+  void Update(){diagnosticTimer+=Time.deltaTime;if(diagnosticTimer>1){diagnosticTimer=0;var g=FindAnyObjectByType<Game>();if(g&&g.player){var v=g.player;Debug.Log("AETHER_DIAG state="+g.state+" manual="+v.manualTest+" throttle="+v.throttle+" speed="+v.speed+" position="+v.body.position+" velocity="+v.body.linearVelocity+" mass="+v.body.mass+" kinematic="+v.body.isKinematic+" constraints="+v.body.constraints+" gear="+v.gear+" rpm="+v.engineRPM);foreach(var w in v.physicalWheels)if(w){w.GetGroundHit(out var hit);Debug.Log("AETHER_WHEEL "+w.name+" motor="+w.motorTorque+" brake="+w.brakeTorque+" rpm="+w.rpm+" grounded="+w.isGrounded+" load="+hit.force+" surface="+(hit.collider?hit.collider.name:"none")+" position="+w.transform.localPosition+" radius="+w.radius);}}}}
   [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
   static void Run(){if(Environment.GetCommandLineArgs().Contains("-aetherPhysicsTest"))new GameObject("Physics verification").AddComponent<PhysicsSmokeTest>();}
   void Check(bool passed,string message){if(!passed)failures++;Debug.Log("AETHER_PHYSICS "+(passed?"PASS ":"FAIL ")+message);}

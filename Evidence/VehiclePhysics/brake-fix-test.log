@@ -1,0 +1,153 @@
+Mono path[0] = 'A:/Python/aether-grounds/.cache/VehicleCandidate/Aether Grounds_Data/Managed'
+Mono config path = 'A:/Python/aether-grounds/.cache/VehicleCandidate/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path A:/Python/aether-grounds/.cache/VehicleCandidate/Aether Grounds_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 4060
+[D3D12 Device Filter] Driver Version: 32.0.15.9636
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 7957 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.9636
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.011 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.907500 ms
+Detected one or more triangles where the distance between any 2 vertices is greater than 500 units. The resulting Triangle Mesh can impact simulation and query stability. It is recommended to tessellate meshes that have large triangles. Source mesh name: Sloping beach
+CITY GENERATED length=3231m buildings=259 props=720 importedModels=48
+MAP DETAILS Downtown Minda props=206 types=18
+AETHER_DIAG state=Countdown manual=False throttle=0 speed=0.09644713 position=(-378.56, 3.10, -340.74) velocity=(0.00, -0.03, 0.00) mass=1185.32 kinematic=False constraints=None gear=1 rpm=900
+AETHER_WHEEL Physical WheelFL motor=0 brake=3495 rpm=0 grounded=True load=2310.207 surface=City race road position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=0 brake=3495 rpm=0 grounded=True load=2231.344 surface=City race road position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=0 brake=3495 rpm=0 grounded=True load=3110.469 surface=City race road position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=0 brake=3495 rpm=0 grounded=True load=3029.131 surface=City race road position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Countdown manual=False throttle=0 speed=7.283397E-05 position=(-378.57, 3.10, -340.74) velocity=(0.00, 0.00, 0.00) mass=1185.32 kinematic=False constraints=None gear=1 rpm=900
+AETHER_WHEEL Physical WheelFL motor=0 brake=3495 rpm=0 grounded=True load=2241.513 surface=City race road position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=0 brake=3495 rpm=0 grounded=True load=2166.461 surface=City race road position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=0 brake=3495 rpm=0 grounded=True load=3016.634 surface=City race road position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=0 brake=3495 rpm=0 grounded=True load=2941.569 surface=City race road position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Countdown manual=False throttle=0 speed=3.626579E-05 position=(-378.57, 3.10, -340.74) velocity=(0.00, 0.00, 0.00) mass=1185.32 kinematic=False constraints=None gear=1 rpm=900
+AETHER_WHEEL Physical WheelFL motor=0 brake=3495 rpm=0 grounded=True load=2242.349 surface=City race road position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=0 brake=3495 rpm=0 grounded=True load=2165.751 surface=City race road position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=0 brake=3495 rpm=0 grounded=True load=3016.707 surface=City race road position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=0 brake=3495 rpm=0 grounded=True load=2941.642 surface=City race road position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Race manual=True throttle=0 speed=6.709741 position=(1600.00, 0.41, 0.00) velocity=(0.00, -1.86, 0.00) mass=1185.32 kinematic=False constraints=None gear=1 rpm=900
+AETHER_WHEEL Physical WheelFL motor=0 brake=0 rpm=0 grounded=False load=0 surface=none position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=0 brake=0 rpm=0 grounded=False load=0 surface=none position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=0 brake=0 rpm=0 grounded=False load=0 surface=none position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=0 brake=0 rpm=0 grounded=False load=0 surface=none position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Race manual=True throttle=0 speed=0.00279782 position=(1600.00, 0.00, 0.00) velocity=(0.00, 0.00, 0.00) mass=1185.32 kinematic=False constraints=None gear=1 rpm=900
+AETHER_WHEEL Physical WheelFL motor=0 brake=0 rpm=1.35841E-05 grounded=True load=2251.622 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=0 brake=0 rpm=1.382217E-05 grounded=True load=2175.209 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=0 brake=0 rpm=1.35841E-05 grounded=True load=3030.062 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=0 brake=0 rpm=1.382217E-05 grounded=True load=2953.185 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Race manual=True throttle=1 speed=6.967417 position=(1600.00, 0.00, 0.22) velocity=(0.00, 0.00, 1.94) mass=1185.32 kinematic=False constraints=None gear=2 rpm=1361.916
+AETHER_WHEEL Physical WheelFL motor=548.8902 brake=0 rpm=129.3073 grounded=True load=1515.615 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=548.8902 brake=0 rpm=168.9698 grounded=True load=1439.583 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=670.8658 brake=0 rpm=52.74151 grounded=True load=3744.12 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=670.8658 brake=0 rpm=38.36425 grounded=True load=3667.546 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Race manual=True throttle=1 speed=38.54221 position=(1599.98, 0.00, 6.34) velocity=(-0.05, 0.00, 10.71) mass=1185.32 kinematic=False constraints=None gear=2 rpm=3887.583
+AETHER_WHEEL Physical WheelFL motor=1837.398 brake=0 rpm=371.9513 grounded=True load=1299.732 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=1837.398 brake=0 rpm=392.7351 grounded=True load=1238.556 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=2245.708 brake=0 rpm=273.0216 grounded=True load=3949.088 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=2245.708 brake=0 rpm=274.2298 grounded=True load=3892.62 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Race manual=True throttle=1 speed=73.60547 position=(1599.89, 0.00, 22.65) velocity=(-0.22, 0.00, 20.44) mass=1185.32 kinematic=False constraints=None gear=3 rpm=4035.336
+AETHER_WHEEL Physical WheelFL motor=1341.728 brake=0 rpm=487.4649 grounded=True load=2109.438 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=1341.728 brake=0 rpm=488.041 grounded=True load=2138.658 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=1639.889 brake=0 rpm=486.7207 grounded=True load=3157.499 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=1639.889 brake=0 rpm=487.0312 grounded=True load=3223.722 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Race manual=True throttle=1 speed=103.6228 position=(1599.42, 0.00, 47.51) velocity=(-0.68, 0.00, 28.78) mass=1185.32 kinematic=False constraints=None gear=3 rpm=6106.424
+AETHER_WHEEL Physical WheelFL motor=987.1882 brake=0 rpm=703.131 grounded=True load=1760.061 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=987.1882 brake=0 rpm=704.9821 grounded=True load=1740.451 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=1206.563 brake=0 rpm=670.0134 grounded=True load=3597.648 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=1206.563 brake=0 rpm=670.6351 grounded=True load=3597.299 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_PHYSICS PASS Acceleration after4s=119.6 km/h
+AETHER_PHYSICS PASS Suspension contact=4
+AETHER_DIAG state=Race manual=True throttle=-1 speed=108.0591 position=(1598.55, -0.01, 78.78) velocity=(-0.94, 0.00, 30.00) mass=1185.32 kinematic=False constraints=None gear=4 rpm=2973.438
+AETHER_WHEEL Physical WheelFL motor=0 brake=2796 rpm=449.3051 grounded=True load=3879.73 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=0 brake=2796 rpm=424.1099 grounded=True load=3856.771 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=0 brake=1864 rpm=436.6245 grounded=True load=1488.028 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=0 brake=1864 rpm=435.3385 grounded=True load=1483.26 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_PHYSICS PASS Brake speed=46.1 km/h
+AETHER_DIAG state=Race manual=True throttle=-1 speed=46.14111 position=(1597.94, -0.01, 100.06) velocity=(-0.19, 0.00, 12.82) mass=1185.32 kinematic=False constraints=None gear=1 rpm=3502.669
+AETHER_WHEEL Physical WheelFL motor=0 brake=2796 rpm=193.0873 grounded=True load=3577.609 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=0 brake=2796 rpm=181.2535 grounded=True load=3315.34 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=0 brake=1864 rpm=200.9215 grounded=True load=2011.75 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=0 brake=1864 rpm=186.3325 grounded=True load=1683.2 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Race manual=True throttle=-1 speed=9.146746 position=(1597.93, 0.00, 104.56) velocity=(-0.04, 0.00, -2.54) mass=1185.32 kinematic=False constraints=None gear=1 rpm=1730.201
+AETHER_WHEEL Physical WheelFL motor=-2432.892 brake=0 rpm=-74.5455 grounded=True load=2990.739 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=-2432.892 brake=0 rpm=-75.76852 grounded=True load=2920.445 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=-2973.535 brake=0 rpm=-158.3977 grounded=True load=2258.466 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=-2973.535 brake=0 rpm=-176.2007 grounded=True load=2190.185 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Race manual=True throttle=-1 speed=47.10317 position=(1597.77, 0.00, 96.46) velocity=(-0.29, 0.00, -13.08) mass=1185.32 kinematic=False constraints=None gear=1 rpm=5481.948
+AETHER_WHEEL Physical WheelFL motor=-728.0434 brake=0 rpm=-297.5186 grounded=True load=2858.472 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=-728.0434 brake=0 rpm=-298.3805 grounded=True load=2804.274 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=-889.8309 brake=0 rpm=-304.4878 grounded=True load=2485.229 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=-889.8309 brake=0 rpm=-305.4661 grounded=True load=2438.193 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_PHYSICS PASS Reverse speed=-13.7 m/s
+AETHER_DIAG state=Race manual=True throttle=1 speed=0.07285113 position=(1600.01, 0.00, 0.00) velocity=(0.02, -0.01, 0.00) mass=1185.32 kinematic=False constraints=None gear=2 rpm=1749.488
+AETHER_WHEEL Physical WheelFL motor=573.3257 brake=0 rpm=186.7484 grounded=True load=2162.27 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=573.3257 brake=0 rpm=301.3799 grounded=True load=2085.805 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=700.7315 brake=396.1 rpm=0 grounded=True load=3019.653 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=700.7315 brake=396.1 rpm=0 grounded=True load=2942.71 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Race manual=True throttle=1 speed=0.01904688 position=(1600.02, 0.00, 0.01) velocity=(0.00, 0.00, 0.00) mass=1185.32 kinematic=False constraints=None gear=2 rpm=2461.245
+AETHER_WHEEL Physical WheelFL motor=618.2007 brake=0 rpm=320.5011 grounded=True load=2209.481 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=618.2007 brake=0 rpm=402.999 grounded=True load=2108.134 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=755.5786 brake=396.1 rpm=0 grounded=True load=3079.136 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=755.5786 brake=396.1 rpm=0 grounded=True load=2968.506 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Race manual=True throttle=1 speed=0.01910696 position=(1600.01, 0.00, 0.01) velocity=(0.00, 0.00, 0.00) mass=1185.32 kinematic=False constraints=None gear=2 rpm=3463.585
+AETHER_WHEEL Physical WheelFL motor=643.0892 brake=0 rpm=488.602 grounded=True load=2209.416 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=643.0892 brake=0 rpm=565.2167 grounded=True load=2108.41 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=785.9979 brake=396.1 rpm=0 grounded=True load=3079.021 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=785.9979 brake=396.1 rpm=0 grounded=True load=2968.489 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_DIAG state=Race manual=True throttle=1 speed=0.01918772 position=(1600.01, 0.00, 0.02) velocity=(0.00, 0.00, 0.00) mass=1185.32 kinematic=False constraints=None gear=1 rpm=6089.833
+AETHER_WHEEL Physical WheelFL motor=2017.585 brake=0 rpm=656.6827 grounded=True load=2209.709 surface=Physics test surface position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=2017.585 brake=0 rpm=727.2136 grounded=True load=2108.554 surface=Physics test surface position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=2465.938 brake=396.1 rpm=0 grounded=True load=3079.046 surface=Physics test surface position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=2465.938 brake=396.1 rpm=0 grounded=True load=2968.331 surface=Physics test surface position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_PHYSICS FAIL Drift remains stable speed=0.0
+AETHER_PHYSICS PASS Shield activates
+AETHER_PHYSICS PASS Shield absorbs hit
+AETHER_PHYSICS PASS Boost activates
+AETHER_PHYSICS PASS Rocket spawns
+AETHER_PHYSICS PASS Pulse pushes opponent
+AETHER_PHYSICS PASS Recovery restores upright orientation
+AETHER_DIAG state=Race manual=True throttle=0 speed=0.2271669 position=(505.50, 3.10, 130.20) velocity=(0.00, 0.06, -0.02) mass=2370.64 kinematic=False constraints=None gear=1 rpm=900
+AETHER_WHEEL Physical WheelFL motor=0 brake=0 rpm=-0.1757251 grounded=True load=4520.059 surface=Dry coastal lane position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=0 brake=0 rpm=-0.2603403 grounded=True load=4374.959 surface=Dry coastal lane position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=0 brake=0 rpm=-0.1521735 grounded=True load=5399.376 surface=Dry coastal lane position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=0 brake=0 rpm=-0.2601858 grounded=True load=5258.11 surface=Dry coastal lane position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_PHYSICS PASS Wall collision reduces velocity to=0.0
+AETHER_DIAG state=Race manual=True throttle=0 speed=0.0002134374 position=(505.49, 3.10, 130.20) velocity=(0.00, 0.00, 0.00) mass=1185.32 kinematic=False constraints=None gear=1 rpm=900
+AETHER_WHEEL Physical WheelFL motor=0 brake=0 rpm=-0.0001058402 grounded=True load=2242.162 surface=Dry coastal lane position=(-1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelFR motor=0 brake=0 rpm=-0.0001054961 grounded=True load=2166.253 surface=Dry coastal lane position=(1.03, 0.64, 1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRL motor=0 brake=0 rpm=-0.000105839 grounded=True load=3017.035 surface=Dry coastal lane position=(-1.03, 0.64, -1.36) radius=0.4577
+AETHER_WHEEL Physical WheelRR motor=0 brake=0 rpm=-0.0001054919 grounded=True load=2941.827 surface=Dry coastal lane position=(1.03, 0.64, -1.36) radius=0.4577
+AETHER_PHYSICS COMPLETE failures=1
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

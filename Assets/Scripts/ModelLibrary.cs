@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Aether {
  [Serializable] public class ModelPart { public string name,material; public float[] color,vertices; public int[] triangles; }
- [Serializable] public class ModelData {public string name;public ModelPart[] parts;}
+ [Serializable] public class WheelAnchor {public string name;public float[] position;public float radius;}
+ [Serializable] public class ModelData {public string name;public ModelPart[] parts;public WheelAnchor[] wheelAnchors;}
  public static class ModelLibrary {
   static Dictionary<string,ModelData> data=new Dictionary<string,ModelData>();
   static Dictionary<string,Mesh> meshes=new Dictionary<string,Mesh>();
@@ -40,6 +41,7 @@ namespace Aether {
     mr.sharedMaterial=Material(materialName,colors[kv.Key],glow);
    }
    foreach(var kv in wheelRoots){var bounds=new Bounds();bool first=true;foreach(var r in kv.Value.GetComponentsInChildren<Renderer>()){if(first){bounds=r.bounds;first=false;}else bounds.Encapsulate(r.bounds);}Vector3 center=root.transform.InverseTransformPoint(bounds.center);kv.Value.localPosition=center;foreach(Transform child in kv.Value)child.localPosition=-center;}
+   if(d.wheelAnchors!=null){foreach(var anchor in d.wheelAnchors){var hub=new GameObject(anchor.name).transform;hub.SetParent(root.transform,false);hub.localPosition=new Vector3(anchor.position[0],anchor.position[1],anchor.position[2]);WheelVisual.Build(hub,0,new Color(.52f,.55f,.59f),anchor.radius);}root.AddComponent<TrafficWheelSetup>().bodyIndex=name.Contains("truck")?5:name.Contains("van")?8:2;}
    return root;
   }
   public static void Customize(GameObject model,Color paint,Color accent,int wheels,int windows){

@@ -1,0 +1,2397 @@
+A:\Python\aether-grounds\Tools\build_wheel_assets.py:25: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes=True
+01:13.547  reports          | WARNING Path 'C:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' cannot be made relative for Material 'Dots Stroke'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+01:13.547  reports          | WARNING Path 'C:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' cannot be made relative for Material 'Material'
+01:21.141  render           | Saved: 'A:\Python\aether-grounds\Evidence\VehiclePhysics\wheel-catalog.png'
+Info: Saved as "AetherWheels.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+02:41:37 | INFO: Starting glTF 2.0 export
+02:41:37 | INFO: Extracting primitive: Cube.801
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Damper cylinder
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.802
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Suspension coil
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Suspension control arm
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Brake ventilated rotor.008
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Tire sidewall.008
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.641
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.642
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.643
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.644
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.645
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.646
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.647
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.648
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.649
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.650
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.651
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.652
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.653
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.654
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.655
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.656
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.657
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.658
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.659
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.660
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.661
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.662
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.663
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.664
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.665
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.666
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.667
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.668
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.669
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.670
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.671
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.672
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.673
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.674
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.675
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.676
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.677
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.678
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.679
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.680
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.681
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.682
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.683
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.684
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.685
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.686
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.687
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.688
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.689
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.690
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.691
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.692
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.693
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.694
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.695
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.696
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.697
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.698
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.699
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.700
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.701
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.702
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.703
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.704
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.705
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.706
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.707
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.708
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.709
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.710
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.711
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.712
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.713
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.714
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.715
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.716
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.717
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.718
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.719
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Cube.720
+02:41:37 | INFO: Primitives created: 1
+02:41:37 | INFO: Extracting primitive: Wheel barrel.008
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.016
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.017
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.080
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.081
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.082
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.083
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.084
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.085
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.086
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.087
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.088
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.089
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.016
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.017
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.148
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.149
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.150
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.151
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.152
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.153
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.154
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.155
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.156
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.157
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.158
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.159
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.160
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.161
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Brake ventilated rotor.005
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Tire sidewall.005
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.401
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.402
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.403
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.404
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.405
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.406
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.407
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.408
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.409
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.410
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.411
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.412
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.413
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.414
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.415
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.416
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.417
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.418
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.419
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.420
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.421
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.422
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.423
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.424
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.425
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.426
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.427
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.428
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.429
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.430
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.431
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.432
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.433
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.434
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.435
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.436
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.437
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.438
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.439
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.440
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.441
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.442
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.443
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.444
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.445
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.446
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.447
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.448
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.449
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.450
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.451
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.452
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.453
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.454
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.455
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.456
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.457
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.458
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.459
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.460
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.461
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.462
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.463
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.464
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.465
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.466
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.467
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.468
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.469
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.470
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.471
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.472
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.473
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.474
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.475
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.476
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.477
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.478
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.479
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.480
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel barrel.005
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.001
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.002
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.003
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.004
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.005
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.006
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.007
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.008
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.009
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.010
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.011
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.012
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.013
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.014
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.015
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.010
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.011
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.050
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.051
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.052
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.053
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.054
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.055
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.056
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.057
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.058
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.059
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.010
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.011
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.110
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.111
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.112
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.113
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.114
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.115
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.116
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.117
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.118
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.119
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.120
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.121
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.122
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.123
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.124
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.125
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Brake ventilated rotor.007
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Tire sidewall.007
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.561
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.562
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.563
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.564
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.565
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.566
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.567
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.568
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.569
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.570
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.571
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.572
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.573
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.574
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.575
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.576
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.577
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.578
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.579
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.580
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.581
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.582
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.583
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.584
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.585
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.586
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.587
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.588
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.589
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.590
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.591
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.592
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.593
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.594
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.595
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.596
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.597
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.598
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.599
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.600
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.601
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.602
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.603
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.604
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.605
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.606
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.607
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.608
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.609
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.610
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.611
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.612
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.613
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.614
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.615
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.616
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.617
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.618
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.619
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.620
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.621
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.622
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.623
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.624
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.625
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.626
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.627
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.628
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.629
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.630
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.631
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.632
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.633
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.634
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.635
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.636
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.637
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.638
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.639
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.640
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel barrel.007
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.014
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.015
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.070
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.071
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.072
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.073
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.074
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.075
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.076
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.077
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.078
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.079
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.014
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.015
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.138
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.139
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.140
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.141
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.142
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.143
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.144
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.145
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.146
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.147
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Brake ventilated rotor
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Tire sidewall
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.001
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.002
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.003
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.004
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.005
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.006
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.007
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.008
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.009
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.010
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.011
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.012
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.013
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.014
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.015
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.016
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.017
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.018
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.019
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.020
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.021
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.022
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.023
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.024
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.025
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.026
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.027
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.028
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.029
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.030
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.031
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.032
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.033
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.034
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.035
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.036
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.037
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.038
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.039
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.040
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.041
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.042
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.043
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.044
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.045
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.046
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.047
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.048
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.049
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.050
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.051
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.052
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.053
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.054
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.055
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.056
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.057
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.058
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.059
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.060
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.061
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.062
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.063
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.064
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.065
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.066
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.067
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.068
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.069
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.070
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.071
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.072
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.073
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.074
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.075
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.076
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.077
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.078
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.079
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.080
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel barrel
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.001
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.001
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.002
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.003
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.004
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.005
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.006
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.007
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.008
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.009
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.001
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.001
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.002
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.003
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.004
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.005
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.006
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.007
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.008
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.009
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Brake ventilated rotor.009
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Tire sidewall.009
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.721
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.722
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.723
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.724
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.725
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.726
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.727
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.728
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.729
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.730
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.731
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.732
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.733
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.734
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.735
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.736
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.737
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.738
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.739
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.740
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.741
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.742
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.743
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.744
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.745
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.746
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.747
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.748
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.749
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.750
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.751
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.752
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.753
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.754
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.755
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.756
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.757
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.758
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.759
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.760
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.761
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.762
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.763
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.764
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.765
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.766
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.767
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.768
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.769
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.770
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.771
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.772
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.773
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.774
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.775
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.776
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.777
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.778
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.779
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.780
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.781
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.782
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.783
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.784
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.785
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.786
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.787
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.788
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.789
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.790
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.791
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.792
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.793
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.794
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.795
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.796
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.797
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.798
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.799
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.800
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel barrel.009
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.016
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.017
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.018
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.019
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.020
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.021
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.022
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.023
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.024
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.025
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.026
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.027
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.028
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.029
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.030
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.031
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.032
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.033
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.034
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.035
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.036
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.037
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.038
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel bead bolt.039
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.018
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.019
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell.001
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell.002
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell.003
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell.004
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell.005
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell.006
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell.007
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell.008
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell.009
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell.010
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel hex cell.011
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.090
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.091
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.092
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.093
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.094
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.095
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.096
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.097
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.098
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.099
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.018
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.019
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Brake ventilated rotor.004
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Tire sidewall.004
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.321
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.322
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.323
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.324
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.325
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.326
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.327
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.328
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.329
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.330
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.331
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.332
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.333
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.334
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.335
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.336
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.337
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.338
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.339
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.340
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.341
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.342
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.343
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.344
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.345
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.346
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.347
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.348
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.349
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.350
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.351
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.352
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.353
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.354
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.355
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.356
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.357
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.358
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.359
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.360
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.361
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.362
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.363
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.364
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.365
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.366
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.367
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.368
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.369
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.370
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.371
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.372
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.373
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.374
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.375
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.376
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.377
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.378
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.379
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.380
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.381
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.382
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.383
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.384
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.385
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.386
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.387
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.388
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.389
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.390
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.391
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.392
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.393
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.394
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.395
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.396
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.397
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.398
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.399
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.400
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel barrel.004
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.008
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.009
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.040
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.041
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.042
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.043
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.044
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.045
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.046
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.047
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.048
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.049
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.008
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.009
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel rally cover
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel rally cover.001
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.094
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.095
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.096
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.097
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.098
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.099
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.100
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.101
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.102
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.103
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.104
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.105
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.106
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.107
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.108
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.109
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Brake ventilated rotor.006
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Tire sidewall.006
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.481
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.482
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.483
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.484
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.485
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.486
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.487
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.488
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.489
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.490
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.491
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.492
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.493
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.494
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.495
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.496
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.497
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.498
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.499
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.500
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.501
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.502
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.503
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.504
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.505
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.506
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.507
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.508
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.509
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.510
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.511
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.512
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.513
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.514
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.515
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.516
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.517
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.518
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.519
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.520
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.521
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.522
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.523
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.524
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.525
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.526
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.527
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.528
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.529
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.530
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.531
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.532
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.533
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.534
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.535
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.536
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.537
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.538
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.539
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.540
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.541
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.542
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.543
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.544
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.545
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.546
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.547
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.548
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.549
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.550
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.551
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.552
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.553
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.554
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.555
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.556
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.557
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.558
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.559
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.560
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel barrel.006
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.012
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.013
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.060
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.061
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.062
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.063
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.064
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.065
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.066
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.067
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.068
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.069
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.012
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.013
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.126
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.127
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.128
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.129
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.130
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.131
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.132
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.133
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.134
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.135
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.136
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.137
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Brake ventilated rotor.001
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Tire sidewall.001
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.081
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.082
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.083
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.084
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.085
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.086
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.087
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.088
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.089
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.090
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.091
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.092
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.093
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.094
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.095
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.096
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.097
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.098
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.099
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.100
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.101
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.102
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.103
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.104
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.105
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.106
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.107
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.108
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.109
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.110
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.111
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.112
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.113
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.114
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.115
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.116
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.117
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.118
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.119
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.120
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.121
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.122
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.123
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.124
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.125
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.126
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.127
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.128
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.129
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.130
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.131
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.132
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.133
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.134
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.135
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.136
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.137
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.138
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.139
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.140
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.141
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.142
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.143
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.144
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.145
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.146
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.147
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.148
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.149
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.150
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.151
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.152
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.153
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.154
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.155
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.156
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.157
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.158
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.159
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.160
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel barrel.001
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.002
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.003
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.010
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.011
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.012
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.013
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.014
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.015
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.016
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.017
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.018
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.019
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.002
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.003
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.010
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.011
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.012
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.013
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.014
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.015
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.016
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.017
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.018
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.019
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.020
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.021
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.022
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.023
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.024
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.025
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.026
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.027
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.028
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.029
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Brake ventilated rotor.002
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Tire sidewall.002
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.161
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.162
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.163
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.164
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.165
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.166
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.167
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.168
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.169
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.170
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.171
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.172
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.173
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.174
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.175
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.176
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.177
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.178
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.179
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.180
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.181
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.182
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.183
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.184
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.185
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.186
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.187
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.188
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.189
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.190
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.191
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.192
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.193
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.194
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.195
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.196
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.197
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.198
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.199
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.200
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.201
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.202
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.203
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.204
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.205
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.206
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.207
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.208
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.209
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.210
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.211
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.212
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.213
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.214
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.215
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.216
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.217
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.218
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.219
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.220
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.221
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.222
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.223
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.224
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.225
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.226
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.227
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.228
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.229
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.230
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.231
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.232
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.233
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.234
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.235
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.236
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.237
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.238
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.239
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.240
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel barrel.002
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.004
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.005
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.020
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.021
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.022
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.023
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.024
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.025
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.026
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.027
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.028
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.029
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.004
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.005
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.030
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.031
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.032
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.033
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.034
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.035
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.036
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.037
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.038
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.039
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.040
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.041
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.042
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.043
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.044
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.045
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.046
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.047
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.048
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.049
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.050
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.051
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.052
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.053
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Brake ventilated rotor.003
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Tire sidewall.003
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.241
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.242
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.243
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.244
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.245
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.246
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.247
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.248
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.249
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.250
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.251
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.252
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.253
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.254
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.255
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.256
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.257
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.258
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.259
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.260
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.261
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.262
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.263
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.264
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.265
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.266
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.267
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.268
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.269
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.270
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.271
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.272
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.273
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.274
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.275
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.276
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.277
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.278
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.279
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.280
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.281
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.282
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.283
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.284
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.285
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.286
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.287
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.288
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.289
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.290
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.291
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.292
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.293
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.294
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.295
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.296
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.297
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.298
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.299
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.300
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.301
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.302
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.303
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.304
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.305
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.306
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.307
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.308
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.309
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.310
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.311
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.312
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.313
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.314
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.315
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.316
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.317
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.318
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.319
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Cube.320
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel barrel.003
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.006
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel center.007
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.030
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.031
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.032
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.033
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.034
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.035
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.036
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.037
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.038
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel lug nut.039
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.006
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel polished lip.007
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.054
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.055
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.056
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.057
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.058
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.059
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.060
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.061
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.062
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.063
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.064
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.065
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.066
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.067
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.068
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.069
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.070
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.071
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.072
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.073
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.074
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.075
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.076
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.077
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.078
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.079
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.080
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.081
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.082
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.083
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.084
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.085
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.086
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.087
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.088
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.089
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.090
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.091
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.092
+02:41:38 | INFO: Primitives created: 1
+02:41:38 | INFO: Extracting primitive: Wheel spoke.093
+02:41:38 | INFO: Primitives created: 1
+02:41:41 | INFO: Finished glTF 2.0 export in 3.7552382946014404 s
+
+WHEEL_ASSETS_COMPLETE {"assets": 15, "triangles": 56936}
+
+Blender quit

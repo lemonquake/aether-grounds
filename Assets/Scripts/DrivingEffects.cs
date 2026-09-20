@@ -36,7 +36,7 @@ namespace Aether {
    bool near=player||(game.cam.transform.position-transform.position).sqrMagnitude<130*130;
    smokeIntensity=active&&!wet&&near?Mathf.Max(skid,brake,burn):0;
    for(int i=0;i<4;i++){
-    Vector3 origin=transform.TransformPoint(hubs[i]+Vector3.up*.3f);bool contact=Physics.Raycast(origin,-transform.up,out var hit,radius+.75f,~((1<<8)|(1<<9)),QueryTriggerInteraction.Ignore);
+    WheelHit hit=default;bool contact=physicalWheels[i]&&physicalWheels[i].GetGroundHit(out hit);
     float strength=i<2?brake*.85f:smokeIntensity;
     var ps=contactSmoke[i];if(contact){ps.transform.position=hit.point+hit.normal*.12f;ps.transform.rotation=Quaternion.LookRotation(hit.normal);}
     var e=ps.emission;e.rateOverTime=active&&near&&!wet&&contact?strength*(player?58:28):0;

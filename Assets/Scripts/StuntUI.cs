@@ -3,7 +3,7 @@ namespace Aether {
  public partial class Game {
   public int stuntAiCount=5;public bool stuntMode,stuntTab;int stuntAward;bool stuntRewardGranted;float stuntBest;
   public void StartStunts(){rushMode=false;stuntMode=true;stuntAward=0;stuntRewardGranted=false;stuntBest=PlayerPrefs.GetFloat("heartstopper-best",0);StartRace();}
-  void AwardStunts(Vehicle v){if(!v.player||stuntRewardGranted)return;stuntRewardGranted=true;stuntAward=Mathf.Max(600,1800-v.automaticReturns*50)+v.coins*10;credits+=stuntAward;inventory.Add("upgrade-part",4);if(stuntBest<=0||v.finishTime<stuntBest){stuntBest=v.finishTime;if(!testing)PlayerPrefs.SetFloat("heartstopper-best",stuntBest);}Save();Toast("Heartstopper complete · +"+stuntAward+" credits");}
+  void AwardStunts(Vehicle v){if(!v.player||stuntRewardGranted)return;stuntRewardGranted=true;stuntAward=Mathf.Max(600,1800-v.stats.resets*50)+v.coins*10;credits+=stuntAward;inventory.Add("upgrade-part",4);if(stuntBest<=0||v.finishTime<stuntBest){stuntBest=v.finishTime;if(!testing)PlayerPrefs.SetFloat("heartstopper-best",stuntBest);}Save();Toast("Heartstopper complete · +"+stuntAward+" credits");}
   void StuntHomeGUI(){Panel(0,172,1600,728,.97f);Label("STUNTS",37,196,890,74,62,cyan,true);Label("Heartstopper",39,290,830,66,47,paper,true);Label("Start 1,600 metres above the ocean. Descend 1,000 metres, climb the launch ramp and steer through the air to the next island.",43,382,625,132,26,muted);
    Label("The second descent adds traps, slippery surfaces, jump tiles, boost lanes and water. Six checkpoints save your progress through each run.",43,535,625,122,24,paper);
    if(Button("Play Heartstopper",42,708,370,65,true))StartStunts();if(Button("Garage",430,708,234,65)){menu="Garage";}

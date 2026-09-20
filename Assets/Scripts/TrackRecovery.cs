@@ -80,7 +80,7 @@ namespace Aether {
    if(returnFlash>0){returnFlash=Mathf.Max(0,returnFlash-Time.deltaTime);model.transform.localScale=Vector3.one*Mathf.Lerp(.18f,1,1-returnFlash/.24f);}
   }
   void TeleportToRoad(bool automatic){
-   if(CountingStats)stats.resets++;Vector3 old=transform.position;track.SafeReturnPose(this,game,out Vector3 p,out Quaternion q,out int n);
+   if(CountingStats)stats.resets++;InterruptDrivingSkills();boost=0;Vector3 old=transform.position;track.SafeReturnPose(this,game,out Vector3 p,out Quaternion q,out int n);
    ResetFlipRecovery();RaceEffects.Teleport(old);body.position=p;body.rotation=q;if(track.IsAirah)transform.SetPositionAndRotation(p,q);body.linearVelocity=Vector3.zero;body.angularVelocity=Vector3.zero;lastPoint=n;Physics.SyncTransforms();ResetFinishSample();
    ClearWeaponStatus();offTrackTime=0;wrongWayTime=0;trappedTime=0;motionAnchor=p;stuck=0;overturned=0;watchdog=0;watchProgress=progress;righting=0;rollGrace=0;rolloverLock=0;launchGrace=0;wet=false;shield=Mathf.Max(shield,1.2f);returnFlash=.24f;
    if(returnIndicator)returnIndicator.SetActive(false);foreach(var t in trails)t.Clear();foreach(var t in flames)t.Clear();

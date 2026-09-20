@@ -3,10 +3,11 @@ using UnityEngine;
 namespace Aether {
  public partial class Game {
   public GarageSave garage=new GarageSave();public SavedCar CurrentCar=>garage.cars[garage.selected];
-  string garageTab="Paint",paintTarget="Body",bodyTab="Wing";float zoom=8.5f,viewHeight=2.8f;bool autoRotate;Texture2D rounded;Texture2D[] mapThumbs=new Texture2D[4];
+  string garageTab="Paint",paintTarget="Body",bodyTab="Wing";float zoom=8.5f,viewHeight=2.8f;bool autoRotate,showPartWeights;Vector2 partWeightScroll;Texture2D rounded;Texture2D[] mapThumbs=new Texture2D[4];
   public void LoadGarage(){
    try{if(PlayerPrefs.HasKey("garage-v2"))garage=JsonUtility.FromJson<GarageSave>(PlayerPrefs.GetString("garage-v2"));}catch(Exception){garage=new GarageSave();}
    if(garage==null||garage.cars==null)garage=new GarageSave();
+   garage.cars.RemoveAll(car=>car==null);
    if(garage.cars.Count==0)garage.cars.Add(new SavedCar{body=Mathf.Clamp(PlayerPrefs.GetInt("car",0),0,9),paint=Mathf.Clamp(PlayerPrefs.GetInt("paint",1),0,31),wheelColor=new[]{24,22,4}[Mathf.Clamp(PlayerPrefs.GetInt("wheels",0),0,2)],glass=Mathf.Clamp(PlayerPrefs.GetInt("glass",0),0,2),engineLevel=Mathf.Clamp(PlayerPrefs.GetInt("engine",0),0,20),tireLevel=Mathf.Clamp(PlayerPrefs.GetInt("tires",0),0,20),brakeLevel=Mathf.Clamp(PlayerPrefs.GetInt("brakes",0),0,20)});
    if(!PlayerPrefs.HasKey("garage-v2"))garage.cars[0].name="My "+CarSpec.All[garage.cars[0].body].name;
    garage.selected=Mathf.Clamp(garage.selected,0,garage.cars.Count-1);foreach(var car in garage.cars)car.Validate();SyncCar();credits=PlayerPrefs.GetInt("credits",1200);volume=PlayerPrefs.GetFloat("volume",.55f);
@@ -37,32 +38,39 @@ namespace Aether {
    Panel(0,98,1600,130,.94f);Panel(0,754,1600,146,.96f);Label("Your garage",32,116,370,45,30,null,true);Label("Each car keeps its own parts, colors and upgrades.",359,127,920,34,20,muted);
    for(int i=0;i<garage.cars.Count;i++){float x=32+i*170;if(Button((i+1)+" · "+CarSpec.All[garage.cars[i].body].name,x,172,158,45,garage.selected==i)){StoreCar();garage.selected=i;Changed();}}
    if(garage.cars.Count<8&&Button("+ Add car",32+garage.cars.Count*170,172,158,45,true))AddCar();
-   var c=CurrentCar;var spec=SupportStore.Tuned(CarSpec.All[c.body],c);
+   var c=CurrentCar;var spec=SupportStore.Tuned(CarSpec.All[c.body],c);var assembled=VehicleBuild.Calculate(c,inventory);
    Card(32,239,321,507);Label(spec.name,54,259,280,58,41,null,true);Label(spec.description,56,327,272,65,19,muted);
    string oldName=c.name;Label("Car name",55,402,270,28,18,muted);c.name=GUI.TextField(new Rect(55,437,276,39),c.name,24,new GUIStyle(GUI.skin.textField){fontSize=21,padding=new RectOffset(9,7,7,5)});if(c.name!=oldName)Save();
-   Bar("Top speed",(spec.speed+c.engineLevel*.75f)*3.6f,355,55,493,276," km/h");Bar("Acceleration",spec.accel+c.engineLevel*.4f,25,55,553,276);Bar("Braking",spec.brake+c.brakeLevel*.6f,40,55,613,276);Bar("Grip",spec.grip+c.tireLevel*.13f,15,55,673,276);
+   Bar("Estimated top speed",assembled.estimatedTopSpeed*3.6f,355,55,493,276," km/h");Bar("Launch acceleration",assembled.estimatedAcceleration,18,55,553,276," m/s²");
+   Label(assembled.mass.ToString("N1")+" kg  ·  "+assembled.powerKW.ToString("N0")+" kW",55,618,280,33,22,cyan,true);Label("Power / weight: "+(assembled.powerKW/assembled.mass*1000).ToString("N0")+" kW/t",55,655,280,30,18,muted);
+   if(Button(showPartWeights?"Close part weights":"View part weights",55,695,276,38,showPartWeights))showPartWeights=!showPartWeights;
    Card(1054,239,514,507);Label("Customize",1076,255,466,42,28,null,true);
-   string[] categories={"Paint","Wheels","Engine","Body parts","Upgrades"};for(int i=0;i<5;i++){float x=1075+i*94;var oldFont=button.fontSize;button.fontSize=16;if(Button(categories[i],x,309,89,43,garageTab==categories[i]))garageTab=categories[i];button.fontSize=oldFont;}
+   string[] categories={"Paint","Wheels","Engine","Body parts","Suspension","Upgrades"};for(int i=0;i<categories.Length;i++){float x=1078+(i%3)*153;var oldFont=button.fontSize;button.fontSize=19;if(Button(categories[i],x,307+(i/3)*44,143,38,garageTab==categories[i]))garageTab=categories[i];button.fontSize=oldFont;}
    if(garageTab=="Paint"){
-    string[] targets={"Body","Trim","Wheel"};for(int i=0;i<3;i++)if(Button(targets[i],1078+i*153,373,143,38,paintTarget==targets[i]))paintTarget=targets[i];
-    int chosen=paintTarget=="Body"?c.paint:paintTarget=="Trim"?c.accent:c.wheelColor;Label(PaintNames[chosen],1079,425,451,34,23,cyan);
-    for(int i=0;i<Paints.Length;i++){float x=1080+i%8*57,y=453+i/8*43;GUI.backgroundColor=Paints[i];if(GUI.Button(new Rect(x,y,47,39),i==chosen?"●":"",button)){if(paintTarget=="Body")c.paint=i;else if(paintTarget=="Trim")c.accent=i;else c.wheelColor=i;Changed();}GUI.backgroundColor=Color.white;}
-    Choice("Paint Style",ref c.paintStyle,PaintStyles.Names,1078,631);
+    string[] targets={"Body","Trim","Wheel"};for(int i=0;i<3;i++)if(Button(targets[i],1078+i*153,403,143,36,paintTarget==targets[i]))paintTarget=targets[i];
+    int chosen=paintTarget=="Body"?c.paint:paintTarget=="Trim"?c.accent:c.wheelColor;Label(PaintNames[chosen],1079,444,451,30,21,cyan);
+    for(int i=0;i<Paints.Length;i++){float x=1080+i%8*57,y=477+i/8*40;GUI.backgroundColor=Paints[i];if(GUI.Button(new Rect(x,y,47,36),i==chosen?"●":"",button)){if(paintTarget=="Body")c.paint=i;else if(paintTarget=="Trim")c.accent=i;else c.wheelColor=i;Changed();}GUI.backgroundColor=Color.white;}
+    Choice("Paint style",ref c.paintStyle,PaintStyles.Names,1078,640);
    }else if(garageTab=="Wheels"){
-    Choice("Wheel design",ref c.wheel,CarParts.Wheels,1078,378);Choice("Window tint",ref c.glass,CarParts.GlassNames,1078,489);
-    if(Button("Choose wheel color",1078,615,458,47)){garageTab="Paint";paintTarget="Wheel";}Label("Wheel geometry changes on all four hubs.",1078,682,458,45,18,muted);
+    Choice("Wheel design",ref c.wheel,CarParts.Wheels,1078,405);Choice("Window tint",ref c.glass,CarParts.GlassNames,1078,515);
+    if(Button("Choose wheel color",1078,624,458,43)){garageTab="Paint";paintTarget="Wheel";}Label(assembled.wheelMass.ToString("F1")+" kg per wheel  ·  "+(assembled.radius*200).ToString("F0")+" cm diameter\nHeavier wheels take more torque to accelerate.",1078,677,458,58,18,muted);
    }else if(garageTab=="Engine"){
-    Choice("Visible engine",ref c.engine,CarParts.Engines,1078,385);Label("Every engine has its own 3D assembly.\n\nUse Upgrades to improve acceleration and top speed.",1078,516,454,130,22,muted);
+    Choice("Powertrain",ref c.engine,CarParts.Engines,1078,405);Label(assembled.powerKW.ToString("N0")+" kW  ·  "+assembled.peakTorque.ToString("N0")+" Nm peak\n\nEngine choice changes power, mass and balance. Top speed also depends on drag, tires and gearing.",1078,515,454,143,21,muted);
     if(Button("Inspect engine",1078,671,458,44)){orbit=-10;viewHeight=4.3f;zoom=5.8f;}
    }else if(garageTab=="Body parts"){
-    string[] parts={"Wing","Exhaust","Livery"};for(int i=0;i<3;i++)if(Button(parts[i],1078+i*153,377,143,40,bodyTab==parts[i]))bodyTab=parts[i];
-    if(bodyTab=="Wing")Choice("Rear wing",ref c.spoiler,CarParts.Spoilers,1078,446);if(bodyTab=="Exhaust")Choice("Exhaust model",ref c.exhaust,CarParts.Exhausts,1078,446);if(bodyTab=="Livery")Choice("Body graphics",ref c.livery,CarParts.Liveries,1078,446);
-    Label("10 additional options per category.\n\nTrim paint also colors accessories and graphics.",1078,574,458,110,20,muted);
+    string[] parts={"Wing","Exhaust","Livery"};for(int i=0;i<3;i++)if(Button(parts[i],1078+i*153,407,143,40,bodyTab==parts[i]))bodyTab=parts[i];
+    if(bodyTab=="Wing")Choice("Rear wing",ref c.spoiler,CarParts.Spoilers,1078,470);if(bodyTab=="Exhaust")Choice("Exhaust model",ref c.exhaust,CarParts.Exhausts,1078,470);if(bodyTab=="Livery")Choice("Body graphics",ref c.livery,CarParts.Liveries,1078,470);
+    Label("Every installed part contributes to total mass. Wings also change downforce and drag.\n\nTrim paint colors accessories and graphics.",1078,582,458,140,20,muted);
+   }else if(garageTab=="Suspension"){
+    Choice("Spring tension",ref c.springTune,VehicleBuild.SpringNames,1078,402);Choice("Bounce damping",ref c.damperTune,VehicleBuild.DamperNames,1078,503);Choice("Chassis",ref c.chassis,VehicleBuild.ChassisNames,1078,604);
+    Label((assembled.travel*100).ToString("F0")+" cm travel  ·  "+(assembled.springRate/1000).ToString("F1")+" kN/m per corner",1078,710,458,28,18,muted);
    }else {
-    UpgradeRow("Engine",ref c.engineLevel,1078,378);UpgradeRow("Tires",ref c.tireLevel,1078,478);UpgradeRow("Brakes",ref c.brakeLevel,1078,578);Label("20 levels each · saved separately for this car",1078,692,460,34,18,muted);
+    UpgradeRow("Engine",ref c.engineLevel,1078,402);UpgradeRow("Tires",ref c.tireLevel,1078,483);UpgradeRow("Brakes",ref c.brakeLevel,1078,564);UpgradeRow("Suspension",ref c.suspensionLevel,1078,645);
    }
    Panel(450,637,543,37,.88f);Label("Drag to rotate · scroll to zoom",461,640,551,33,19,muted);
    if(Button("Front",398,691,117,40)){orbit=0;zoom=8.5f;viewHeight=2.8f;}if(Button("Side",526,691,117,40)){orbit=90;zoom=8.5f;viewHeight=2.5f;}if(Button("Rear",654,691,117,40)){orbit=180;zoom=8.5f;viewHeight=2.8f;}if(Button(autoRotate?"Stop rotation":"Rotate",782,691,230,40,autoRotate))autoRotate=!autoRotate;
+   if(showPartWeights){Card(374,239,655,434);Label("Installed parts",397,256,595,38,27,null,true);Label("Total "+assembled.mass.ToString("N2")+" kg · front load "+(assembled.frontWeight*100).ToString("F0")+"%",397,300,595,31,20,cyan);
+    partWeightScroll=GUI.BeginScrollView(new Rect(391,343,621,309),partWeightScroll,new Rect(0,0,590,assembled.parts.Count*36));for(int i=0;i<assembled.parts.Count;i++){var part=assembled.parts[i];Label(part.name,4,i*36,456,33,18,muted);Label(part.kilograms.ToString("F2")+" kg",464,i*36,123,33,18,cyan);}GUI.EndScrollView();}
    Label("Base car",32,767,500,29,22,muted);for(int i=0;i<CarSpec.All.Length;i++){float x=32+i*154;if(Button(CarSpec.All[i].name,x,809,143,55,c.body==i)){c.body=i;c.name="My "+CarSpec.All[i].name;Changed();}Label((i+1).ToString("00"),x+7,869,140,22,16,muted);}
    if(preview&&Event.current.type==EventType.Repaint){/* The model remains directly interactive through the unobstructed center viewport. */}
   }

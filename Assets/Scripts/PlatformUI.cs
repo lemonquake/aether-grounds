@@ -79,8 +79,8 @@ namespace Aether {
   public void SetMobileFrameRate(int fps){mobileFrameRate=fps<=60?60:120;ApplyDeviceQuality();}
   void PhonePad(Rect rect,string title,bool held){RushTextures();GUI.color=held?orange:new Color(.12f,.18f,.24f,.93f);GUI.DrawTexture(rect,cutButton);GUI.color=Color.white;var s=new GUIStyle(text){alignment=TextAnchor.MiddleCenter,fontSize=26,fontStyle=FontStyle.Bold};GUI.Label(rect,title,s);}
   void PhoneRaceHUD(){
-   Panel(28,25,310,116,.88f);Label(player.place+" / "+racers.Count,48,34,270,56,43,null,true);Label(rushMode?Mathf.Max(0,Challenge.meters-player.transform.position.z).ToString("0")+"m to finish":"Lap "+Mathf.Clamp((int)(Mathf.Max(0,player.progress)/TrackWorld.Count)+1,1,laps)+" / "+laps,49,96,260,34,24,cyan);
-   Panel(555,25,486,114,.94f);Label(rushMode?Challenge.name:TrackWorld.Names[mapIndex],580,36,442,34,27,null,true);Label(rushMode?Mathf.Max(0,Challenge.seconds-raceTime).ToString("0.0")+"s left   /   "+player.coins+" coins":TimeFormat(raceTime)+"   /   "+player.coins+" coins",580,86,442,35,23,cyan);if(!rushMode)MiniMap();
+   Panel(28,25,310,116,.88f);Label(player.place+" / "+racers.Count,48,34,270,56,43,null,true);Label(stuntMode?"Checkpoint "+player.stuntCheckpoint+" / 6":rushMode?Mathf.Max(0,Challenge.meters-player.transform.position.z).ToString("0")+"m to finish":"Lap "+Mathf.Clamp(player.completedLaps+1,1,laps)+" / "+laps,49,96,260,34,24,cyan);
+   Panel(555,25,486,114,.94f);Label(stuntMode?"Heartstopper":rushMode?Challenge.name:TrackWorld.Names[mapIndex],580,36,442,34,27,null,true);Label(rushMode?Mathf.Max(0,Challenge.seconds-raceTime).ToString("0.0")+"s left   /   "+player.coins+" coins":TimeFormat(raceTime)+"   /   "+player.coins+" coins",580,86,442,35,23,cyan);if(!rushMode&&!stuntMode)MiniMap();
    Panel(633,737,390,116,.86f);Label(Mathf.RoundToInt(player.speed)+" km/h",657,747,350,45,36,null,true);Bar("Boost",player.energy,100,657,794,340);
    if(state!=State.Race&&state!=State.Countdown)return;
    PhonePad(upRect,"Up",touchThrottle>0);PhonePad(downRect,"Down",touchThrottle<0);PhonePad(leftRect,"Left",touchSteer<0);PhonePad(rightRect,"Right",touchSteer>0);

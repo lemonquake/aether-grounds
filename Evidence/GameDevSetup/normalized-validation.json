@@ -1,0 +1,31 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "asset.validate",
+  "ok": true,
+  "data": {
+    "schema": "org.gamedebug.asset_validation.v1",
+    "modelPath": "A:\\Python\\aether-grounds\\Evidence\\GameDevSetup\\AetherWheels-connection-test.glb",
+    "passed": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "summary": {
+      "triangles": 56936,
+      "materials": 7,
+      "textures": 0,
+      "hasUVs": true,
+      "hasNormals": true,
+      "hasTangents": false,
+      "sizeMeters": [
+        6.617999833077192,
+        1.5144789118812119,
+        2.6560000942621347
+      ]
+    },
+    "failures": [],
+    "checksRun": 8,
+    "inspectorWarnings": [
+      "no base colour texture on any material: the asset is untextured and will read as flat colour"
+    ],
+    "nextStep": "Passes cleanly."
+  }
+}

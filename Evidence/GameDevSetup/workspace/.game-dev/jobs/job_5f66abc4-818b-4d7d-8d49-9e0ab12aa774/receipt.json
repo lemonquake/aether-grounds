@@ -1,0 +1,33 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "asset.normalize",
+  "result": {
+    "meshObjects": 1191,
+    "trianglesBefore": 56936,
+    "trianglesAfter": 56936,
+    "objectsMissingUVsBefore": 389,
+    "objectsMissingUVsAfter": 0,
+    "objectsUnwrapped": 389,
+    "objectsCleaned": 1191,
+    "objectsDecimated": 0,
+    "materialsRenamed": 0,
+    "materialsForcedOpaque": 1191,
+    "objectsWithNonUnitWorldScale": 220,
+    "objectsWeldSkippedThresholdUnrepresentable": 0,
+    "objectsDissolveSkippedThresholdUnrepresentable": 0,
+    "largestThresholdDivisor": 1.0000003576278687,
+    "mergeDistanceRequestedSceneUnits": 0.0001,
+    "outputBytes": 3291536,
+    "blenderVersion": "5.2.1 LTS",
+    "schema": "org.gamedebug.mesh_normalize.v1",
+    "sourcePath": "A:\\Python\\aether-grounds\\ArtSource\\Wheels\\AetherWheels.glb",
+    "outputPath": "A:\\Python\\aether-grounds\\Evidence\\GameDevSetup\\AetherWheels-connection-test.glb",
+    "outputSHA256": "4d6dfdae2eba287f0ed7d2ebe9f91eb1b3e5ea34a756ba359734c18e83f726af",
+    "readyToTexture": true,
+    "trianglesMeasured": 56936,
+    "hasUVsMeasured": true,
+    "stdoutTruncated": false,
+    "nextStep": "Generated UVs for 389 object(s); the mesh can now be textured."
+  },
+  "completedAt": "2026-09-20T18:54:16.646Z"
+}

@@ -58,8 +58,8 @@ namespace Aether {
  }
  public class CoinPickup:MonoBehaviour {
   public Game game;public Vector3 home;public readonly Dictionary<Vehicle,int> collected=new Dictionary<Vehicle,int>();Renderer[] visuals;
-  public bool Collect(Vehicle v){int lap=Mathf.Max(0,Mathf.FloorToInt(v.progress/TrackWorld.Count));if(collected.TryGetValue(v,out int last)&&last>=lap)return false;collected[v]=lap;v.coins++;if(v.player){RaceEffects.Burst(home,new Color(1,.76f,.18f),9,3,.18f,.5f);game.Toast("+100 points · "+v.coins+" coins");}return true;}
+  public bool Collect(Vehicle v){int lap=Mathf.Max(0,v.completedLaps);if(collected.TryGetValue(v,out int last)&&last>=lap)return false;collected[v]=lap;v.coins++;if(v.player){RaceEffects.Burst(home,new Color(1,.76f,.18f),9,3,.18f,.5f);game.Toast("+100 points · "+v.coins+" coins");}return true;}
   void Start(){visuals=GetComponentsInChildren<Renderer>();}
-  void Update(){if(!game||!game.RaceSimulationActive)return;transform.rotation=Quaternion.Euler(0,Time.time*100,0);transform.position=home+Vector3.up*Mathf.Sin(Time.time*3+home.x)*.14f;foreach(var v in game.racers)if(!v.finished&&(v.transform.position+Vector3.up*.6f-home).sqrMagnitude<5.8f)Collect(v);bool show=!collected.TryGetValue(game.player,out int lap)||lap<Mathf.Max(0,Mathf.FloorToInt(game.player.progress/TrackWorld.Count));foreach(var r in visuals)if(r)r.enabled=show;}
+  void Update(){if(!game||!game.RaceSimulationActive)return;transform.rotation=Quaternion.Euler(0,Time.time*100,0);transform.position=home+Vector3.up*Mathf.Sin(Time.time*3+home.x)*.14f;foreach(var v in game.racers)if(!v.finished&&(v.transform.position+Vector3.up*.6f-home).sqrMagnitude<5.8f)Collect(v);bool show=!collected.TryGetValue(game.player,out int lap)||lap<Mathf.Max(0,game.player.completedLaps);foreach(var r in visuals)if(r)r.enabled=show;}
  }
 }

@@ -25,7 +25,7 @@ namespace Aether {
    game.aiCount=19;game.laps=1;game.difficulty=1;game.mapIndex=0;game.StartRace();yield return new WaitUntil(()=>game.state==Game.State.Race);var car=game.player;car.manualTest=true;
    Check(game.racers.Count==20,"20-car race grid");Check(game.track.tiles.Count==8&&game.track.coins.Count>45,"Track tiles and lap coins generated");
    foreach(var v in game.racers){if(v!=car)v.manualTest=true;}
-   var coin=game.track.coins[0];int before=car.coins;Check(coin.Collect(car)&&!coin.Collect(car)&&car.coins==before+1,"Coin cannot be farmed within a lap");car.progress=TrackWorld.Count;Check(coin.Collect(car)&&car.coins==before+2,"Coin regenerates next lap");car.progress=0;
+   var coin=game.track.coins[0];int before=car.coins;Check(coin.Collect(car)&&!coin.Collect(car)&&car.coins==before+1,"Coin cannot be farmed within a lap");car.progress=TrackWorld.Count;Check(!coin.Collect(car),"Progress alone does not validate a lap");car.completedLaps=1;Check(coin.Collect(car)&&car.coins==before+2,"Coin regenerates on validated next lap");car.completedLaps=0;car.progress=0;
    Place(car,36);yield return new WaitForSeconds(.15f);Check(car.boost>1,"Booster tile activates on contact");yield return Capture("booster");
    Place(car,101);yield return new WaitForSeconds(.15f);Check(car.body.linearVelocity.y>5,"Jump tile launches car");yield return Capture("jump");
    var ramp=game.track.tiles.First(t=>t.kind==TileKind.Ramp);car.body.position=ramp.transform.position+Vector3.up*.4f;car.body.rotation=ramp.transform.rotation;car.body.linearVelocity=game.track.Forward(ramp.point)*25;Physics.SyncTransforms();yield return new WaitForSeconds(.12f);Check(car.body.linearVelocity.y>5,"Ramp lip launches car");yield return Capture("ramp");

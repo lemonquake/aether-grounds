@@ -42,7 +42,7 @@ namespace Aether {
    if(z>4280&&grounded>=2&&speed>165)throttle=-.8f;
    if(grounded<2)steer=Mathf.Clamp((aim-transform.position.x)*.003f-yaw*.01f,-.12f,.12f);
    drift=false;energy=Mathf.Min(100,energy+Time.deltaTime*9);
-   if(grounded>=2&&z<4250&&!launch&&Mathf.Abs(steer)<.1f&&speed<180&&energy>30){boost=Mathf.Max(boost,.12f);energy-=Time.deltaTime*26;}
+   if(BoostAvailable&&grounded>=2&&z<4250&&!launch&&Mathf.Abs(steer)<.1f&&speed<180&&energy>30){boost=Mathf.Max(boost,.12f);energy-=Time.deltaTime*26;}
    aiItemTimer+=Time.deltaTime;if(aiItemTimer>4&&!launch&&item!=""){UseItem();aiItemTimer=0;}
   }
  }

@@ -40,7 +40,7 @@ namespace Aether {
   GameObject Asset(string name,Transform parent,Vector3 pos,float height,float yaw=0){
    // Kenney vehicle meshes were mirrored into Unity with their nose along -Z.
    // Align only their visual root to the controller's +Z; route direction stays physical.
-   if(name=="sedan"||name=="taxi"||name=="hatchback-sports"||name=="van"||name=="truck")yaw+=180;
+   // Civilian model imports are normalized to the same +Z nose as the drivers.
    var o=ModelLibrary.Create("K_"+name,parent);o.transform.localPosition=Vector3.zero;
    Bounds bounds=new Bounds();bool first=true;foreach(var f in o.GetComponentsInChildren<MeshFilter>()){if(first){bounds=f.sharedMesh.bounds;first=false;}else bounds.Encapsulate(f.sharedMesh.bounds);}
    float s=height/Mathf.Max(.02f,bounds.size.y);o.transform.localScale=Vector3.one*s;

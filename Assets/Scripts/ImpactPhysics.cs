@@ -2,7 +2,7 @@ using UnityEngine;
 namespace Aether {
  public partial class Vehicle {
   public float rolloverLock;
-  public float BaseMass=>spec.mass;
+  public float BaseMass=>build!=null?build.mass:spec.mass;
   public void RefreshShieldMass(){if(body)body.mass=BaseMass*(shield>0?2:1);}
   public static float PulseStrength(float distance)=>Mathf.Lerp(12,46,Mathf.Pow(Mathf.Clamp01(1-distance/22),.75f));
   public void PushHit(Vector3 impulse,float seconds=1.5f){bool blocked=shield>0;Hit(impulse);if(!blocked){rolloverLock=Mathf.Max(rolloverLock,seconds);rollGrace=Mathf.Max(rollGrace,seconds);righting=0;stun=Mathf.Max(stun,seconds);}}

@@ -1,0 +1,13 @@
+{
+  "suite": "Physics",
+  "exitCode": 1,
+  "passes": 8,
+  "failures": [
+    "AETHER_PHYSICS FAIL Acceleration after4s=0.0 km/h",
+    "AETHER_PHYSICS FAIL Brake speed=0.0 km/h",
+    "AETHER_PHYSICS FAIL Reverse speed=0.0 m/s",
+    "AETHER_PHYSICS FAIL Drift remains stable speed=0.0"
+  ],
+  "seconds": 26.9,
+  "log": "A:\\Python\\aether-grounds\\Evidence\\GameplayAudit\\physics-regression.log"
+}

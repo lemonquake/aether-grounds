@@ -14,13 +14,13 @@ namespace Aether {
  public sealed class InventoryDef {
   public string id,name,category,rarity,description,slot; public int icon; public Color color;
   public static readonly InventoryDef[] All={
-   new InventoryDef{id="sun-turbo",name="Solar Turbo",category="Attachments",rarity="Rare",slot="Engine",icon=0,color=new Color(1,.54f,.23f),description="+1.5 acceleration and +10 km/h top speed. Earned on Sunset Coast. Fits every saved car."},
+   new InventoryDef{id="sun-turbo",name="Solar Turbo",category="Attachments",rarity="Rare",slot="Engine",icon=0,color=new Color(1,.54f,.23f),description="Adds 8% engine power and 18.4 kg. Earned on Sunset Coast. Fits every saved car."},
    new InventoryDef{id="rock-plate",name="Redrock Plating",category="Equipment",rarity="Epic",slot="Chassis",icon=1,color=new Color(.85f,.56f,1),description="Reduces unshielded weapon impulse by 25%. Earned on Redrock Run. Fits every saved car."},
    new InventoryDef{id="storm-coil",name="Storm Coil",category="Attachments",rarity="Epic",slot="Engine",icon=2,color=new Color(.38f,.79f,1),description="Boost drains 20% less energy. Shares the Engine slot with Solar Turbo. Earned on Stormbreak."},
-   new InventoryDef{id="grip-kit",name="Road Grip Kit",category="Equipment",rarity="Common",slot="Chassis",icon=3,color=new Color(.4f,.88f,.78f),description="+0.6 tire grip. Shares the Chassis slot with Redrock Plating. Included in your starter inventory."},
+   new InventoryDef{id="grip-kit",name="Road Grip Kit",category="Equipment",rarity="Common",slot="Chassis",icon=3,color=new Color(.4f,.88f,.78f),description="Adds tire grip and 5.6 kg. Shares the Chassis slot with Redrock Plating. Included in your starter inventory."},
    new InventoryDef{id="rocket-pack",name="Rocket Pack",category="Items",rarity="Uncommon",slot="Starting item",icon=4,color=new Color(1,.58f,.38f),description="Prepare one Rocket for your next Rush. One pack is consumed at Go, including on race restarts."},
    new InventoryDef{id="shield-pack",name="Shield Pack",category="Items",rarity="Uncommon",slot="Starting item",icon=1,color=new Color(.4f,.85f,1),description="Prepare one Shield for your next Rush. Press E or tap Item to activate it. Consumed at Go."},
-   new InventoryDef{id="upgrade-part",name="Upgrade Parts",category="Upgrades",rarity="Common",slot="Upgrade",icon=5,color=new Color(.85f,.9f,.94f),description="Spend 3 parts for one engine, tire or brake level on the selected garage car. Maximum 20 levels."}
+   new InventoryDef{id="upgrade-part",name="Upgrade Parts",category="Upgrades",rarity="Common",slot="Upgrade",icon=5,color=new Color(.85f,.9f,.94f),description="Spend 3 parts for one engine, tire, brake or suspension level on the selected garage car. Maximum 20 levels."}
   };
   public static InventoryDef Find(string id)=>All.FirstOrDefault(d=>d.id==id);
  }
@@ -40,7 +40,7 @@ namespace Aether {
   public void LoadInventory(){try{inventory=PlayerPrefs.HasKey("rush-inventory-v1")?JsonUtility.FromJson<RushSave>(PlayerPrefs.GetString("rush-inventory-v1")):RushSave.Fresh();}catch(Exception){inventory=RushSave.Fresh();}if(inventory==null)inventory=RushSave.Fresh();inventory.Validate();}
   public void SaveInventory(){if(testing)return;PlayerPrefs.SetString("rush-inventory-v1",JsonUtility.ToJson(inventory));PlayerPrefs.Save();}
   public bool EquipInventory(string id){var d=InventoryDef.Find(id);if(d==null||inventory.Count(id)<1)return false;if(d.slot=="Engine")inventory.engine=inventory.engine==id?"":id;else if(d.slot=="Chassis")inventory.chassis=inventory.chassis==id?"":id;else if(d.category=="Items")inventory.prepared=inventory.prepared==id?"":id;else return false;if(state==State.Menu&&showroom)ShowCar();SaveInventory();return true;}
-  public bool UpgradeWithParts(int category){var c=CurrentCar;int level=category==0?c.engineLevel:category==1?c.tireLevel:c.brakeLevel;if(category<0||category>2||level>=20||!inventory.Spend("upgrade-part",3))return false;if(category==0)c.engineLevel++;else if(category==1)c.tireLevel++;else c.brakeLevel++;SyncCar();Save();SaveInventory();return true;}
+  public bool UpgradeWithParts(int category){var c=CurrentCar;int level=category==0?c.engineLevel:category==1?c.tireLevel:category==2?c.brakeLevel:c.suspensionLevel;if(category<0||category>3||level>=20||!inventory.Spend("upgrade-part",3))return false;if(category==0)c.engineLevel++;else if(category==1)c.tireLevel++;else if(category==2)c.brakeLevel++;else c.suspensionLevel++;SyncCar();Save();SaveInventory();return true;}
   public void StartRush(int index){rushIndex=Mathf.Clamp(index,0,2);rushMode=true;stuntMode=false;StartRace();}
   void RushReset(){rushFailed=false;rushRewardGranted=false;rushReward="";rushMedal=rushAward=0;}
   void RushGo(){if(!rushMode)return;string id=inventory.prepared;if(inventory.Spend(id,1)){player.item=id=="rocket-pack"?"Rocket":"Shield";if(inventory.Count(id)==0)inventory.prepared="";SaveInventory();}}

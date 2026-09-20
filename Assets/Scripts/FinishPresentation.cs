@@ -73,7 +73,7 @@ namespace Aether {
    string[] labels={"Top speed","Out of bounds","Props destroyed","Civilians hit","Traffic cars hit","Distance driven","Air time","Drifting","Boost time","Power-ups used","Collisions","Car resets"};
    string[] values={s.topSpeed.ToString("0")+" km/h",s.outOfBounds.ToString("0.0")+" s",s.propsDestroyed.ToString(),s.civilians.ToString(),s.trafficCars.ToString(),(s.distance/1000).ToString("0.00")+" km",s.airtime.ToString("0.0")+" s",s.driftTime.ToString("0.0")+" s",s.boostTime.ToString("0.0")+" s",s.itemsUsed.ToString(),s.collisions.ToString(),s.resets.ToString()};
    for(int i=0;i<labels.Length;i++){int col=i%2,row=i/2;float x=1004+col*276,y=357+row*56;float enter=Mathf.Clamp01((statsAge-(i*.035f))/.35f);ResultText(labels[i],new Rect(x+12*(1-enter),y,264,25),18,muted);ResultText(values[i],new Rect(x,y+23,264,30),24,Color.white,TextAnchor.MiddleLeft,true);}
-   int award=stuntMode?stuntAward:rushMode?rushAward:circuitAward;
+   int award=(stuntMode?stuntAward:rushMode?rushAward:circuitAward)+skillAward;
    ResultRect(new Rect(1003,709,540,66),new Color(.01f,.02f,.035f));
    ResultText(selected==player?(rushFailed?"No finish reward":"+"+award.ToString("N0")+" credits · "+player.coins+" coins"):"Finish  "+(selected.finished?TimeFormat(selected.finishTime):"Not finished"),new Rect(1016,715,518,31),23,accent,TextAnchor.MiddleLeft,true);
    ResultText(stuntMode?"Best run "+TimeFormat(stuntBest)+" · 4 upgrade parts":rushMode?(rushFailed?"Distance reached "+(Mathf.Clamp01(player.progress/(TrackWorld.Count-1))*100).ToString("0")+"%":new[]{"","Bronze","Silver","Gold"}[rushMedal]+" medal · Rewards saved"):player.coins*100+" coin points · "+player.completedLaps+" laps completed",new Rect(1016,747,518,25),18,muted);
@@ -93,7 +93,7 @@ namespace Aether {
    if(Button("Restart",34,825,270,55,true)){if(stuntMode)StartStunts();else StartRace();}
    if(Button("Game Setup",320,825,270,55)){ReturnMenu();menu=stuntMode||rushMode?"Play":"Game Setup";}
    if(Button("Main Menu",606,825,270,55))MainMenu();
-   if(Button("Rewards",980,825,185,55))resultRewards=true;ResultText("Select a racer for their stats",new Rect(1180,828,390,48),19,muted,TextAnchor.MiddleCenter);if(resultRewards)DrawResultRewards();
+   if(Button("Rewards",980,825,185,55))resultRewards=true;ResultText(SkillGoalSummary,new Rect(1180,828,390,48),19,muted,TextAnchor.MiddleCenter);if(resultRewards)DrawResultRewards();
   }
   void DrawModeResultDetails(Vehicle selected){
    Rect r=new Rect(34,549,916,32);ResultRect(r,new Color(.022f,.038f,.057f,.96f));
@@ -102,13 +102,17 @@ namespace Aether {
    else {string splits=selected.lapTimes.Count==0?"Lap times appear after crossing the finish line":string.Join("     ",selected.lapTimes.Select((lap,i)=>"Lap "+(i+1)+"  "+TimeFormat(lap)));ResultText(splits,new Rect(49,549,888,32),19,ResultAccent);}
   }
   void DrawResultRewards(){
-   ResultRect(new Rect(0,0,1600,900),new Color(0,0,0,.72f));ResultRect(new Rect(410,220,780,460),new Color(.025f,.043f,.065f));ResultRect(new Rect(410,220,780,4),ResultAccent);
-   ResultText("Your rewards",new Rect(446,242,700,62),39,Color.white,TextAnchor.MiddleLeft,true);
-   int award=stuntMode?stuntAward:rushMode?rushAward:circuitAward;
-   ResultText(rushFailed?"No finish reward":"+"+award.ToString("N0")+" credits",new Rect(449,322,700,53),33,ResultAccent,TextAnchor.MiddleLeft,true);
+   ResultRect(new Rect(0,0,1600,900),new Color(0,0,0,.72f));ResultRect(new Rect(410,170,780,590),new Color(.025f,.043f,.065f));ResultRect(new Rect(410,170,780,4),ResultAccent);
+   ResultText("Your rewards",new Rect(446,186,700,62),39,Color.white,TextAnchor.MiddleLeft,true);
+   int award=(stuntMode?stuntAward:rushMode?rushAward:circuitAward)+skillAward;
+   ResultText(rushFailed?"No finish reward":"+"+award.ToString("N0")+" credits",new Rect(449,251,700,53),33,ResultAccent,TextAnchor.MiddleLeft,true);
    string details=rushFailed?"The time limit was reached before the finish.":stuntMode?"4 upgrade parts\nBest Heartstopper time: "+TimeFormat(stuntBest):rushMode?rushReward:player.coins+" coins collected\n"+player.coins*100+" coin points\nCoin credits are included in your race reward.";
-   var style=new GUIStyle(text){fontSize=25,wordWrap=true};GUI.Label(new Rect(449,392,697,158),details,style);
-   if(Button("Close",450,586,700,57,true))resultRewards=false;
+   var style=new GUIStyle(text){fontSize=25,wordWrap=true};GUI.Label(new Rect(449,315,697,140),details,style);
+   ResultText("Driving skills: "+player.skills.score.ToString("N0")+" points · "+SkillGoalSummary,new Rect(449,473,700,36),25,ResultAccent);
+   ResultText(rushFailed?"Skill bonus requires a successful finish":"Includes +"+skillAward+" driving credits · "+(newSkillBest?"New skill record":"Previous best: "+previousSkillBest),new Rect(449,512,700,34),22,muted);
+   ResultText("Drifts: "+player.skills.drifts+" · Clean overtakes: "+player.skills.passes+" · Landings: "+player.skills.landings,new Rect(449,552,700,34),22,muted);
+   ResultText("Best chain: "+player.skills.bestChain+" · Clean driving: "+player.skills.bestCleanTime.ToString("0.0")+"s",new Rect(449,590,700,34),22,muted);
+   if(Button("Close",450,669,700,57,true))resultRewards=false;
   }
  }
  public static class FinishCelebration {
